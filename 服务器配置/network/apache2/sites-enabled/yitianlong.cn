@@ -1,0 +1,76 @@
+<VirtualHost *:80>
+	ServerName www.yitianlong.cn
+	ServerAlias yitianlong.cn
+	DirectoryIndex index.php
+	
+  AddHandler	fcgid-script .fcgi .php
+  FCGIWrapper /usr/bin/php5-cgi .php
+ Options ExecCGI SymLinksIfOwnerMatch	
+	
+	#SetOutputFilter DEFLATE
+	#AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript 
+	
+	#RewriteEngine On
+	#RewriteRule   ^/index.php/archives/(\d+)$ /\?p=$1 [R]
+	#RewriteRule   ^/index.php/archives/date/(\d+)/(\d+)/$  /\?m=$1$2 [R]
+	#RewriteRule   ^/index.php/archives/date/(\d+)/(\d+)$  /\?m=$1$2 [R]
+	#RewriteRule   ^/index.php/archives/date/(\d+)/(\d+)/page/(\d+)  /\?m=$1$2&paged=$3 [R]
+	
+	 	
+	DocumentRoot /data/xuke/yitianlong
+	
+	<Directory /data/xuke/yitianlong>
+		Order allow,deny
+		allow from all
+		Options ExecCGI SymLinksIfOwnerMatch
+AllowOverride all
+	</Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+	ServerName down.yitianlong.cn
+	DocumentRoot /data/down
+	<Directory /data/down>
+		Order allow,deny
+		allow from all
+		Options None
+		AllowOverride None
+	</Directory>
+	
+</VirtualHost>
+
+
+
+<VirtualHost *:443>
+	ServerName www.yitianlong.cn
+	ServerAlias yitianlong.cn
+	DirectoryIndex index.php
+	
+	SSLEngine on
+	SSLCipherSuite ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv2:+EXP:+eNULL
+	SSLCertificateKeyFile conf/yitianlong.cn.pem
+	SSLCertificateFile conf/yitianlong.cn.crt
+	
+	#SetOutputFilter DEFLATE
+	#AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript 
+	
+	#RewriteEngine On
+	#RewriteRule   ^/index.php/archives/(\d+)$ /\?p=$1 [R]
+	#RewriteRule   ^/index.php/archives/date/(\d+)/(\d+)/$  /\?m=$1$2 [R]
+	#RewriteRule   ^/index.php/archives/date/(\d+)/(\d+)$  /\?m=$1$2 [R]
+	#RewriteRule   ^/index.php/archives/date/(\d+)/(\d+)/page/(\d+)  /\?m=$1$2&paged=$3 [R]
+
+	
+	DocumentRoot /data/xuke/yitianlong
+	
+	<Directory /data/xuke/yitianlong>
+		Order allow,deny
+		allow from all
+		Options FollowSymLinks
+		AllowOverride all
+	</Directory>
+</VirtualHost>
+
+
+
+

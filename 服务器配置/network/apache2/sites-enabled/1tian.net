@@ -1,0 +1,125 @@
+<VirtualHost *:80>
+
+	DocumentRoot /data/yitian/yitian
+	ServerName www.1tian.net
+	ServerAlias 1tian.net
+	ErrorDocument 404 /data/yitian/yitian/templates/404.html
+	
+	SetOutputFilter DEFLATE
+	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript 
+
+	SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+	SetEnvIfNoCase Request_URI \.(?:exe|t?gz|zip|bz2|sit|rar)$ no-gzip dont-vary
+	SetEnvIfNoCase Request_URI \.pdf$ no-gzip dont-vary
+	SetEnvIfNoCase Request_URI \.avi$ no-gzip dont-vary
+	SetEnvIfNoCase Request_URI \.mov$ no-gzip dont-vary
+	SetEnvIfNoCase Request_URI \.mp3$ no-gzip dont-vary
+	SetEnvIfNoCase Request_URI \.mp4$ no-gzip dont-vary
+	SetEnvIfNoCase Request_URI \.rm$ no-gzip dont-vary
+	
+	Header unset Vary
+	Header unset Etag
+	
+	CustomLog "| cronolog /var/log/apache2/access_yitian_log.%Y%m%d" combined 
+	
+	<Directory /data/yitian/yitian>
+		
+		SetHandler python-program
+		PythonHandler django.core.handlers.modpython
+		SetEnv DJANGO_SETTINGS_MODULE yitian.apache_settings
+		PythonDebug Off
+		PythonPath "['/data/yitian/'] + sys.path"
+	</Directory>
+	
+	<Location "/admin/">
+		SetHandler None
+		Redirect / https://1tian.net/
+	</Location>
+	
+	alias /medias/ /data/yitian/yitian/medias/
+	<Directory /data/yitian/yitian/medias>
+		ExpiresActive On
+		ExpiresDefault "access plus 1 days"
+		ExpiresByType image/gif A2592000
+		ExpiresByType application/x-javascript A2592000
+		ExpiresByType text/js	A2592000
+		
+		SetHandler None
+		Options FollowSymLinks
+		AllowOverride None
+	</Directory>
+	
+</VirtualHost>
+
+NameVirtualHost *:443
+
+<VirtualHost *:443>
+
+	Header unset Vary
+	Header unset Etag
+	
+	ServerName www.1tian.net
+	ServerAlias 1tian.net
+	
+#	DocumentRoot /data/yitian/yitian
+	SSLEngine on
+	SSLCipherSuite ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv2:+EXP:+eNULL
+	SSLCertificateFile conf/server.crt
+	SSLCertificateKeyFile conf/server.pem
+	
+	
+	SetHandler python-program
+	PythonPath "['/data/yitian/'] + sys.path"
+	PythonHandler django.core.handlers.modpython
+	SetEnv DJANGO_SETTINGS_MODULE yitian.apache_settings
+	PythonDebug Off
+	
+	<Location "/medias">
+    SetHandler None
+	</Location>
+
+
+	alias /media /usr/lib/python2.5/site-packages/django/contrib/admin/media
+	<Directory /usr/lib/python2.5/site-packages/django/contrib/admin/media>
+		ExpiresActive On
+		#ExpiresDefault "access plus 1 month"
+		ExpiresByType image/gif A2592000
+		ExpiresByType application/x-javascript A2592000
+		#EnableSendfile Off
+		SetHandler None
+		Options FollowSymLinks
+		AllowOverride None
+	</Directory>
+	
+	<Location /svn>
+		
+		DAV svn
+		SVNPath /home/syxx/xukesvn
+		AuthName "1tian.net Subversion Repository"
+		AuthType Basic
+		AuthUserFile /etc/apache2/dav_svn.passwd
+		#AuthzSVNAccessFile /etc/apache2/dav_svn.authz
+		Require valid-user
+		#<LimitExcept GET PROPFIND OPTIONS REPORT>
+   	#	 Require valid-user
+  		#</LimitExcept>
+  	</Location>	
+	
+	<Directory /data/yitian/yitian>
+		
+		SetHandler python-program
+		PythonPath "['/data/yitian/'] + sys.path"
+		PythonHandler django.core.handlers.modpython
+		SetEnv DJANGO_SETTINGS_MODULE yitian.apache_settings
+		PythonDebug On
+		
+		
+		AuthName "1tian.net"
+		AuthType Basic
+		AuthUserFile /etc/apache2/dav_svn.passwd
+		#AuthzSVNAccessFile /etc/apache2/dav_svn.authz
+		Require valid-user
+	
+	</Directory>
+	
+</VirtualHost>

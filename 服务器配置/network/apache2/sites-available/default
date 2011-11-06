@@ -1,0 +1,162 @@
+
+
+<VirtualHost *:8080>
+	ServerAdmin webmaster@localhost
+	ServerName 1tian.net:8080
+	DocumentRoot /var/www
+	<Directory "/var/www">
+		Options Indexes FollowSymLinks MultiViews
+		Order allow,deny
+		allow from all
+	</Directory>
+
+</VirtualHost>
+<VirtualHost *:80>
+	
+#	DocumentRoot /var/www
+	<Directory "/var/www">
+		Options Indexes FollowSymLinks MultiViews
+		Order allow,deny
+		allow from all
+	</Directory>
+
+</VirtualHost>
+
+
+
+#NameVirtualHost *:80
+
+<VirtualHost *:80>
+	AddDefaultCharset gbk
+	
+	SetOutputFilter DEFLATE
+	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript 
+
+	ServerName www.dexsyxx.com
+	ServerAlias 192.168.1.7
+	ServerAlias dexsyxx.com
+	ProxyRequests Off
+	ProxyMaxForwards 15 
+	#ProxyPassReverseCookieDomain backend.example.com public.example.com
+	#ProxyPassReverseCookiePath / /mirror/foo/ 
+	ProxyPreserveHost Off
+	ProxyPass / http://192.168.1.4/
+	ProxyPassReverse / http://www.dexsyxx.com/
+	ProxyVia On
+	CustomLog "| cronolog /var/log/apache2/access_dexsyxx_log.%Y%m%d" combined 
+	
+</VirtualHost>
+
+<VirtualHost *:80>
+	AddDefaultCharset gb2312
+	ServerName v.dexsyxx.com
+	ProxyPreserveHost On
+	ProxyPass / http://192.168.1.4:6666/
+	ProxyPassReverse / http://v.dexsyxx.com
+	
+</VirtualHost>
+
+
+
+
+<VirtualHost *:8080>
+	ServerAdmin webmaster@localhost
+	ServerName 1tian.net:8080
+	DocumentRoot /var/www
+	<Directory "/var/www">
+		Options Indexes FollowSymLinks MultiViews
+		Order allow,deny
+		allow from all
+	</Directory>
+
+</VirtualHost>
+
+<VirtualHost *:8080>
+	ServerAdmin webmaster@localhost
+	ServerName www.1tian.net:8080
+	DocumentRoot /data/mov1
+	
+	#CBandSpeed 4096 10 300
+	# Maximal 10kB/s speed, 3 requests/s and 2 open connections for any remote client
+	#CBandRemoteSpeed 100kb/s 10 10
+	
+	
+	<Directory /data/mov/>
+		Options Indexes FollowSymLinks MultiViews
+		AllowOverride None
+		EnableSendfile Off
+		Order allow,deny
+		allow from all
+		# Uncomment this directive is you want to see apache2's
+		# default start page (in /apache2-default) when you go to /
+		#RedirectMatch ^/$ /apache2-default/
+	</Directory>
+#	alias /j "/data/jiao"
+	<Directory "/data/jiao">
+		Options Indexes MultiViews
+		AllowOverride None
+	</Directory>
+	ServerSignature On
+</VirtualHost>	
+
+<VirtualHost *:80>
+	ServerName down.1tian.net
+	DirectoryIndex index.php
+	DocumentRoot /data/yitian/myyitian/media
+	<Directory /data/yitian/myyitian/media>
+		Order allow,deny
+		allow from all
+		Options None
+		AllowOverride None
+	</Directory>
+	
+
+	
+</VirtualHost>
+
+
+
+
+<VirtualHost *:443>
+	ServerName down.1tian.net
+	DirectoryIndex index.php
+#	DocumentRoot /data/yitian/myyitian/media
+	
+	SSLEngine on
+	SSLCipherSuite ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv2:+EXP:+eNULL
+	SSLCertificateKeyFile conf/down.1tian.pem
+	SSLCertificateFile conf/down.1tian.crt
+
+	Alias /awstatsclasses "/usr/local/awstats/wwwroot/classes/"
+	Alias /awstatscss "/usr/local/awstats/wwwroot/css/"
+	Alias /awstatsicons "/usr/local/awstats/wwwroot/icon/" 
+	
+	Alias /kk "/usr/local/awstats/wwwroot/cgi-bin"
+	
+	Alias /admindb "/data/xuke/phpmyadmin"
+    <Directory "/data/xuke/phpmyadmin/">
+		Order allow,deny
+		allow from all
+		Options None
+		AllowOverride None
+    </Directory>
+
+	<directory "/usr/local/awstats/wwwroot/cgi-bin">
+		AllowOverride None
+		SetHandler perl-script
+		PerlResponseHandler ModPerl::Registry
+		PerlOptions +ParseHeaders
+		
+		Options ExecCGI -MultiViews +SymLinksIfOwnerMatch
+		Order allow,deny
+		Allow from all
+		AuthType Basic
+		AuthName "需要认证"
+		AuthBasicProvider file
+		AuthUserFile /etc/apache2/dav_svn.passwd
+		Require user xuke
+	</directory>
+	
+</VirtualHost>
+
+

@@ -1,0 +1,15 @@
+<VirtualHost *:80>
+	AddDefaultCharset gbk
+	SetOutputFilter DEFLATE
+	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript 
+
+	ServerName vod.1tian.net
+	ProxyRequests Off
+	ProxyMaxForwards 15 
+	#ProxyPassReverseCookieDomain backend.example.com public.example.com
+	#ProxyPassReverseCookiePath / /mirror/foo/ 
+	ProxyPreserveHost On
+	ProxyPass / http://192.168.1.4/
+	ProxyPassReverse / http://vod.1tian.net/
+	ProxyVia On
+</VirtualHost>
