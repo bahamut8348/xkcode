@@ -1,0 +1,54 @@
+已经启动以下 Windows 服务: 
+
+   AMD External Events Utility
+   Application Information
+   Base Filtering Engine
+   BlueSoleilCS
+   BsHelpCS
+   BsMobileCS
+   CNG Key Isolation
+   COM+ Event System
+   Computer Browser
+   Credential Manager
+   Cryptographic Services
+   DCOM Server Process Launcher
+   Desktop Window Manager Session Manager
+   DHCP Client
+   Distributed Link Tracking Client
+   DNS Client
+   Extensible Authentication Protocol
+   Function Discovery Provider Host
+   Group Policy Client
+   IKE and AuthIP IPsec Keying Modules
+   Multimedia Class Scheduler
+   Network Connections
+   Network List Service
+   Network Location Awareness
+   Network Store Interface Service
+   Plug and Play
+   Power
+   Remote Procedure Call (RPC)
+   RPC Endpoint Mapper
+   Security Accounts Manager
+   Server
+   Superfetch
+   System Event Notification Service
+   Task Scheduler
+   TCP/IP NetBIOS Helper
+   Telephony
+   Themes
+   User Profile Service
+   Virtual Disk
+   Windows Audio
+   Windows Audio Endpoint Builder
+   Windows Connect Now - Config Registrar
+   Windows Driver Foundation - User-mode Driver Framework
+   Windows Event Log
+   Windows Firewall
+   Windows Management Instrumentation
+   Windows Search
+   WLAN AutoConfig
+   Workstation
+
+命令成功完成。
+

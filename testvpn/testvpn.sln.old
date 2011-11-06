@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testvpn", "testvpn\testvpn.vcproj", "{CB5066D1-CDF8-4FBC-A435-FC9653BA2E60}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "server\server.vcproj", "{437F2A9D-4712-460A-BBE0-EC95AC7F9726}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xkvpn", "xkvpn\xkvpn.vcproj", "{B52C184F-2EA6-4D34-8F9C-0F17740272BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pyudt", "pyudt\pyudt.vcproj", "{1818F232-AA68-4D55-863B-032ED34CDAD6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pyvpn", "pyvpn\pyvpn.vcproj", "{A038118C-3FDD-4593-AC97-4329681B193C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB5066D1-CDF8-4FBC-A435-FC9653BA2E60}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB5066D1-CDF8-4FBC-A435-FC9653BA2E60}.Debug|Win32.Build.0 = Debug|Win32
+		{CB5066D1-CDF8-4FBC-A435-FC9653BA2E60}.Release|Win32.ActiveCfg = Release|Win32
+		{CB5066D1-CDF8-4FBC-A435-FC9653BA2E60}.Release|Win32.Build.0 = Release|Win32
+		{437F2A9D-4712-460A-BBE0-EC95AC7F9726}.Debug|Win32.ActiveCfg = Debug|Win32
+		{437F2A9D-4712-460A-BBE0-EC95AC7F9726}.Debug|Win32.Build.0 = Debug|Win32
+		{437F2A9D-4712-460A-BBE0-EC95AC7F9726}.Release|Win32.ActiveCfg = Release|Win32
+		{437F2A9D-4712-460A-BBE0-EC95AC7F9726}.Release|Win32.Build.0 = Release|Win32
+		{B52C184F-2EA6-4D34-8F9C-0F17740272BE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B52C184F-2EA6-4D34-8F9C-0F17740272BE}.Debug|Win32.Build.0 = Debug|Win32
+		{B52C184F-2EA6-4D34-8F9C-0F17740272BE}.Release|Win32.ActiveCfg = Release|Win32
+		{B52C184F-2EA6-4D34-8F9C-0F17740272BE}.Release|Win32.Build.0 = Release|Win32
+		{1818F232-AA68-4D55-863B-032ED34CDAD6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1818F232-AA68-4D55-863B-032ED34CDAD6}.Debug|Win32.Build.0 = Debug|Win32
+		{1818F232-AA68-4D55-863B-032ED34CDAD6}.Release|Win32.ActiveCfg = Release|Win32
+		{1818F232-AA68-4D55-863B-032ED34CDAD6}.Release|Win32.Build.0 = Release|Win32
+		{A038118C-3FDD-4593-AC97-4329681B193C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A038118C-3FDD-4593-AC97-4329681B193C}.Debug|Win32.Build.0 = Debug|Win32
+		{A038118C-3FDD-4593-AC97-4329681B193C}.Release|Win32.ActiveCfg = Release|Win32
+		{A038118C-3FDD-4593-AC97-4329681B193C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

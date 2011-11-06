@@ -1,0 +1,1 @@
+Persistence	persistence Module	Intel Corporation	c:\windows\system32\igfxpers.exe
