@@ -1,0 +1,85 @@
+HKCR
+{
+	ShortCutExt.ShortCut.1 = s 'ShortCut Class'
+	{
+		CLSID = s '{A81EBE8C-831C-4D06-AAC7-CA605822026E}'
+	}
+	ShortCutExt.ShortCut = s 'ShortCut Class'
+	{
+		CLSID = s '{A81EBE8C-831C-4D06-AAC7-CA605822026E}'
+		CurVer = s 'ShortCutExt.ShortCut.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {A81EBE8C-831C-4D06-AAC7-CA605822026E} = s 'ShortCut Class'
+		{
+			ProgID = s 'ShortCutExt.ShortCut.1'
+			VersionIndependentProgID = s 'ShortCutExt.ShortCut'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{66B2F5BD-4F07-4F83-A7FD-44A29BF1C756}'
+		}
+	}
+	
+	NoRemove *
+    {
+        NoRemove ShellEx
+        {
+            NoRemove ContextMenuHandlers
+            {
+                ForceRemove 常用功能菜单 = s '{A81EBE8C-831C-4D06-AAC7-CA605822026E}'
+            }
+        }
+    }
+    
+    NoRemove Directory
+    {
+        NoRemove ShellEx
+        {
+            NoRemove ContextMenuHandlers
+            {
+                ForceRemove 常用功能菜单 = s '{A81EBE8C-831C-4D06-AAC7-CA605822026E}'
+            }
+        }
+    }
+    
+    NoRemove Folder
+    {
+        NoRemove ShellEx
+        {
+            NoRemove ContextMenuHandlers
+            {
+                ForceRemove 常用功能菜单 = s '{A81EBE8C-831C-4D06-AAC7-CA605822026E}'
+            }
+        }
+    }
+    
+    NoRemove Drive
+    {
+        NoRemove ShellEx
+        {
+            NoRemove ContextMenuHandlers
+            {
+                ForceRemove 常用功能菜单 = s '{A81EBE8C-831C-4D06-AAC7-CA605822026E}'
+            }
+        }
+    }
+    
+    NoRemove Directory
+    {
+        NoRemove Background
+        {
+			NoRemove ShellEx
+			{
+				NoRemove ContextMenuHandlers
+				{
+					ForceRemove 常用功能菜单 = s '{A81EBE8C-831C-4D06-AAC7-CA605822026E}'
+				}
+			}
+		}
+    }
+}
