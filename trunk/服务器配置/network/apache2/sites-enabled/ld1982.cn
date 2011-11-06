@@ -1,0 +1,16 @@
+<VirtualHost *:80>
+	AddDefaultCharset utf8
+	ServerName www.ld1982.cn
+	ServerAlias ld1982.cn
+	DirectoryIndex  index.html index.htm index.php
+	DocumentRoot /data/xuke/liudong/web
+	
+	<Directory /data/xuke/liudong/web>
+		Order allow,deny
+		allow from all
+		Options None
+		AllowOverride None
+	</Directory>
+	
+	 
+</VirtualHost>

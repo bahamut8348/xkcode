@@ -1,0 +1,46 @@
+<VirtualHost *:80>
+	AddDefaultCharset gbk
+	SetOutputFilter DEFLATE
+	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript 
+
+	ServerName xk135.cn
+	ProxyRequests Off
+	ProxyMaxForwards 15 
+	#ProxyPassReverseCookieDomain backend.example.com public.example.com
+	#ProxyPassReverseCookiePath / /mirror/foo/ 
+	ProxyPreserveHost On
+	ProxyPass / http://192.168.1.4/
+	ProxyPassReverse / http://xk135.cn/
+	ProxyVia On
+	
+	
+    
+</VirtualHost>
+
+<VirtualHost *:80>
+	ServerName www.xk135.cn
+	AddDefaultCharset gbk
+	DocumentRoot /data/down/leisen/jiaonan168
+	
+	CustomLog "| cronolog /var/log/apache2/xk135_log.%Y%m%d" combined
+	
+#	ProxyPass / http://www.jiaonan168.com/
+#	ProxyRequests Off
+	
+#	ProxyPass /admindb/ !
+
+	<Directory /data/down/leisen/jiaonan168>
+		Order allow,deny
+		allow from all
+		Options None
+		AllowOverride None
+	</Directory>
+	
+	<Directory "/data/xuke/xk135">
+		Options None
+		AllowOverride All
+		Order allow,deny
+		Allow from all
+	</Directory>
+
+</VirtualHost>
