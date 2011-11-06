@@ -1,0 +1,7 @@
+test = register
+
+UserName = username1
+PassWord = password1
+
+ExpectResult = 1
+

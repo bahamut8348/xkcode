@@ -1,0 +1,5 @@
+GET http://farm1.static.flickr.com/favicon.ico HTTP/1.1 2007-06-18T06:47:48Z
+HTTP/1.0 404 Not Found
+Server: http://logicerror.com/archiverProxy
+Content-type: text/html
+

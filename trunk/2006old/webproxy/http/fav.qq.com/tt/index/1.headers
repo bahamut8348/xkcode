@@ -1,0 +1,19 @@
+POST http://fav.qq.com/tt/ HTTP/1.1 2007-06-18T06:55:27Z
+HTTP/1.1 200 OK
+Date: Mon, 18 Jun 2007 07:01:59 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.1
+Set-Cookie: QQTPHP_SESSID=bafm9mlt9vlois8hqsmrv3r955; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+X-REPLYCODE: 0
+X-REPLYDATA: 
+X-ERRORMSG: 
+X-UPDATEFLAG: 0
+X-COMPRESSFLAG: 
+X-TIMESTAMP: 
+Content-Length: 0
+Connection: close
+Content-Type: text/html
+

@@ -1,0 +1,11 @@
+GET http://adclient.163.com/html.ng/site=netease&affiliate=homepage&cat=homepage&type=logo300120&location=1 HTTP/1.1 2007-06-18T06:38:03Z
+HTTP/1.1 200 OK
+Date: Mon, 18 Jun 2007 06:44:43 GMT
+Server: Apache/2.0.59 (Unix)
+Content-Length: 3681
+_eep-Alive: timeout=45
+_onnection: Keep-Alive
+Content-Type: text/html; charset=GB2312
+X-Via: CN-5000
+Connection: close
+

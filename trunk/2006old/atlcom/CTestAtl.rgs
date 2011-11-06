@@ -1,0 +1,26 @@
+HKCR
+{
+	atlcom.CTestAtl.1 = s 'CTestAtl Class'
+	{
+		CLSID = s '{3C375FC9-0F07-4AD4-96F7-559A6C74FDAA}'
+	}
+	atlcom.CTestAtl = s 'CTestAtl Class'
+	{
+		CLSID = s '{3C375FC9-0F07-4AD4-96F7-559A6C74FDAA}'
+		CurVer = s 'atlcom.CTestAtl.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {3C375FC9-0F07-4AD4-96F7-559A6C74FDAA} = s 'CTestAtl Class'
+		{
+			ProgID = s 'atlcom.CTestAtl.1'
+			VersionIndependentProgID = s 'atlcom.CTestAtl'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{8CB8A7C2-F1DC-435C-A7BC-C9551DFE7B7B}'
+		}
+	}
+}

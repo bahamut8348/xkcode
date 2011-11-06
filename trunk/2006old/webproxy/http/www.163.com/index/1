@@ -1,0 +1,2655 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>网易</title>
+<base target="_blank" />
+<meta name="Keywords" content="网易,新闻，体育，娱乐，女性，旅游，文化，论坛，短信，数码，汽车，手机，财经，科技" />
+<meta name="Description" content="网易,新闻，体育，娱乐，女性，旅游，文化，论坛，短信，数码，汽车，手机，财经，科技,专业报道门户网站" />
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow" />
+<style type="text/css">
+<!--
+/* CSS Document */
+body { text-align: center; font-family:"宋体", arial;margin:0; padding:0; background: #FFF; font-size:12px; color:#000;}
+div,form,img,ul,ol,li,dl,dt,dd {margin: 0; padding: 0; border: 0;}
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0;}
+table,td,tr,th{font-size:12px;}
+
+/* 链接颜色 */
+a:link {color: #1f3a87; text-decoration:none;}
+a:visited {color: #83006f;text-decoration:none;}
+a:hover {color: #bc2931; text-decoration:underline;}
+a:active {color: #bc2931;}
+/* 颜色属性 [定义规则，小写c加颜色名称] */
+.cRed,a.cRed:link,a.cRed:visited{ color:Red; }
+.cBlue,a.cBlue:link,a.cBlue:visited{color:#1f3a87;}
+.cDRed,a.cDRed:link,a.cDRed:visited{ color:#bc2931;}
+.cGray,a.cGray:link,a.cGray:visited{ color: #4F544D;}
+.cDGray,a.cDGray:link,a.cDGray:visited{ color: #666;}
+.cWhite,a.cWhite:link,a.cWhite:visited{ color:#fff;}
+.cBlack,a.cBlack:link,a.cBlack:visited{color:#000;}
+a.cBlack:hover{color:#bc2931;}
+.cYellow,a.cYellow:link,a.cYellow:visited{color:#ff0;}
+.cGreen,a.cGreen:link,a.cGreen:visited{color:#008000;}
+/* 字体属性 [定义规则，小写f加属性名称] */
+.fB {font-weight: bold;}
+.fI {font-style: italic;}
+
+/* 字体大小*/
+.f12px{ font-size:12px;}
+.f14px{ font-size:14px;}
+
+/* 其他属性 */
+.left{ float: left;}
+.right{ float: right;}
+.clear{ clear: both; font-size:1px; width:1px; visibility: hidden; }
+.hidden {display: none;}
+.unLine ,.unLine a{text-decoration: none;}
+.noBorder{border:none;	}
+
+/* 后载入式广告属性 */
+.ad70{ width: 750px;  margin: 0 auto; padding:2px 0 6px; clear: both; }
+.ad750{ width: 750px;  margin: 0 auto; padding:9px 0 ; clear: both; }
+
+/* CSS Document */
+.blank3{ height:3px; clear:both; font-size:1px;overflow:hidden;}
+.blank9{ height:9px; font-size:1px; clear:both;overflow:hidden;}
+.blank6{height:6px; font-size:1px; clear:both;overflow:hidden;}
+.blankW6{ height:6px; overflow:hidden;background:#fff; clear:both;overflow:hidden;}
+.blankW9{ height:9px; overflow:hidden;background:#fff; clear:both;overflow:hidden;}
+.blank12{margin:0 auto; width:100%; height:12px; font-size:1px;clear:both;overflow:hidden;}
+.blank18{margin:0 auto; width:100%; height:18px; font-size:1px;clear:both;overflow:hidden;}
+.lineH{margin:0 auto; width:750px;  font-size:1px; overflow:hidden; height:1px; background:url(http://cimg2.163.com/cnews/163/img6/lineH.gif);}
+.lineH1{margin:0 auto; width:750px;  font-size:1px; overflow:hidden; height:1px; background:url(http://cimg2.163.com/cnews/163/img6/lineH1.gif);}
+
+/* 区块 */
+.area{margin:0 auto; width:750px; background:url(http://cimg2.163.com/cnews/163/img6/bg.gif);}
+.area .col1{float:left; width:436px; }
+.area .col2{float:right; width:300px; }
+
+/* 通行证登录 */
+.passport{ margin:0 auto; width:750px; height:35px;}
+.passport .s1{float:left; padding:11px 0 0 5px;}
+.passport .s2{float:left; padding:7px 0 0 5px;}
+.passport .s2 input{border:1px solid #000; width:50px; font-size:12px;}
+.passport .s2 select{font-size:12px;}
+.passport .s3{float:left; padding:7px 0 0 2px;}
+.passport .s3 input{height:20px; width:48px; background:url(http://cimg2.163.com/cnews/163/img6/input_bg3.gif); border:0; padding:2px 0 0; font-size:12px;}
+
+/* 导航 */
+.globalMenu{margin:0 auto; width:748px; height:52px; background:#F2F6FB; border:1px solid #CBCBCB;}
+.globalMenu .title{float:left; width:121px; padding:8px 0 0;}
+.globalMenu .mail{float:left; width:56px; padding:5px 0 0;} 
+.globalMenu .mail a{display:block; width:55px; height:40px; background-image:url(http://images.163.com/163regmail.gif);}
+.globalMenu .mail a:hover{background-position:bottom;}
+.globalMenu .mail span{display:none;}
+.globalMenu .content{ float:left; width:569px;padding:9px 0 0;}
+.globalMenu .content ul{}
+.globalMenu .content li{float:left; list-style-type:none; width:37px; padding:3px 0; display:block; background:url(http://cimg2.163.com/cnews/163/img6/nav_bg.gif) right 3px no-repeat;}
+.globalMenu .content .s{background:none;}
+.globalMenu .content .s1{width:49px;}
+.globalMenu a{color:#000;}
+.globalMenu a:visited{color:#000;}
+.globalMenu a:hover{color:#bc2931;}
+
+/* 网易产品 */
+.neteaseProduct{ border:1px solid #CBCBCB;  padding:3px 0 0; height:115px; overflow:hidden; clear:both; background:#F2F6FB;}
+.neteaseProduct .list{ margin:0 auto; width:98%;clear:both; background:url(http://cimg2.163.com/cnews/163/img6/bg1.gif) bottom repeat-x; list-style-type:none; height:29px; font-size:14px; text-align:left;}
+.neteaseProduct .s1{ float:left; width:59px; height:23px; margin:2px 0 0; background:#fff;}
+.neteaseProduct .s1 h5{font-size:12px; font-weight:normal; padding:7px 0 0 29px; text-align:left;}
+.neteaseProduct .s1 a{color:#000;}
+.neteaseProduct .s1 a:visited{color:#000;}
+.neteaseProduct .s1 a:hover{color:#bc2931;}
+.neteaseProduct .s2{float:left; padding:8px 0 0 8px;}
+.neteaseProduct .bg{background:none;}
+.neteaseProduct .bg1{background:url(http://cimg2.163.com/cnews/163/img6/bg2_1.gif) 0 0 no-repeat;}
+.neteaseProduct .bg2{background:url(http://cimg2.163.com/cnews/163/img6/bg2_2.gif) 0 0 no-repeat;}
+.neteaseProduct .bg3{background:url(http://cimg2.163.com/cnews/163/img6/bg2_3.gif) 0 0 no-repeat;}
+.neteaseProduct .bg4{background:url(http://cimg2.163.com/cnews/163/img6/bg2_4.gif) 0 0 no-repeat;}
+.neteaseProduct a{color:#1f3a87;}
+.neteaseProduct a:visited{color:#1f3a87;}
+.neteaseProduct a:hover{color:#bc2931;}
+
+/* 个性区域 */
+.personality{border:1px solid #cbcbcb; clear:both;}
+.personality .login{height:24px; clear:both;}
+.personality .login .text{float:left; width:115px; text-align:left; color:#1f3a87; }
+.personality .login .text ul{}
+.personality .login .text li{ text-align:left; list-style-type:none; padding:2px 0 0 6px;}
+.personality .login .weather{ padding:0 0 0 6px;float:right; height:24px; overflow:hidden; width:301px;background:url(http://cimg2.163.com/cnews/163/img6/bg8.gif) #fff 0 0 no-repeat;}
+.personality .login .weather .s1{ float:left; padding:2px 0 0 3px;}
+.personality .login .weather .s2{ float:left; padding:7px 0 0 3px;}
+.personality .login .weather .s3{ float:left; padding:3px 0 0;}
+.personality .login_w{height:24px; clear:both; overflow:hidden;position:relative}
+.personality .login_w .text{float:left; width:323px; text-align:left; color:#1f3a87; border-right:none;}
+.personality .login_w .text ul{}
+.personality .login_w .text li{ text-align:left; list-style-type:none; padding:2px 0 0 8px;}
+.personality .login_w .weather{ background:url(http://cimg2.163.com/cnews/163/img6/bg8.gif) #fff 0 0 no-repeat; padding:0 0 0 6px;position:absolute;width:500px;top:0px;left:341px}
+.personality .login_w .weather .s1{ float:left; padding:2px 0 0 3px;}
+.personality .login_w .weather .s2{ float:left; padding:7px 0 0 3px;}
+.personality .login_w .weather .s3{ float:left; padding:3px 0 0;}
+.personality .search{height:63px; background:#F2F6FB; border-top:1px solid #BCBCBC; color:#1f3a87; border-bottom:1px solid #CBCBCB; }
+.personality .search ul{ padding:3px 0 0 9px;}
+.personality .search li{clear:both; text-align:left; padding:6px 0 3px; list-style-type:none;}
+.personality .search .s1{width:195px; height:17px; border:1px solid #BCBCBC; font-size:12px;}
+.personality .search .s2{ font-size:12px; }
+.personality .search .s3{ height:20px; width:54px; background:url(http://cimg2.163.com/cnews/163/img6/input_bg1.gif); border:0; padding:2px 0 0; font-size:12px;}
+.personality .newMessage{height:24px; clear:both;}
+.personality .newMessage ul{ padding:6px 0 0 8px;}
+.personality .newMessage li{text-align:left; list-style-type:none;}
+.personality .newMessage .mr{margin-right:20px;}
+.personality .login a{color:#1f3a87;}
+.personality .login a:visited{color:#1f3a87;}
+.personality .login a:hover{color:#bc2931;}
+
+.scrollWeather{ text-align:left; color:#1f3a87; padding:4px 0 0 8px;}
+.scrollWeather ul{}
+.scrollWeather li{ float:left; text-align:left; list-style-type:none; }
+.scrollWeather .s1{padding:0;}
+.scrollWeather .s2{padding:4px 0 0; color:#1f3a87;}
+
+/* 左边内容 */
+.leftContent{ clear:both;}
+.leftContent .menu{ clear:both;height:22px;}
+.leftContent .menu ul{}
+.leftContent .menu li{ float:left; height:22px; list-style-type:none;cursor:pointer;}
+.leftContent .menu li h6{font-size:12px;padding:6px 0 2px 11px;  font-weight:normal; float:left;}
+.leftContent .menu li h5{font-size:12px;padding:6px 0 0;  font-weight:normal; }
+
+.leftContent .menu li span{float:right; padding:6px 5px 0 8px; background:url(http://cimg2.163.com/cnews/163/img6/bg7.gif) 0 9px no-repeat;}
+.leftContent .menu .active{ background:url(http://cimg2.163.com/cnews/163/img6/bg5_6_1.gif);float:left;width:146px;}
+.leftContent .menu .normal{ background:url(http://cimg2.163.com/cnews/163/img6/bg5_6_2.gif);float:left;width:145px;}
+
+.leftContent .menuA{ height:22px; clear:both;overflow:hidden;}
+.leftContent .menuA ul{}
+.leftContent .menuA li{float:left; width:109px; list-style-type:none; padding:6px 0 2px;cursor:pointer;}
+.leftContent .menuA .active{background:url(http://cimg2.163.com/cnews/163/img6/bg5_2.gif);}
+.leftContent .menuA .normal{background:url(http://cimg2.163.com/cnews/163/img6/bg5_2_1.gif);}
+.leftContent .menuA .over{background:url(http://cimg2.163.com/cnews/163/img6/bg5_2_2.gif);}
+
+.leftContent .menuB{ height:22px; clear:both;overflow:hidden;}
+.leftContent .menuB ul{}
+.leftContent .menuB li{ list-style-type:none; padding:6px 0 2px;cursor:pointer;}
+.leftContent .menuB .active{ background:url(http://cimg2.163.com/cnews/163/img6/bg5_3.gif);float:left;width:88px;}
+.leftContent .menuB .normal{ background:url(http://cimg2.163.com/cnews/163/img6/bg5_3_1.gif);float:left;width:87px;}
+.leftContent .menuB .over{ background:url(http://cimg2.163.com/cnews/163/img6/bg5_3_2.gif);float:left;width:87px;}
+
+.leftContent .menuC{ height:22px; clear:both;overflow:hidden;}
+.leftContent .menuC ul{}
+.leftContent .menuC li{ list-style-type:none; padding:6px 0 2px;cursor:pointer;}
+.leftContent .menuC .active{ background:url(http://cimg2.163.com/cnews/163/img6/bg5_6_1.gif);float:left;width:146px;}
+.leftContent .menuC .normal{ background:url(http://cimg2.163.com/cnews/163/img6/bg5_6_2.gif);float:left;width:145px;}
+
+.leftContent .menu a,.leftContent .menuA li a,.leftContent .menuB li a,.leftContent .menuC li a{color:#1f3a87;}
+.leftContent .menu a:visited,.leftContent .menuA li a:visited,.leftContent .menuB li a:visited,.leftContent .menuC li a:visited{color:#1f3a87;}
+.leftContent .menu a:hover,.leftContent .menuA li a:hover,.leftContent .menuB li a:hover{color:#bc2931;}
+
+.leftContent .menuA .over a,.leftContent .menuB .over a{color:#fff;}
+.leftContent .menuA .over a:visited,.leftContent .menuB .over a:visited{color:#fff;}
+.leftContent .menuA .over a:hover,.leftContent .menuB .over a:hover{color:#ff0;}
+
+.leftContent .content{margin:0 auto; width:416px; padding:12px 0 0;}
+.leftContent .content .col{float:left;}
+.leftContent .content .w1{ width:162px;}
+.leftContent .content .w2{width:240px; padding:0 0 0 14px;}
+.leftContent .content .w3{ width:122px;}
+.leftContent .content .w4{width:280px; padding:0 0 0 14px;}
+.leftContent .content .pic{ clear:both;}
+.leftContent .content .pic img{border:1px solid #CBCBCB;}
+.leftContent .content .pic h6{font-size:12px; font-weight:normal; text-align:left; padding:5px 0 }
+.leftContent .content .listText{ color:#CBCBCB; clear:both; text-align:left; border:1px solid #CBCBCB; background:#F2F6FB; line-height:160%; padding:8px 5px 3px;}
+.leftContent .content .listText .s1{ font-size:12px; width:100px; height:16px; border:1px solid #BACEEB; background:#fff; margin:5px 0;}
+.leftContent .content .listText .s2{ width:34px; background:url(http://cimg2.163.com/cnews/163/img6/input_bg2.gif);height:20px; padding:2px 0 0;margin:5px 0;font-size:12px; border:0;}
+.leftContent .content .listText1{  clear:both; border:1px solid #CBCBCB; background:#F2F6FB;  line-height:180%;padding:7px 5px 5px; }
+.leftContent .content .listText a{color:#000;}
+.leftContent .content .listText a:visited{color:#000;}
+.leftContent .content .listText a:hover{color:#bc2931;}
+.leftContent .content .otherNews{ padding:5px 0 0;}
+.leftContent .content .otherNews select{font-size:12px; width:120px;}
+.leftContent .content .keyword{ clear:both; padding:10px 0 0; text-align:left; line-height:160%; color:#1f3a87;}
+.leftContent .content h4{font-family: "黑体" ,Arial Black,sans-serif;font-weight:100;font-size:18px;padding:11px 0 0;clear:both; text-align:left;}
+.leftContent .content p{ padding:10px 0 0; color:#1f3a87; text-indent:2em; line-height:160%; text-align:left; margin:0;}
+.leftContent .content .list{clear:both;}
+.leftContent .content .list ul{padding:10px 0 0;}
+.leftContent .content .list li{text-align:left; height:20px; padding:0 0 0 10px; clear:both; background:url(http://cimg2.163.com/cnews/163/img6/i1_1.gif) 2px 4px no-repeat; list-style-type:none;}
+.leftContent .content .list li span{ color:#1f3a87; padding:0 3px 0 0;}
+.leftContent .content .list li span a{color:#1f3a87;}
+.leftContent .content .list li span a:visited{color:#1f3a87;}
+.leftContent .content .list li span a:hover{color:#bc2931;}
+.leftContent .content .list1{clear:both; border-top:1px dashed #ccc;}
+.leftContent .content .list1 ul{padding:9px 0 0;}
+.leftContent .content .list1 li{text-align:left; padding:3px 0 3px 2px; list-style-type:none;}
+.leftContent .content .list1 li h6{float:left; font-size:12px; font-weight:normal; margin:0 2px 0 0; color:#1f3a87;}
+.leftContent .content .list1 li h6 a{color:#1f3a87;}
+.leftContent .content .list1 li h6 a:visited{color:#1f3a87;}
+.leftContent .content .list1 li h6 a:hover{color:#bc2931;}
+.leftContent .content .picText{ clear:both;  padding:5px 4px 0;}
+.leftContent .content .picText .s1{ padding:8px 0 5px; clear:both;}
+.leftContent .content .picText .s2{ clear:both;}
+.leftContent .content .picText .s2 .input{ border:1px solid #BACEEB; height:15px; font-size:12px; width:70px;}
+.leftContent .content .picText .s2 .bu{width:59px; height:19px; padding:2px 0 0; border:0; font-size:12px; background:url(http://cimg2.163.com/cnews/163/img6/input_bg4.gif);}
+.leftContent .content .picText .s3{clear:both; padding:4px 0 0 6px; line-height:160%; text-align:left;}
+.leftContent .content .picText .s3 a{color:#1f3a87;}
+.leftContent .content .picText .s3 a:hover{color:#bc2931;}
+.leftContent .content .picList{clear:both; margin:0 auto; width:414px;}
+.leftContent .content .picList ul{}
+.leftContent .content .picList li{float:left; width:138px; list-style-type:none;}
+.leftContent .content .picList img{border:1px solid #ccc;}
+.leftContent .content .picList h6{ margin:0 auto; width:120px; clear:both; padding:6px 0 0; text-align:left; font-size:12px; font-weight:normal;}
+.leftContent .content .moreTextList .title{ height:24px; border-bottom:1px solid #ccc; background:#F2F5FA;}
+.leftContent .content .moreTextList .title h5{float:left; font-size:12px; padding:6px 0 0 8px; font-weight:normal; color:#bc2931;}
+.leftContent .content .moreTextList .title  span{float:right;padding:6px 6px 0 10px; background:url(http://cimg2.163.com/cnews/163/img6/bg7.gif) 3px 9px no-repeat;}
+.leftContent .content .moreTextList .title  span a{color:#1f3a87;}
+.leftContent .content .moreTextList .title  span a:visited{color:#1f3a87;}
+.leftContent .content .moreTextList .title  span a:hover{color:#bc2931;}
+.leftContent .content .moreTextList{ margin:5px auto 0; width:415px; height:115px; border:1px solid #ccc; clear:both;}
+.leftContent .content .moreTextList .colBox{ float:left; width:138px;}
+.leftContent .content .moreTextList .colBox h5{clear:both; padding:8px 0 0 10px; text-align:left; font-weight:normal; font-size:12px; color:#1f3a87;}
+.leftContent .content .moreTextList .colBox ul{padding:5px 0 0; clear:both;}
+.leftContent .content .moreTextList .colBox li{text-align:left; height:20px; padding:0 0 0 18px; clear:both; background:url(http://cimg2.163.com/cnews/163/img6/i1_1.gif) 10px 4px no-repeat; list-style-type:none;}
+.leftContent .content .more{height:18px; clear:both;}
+.leftContent .content .more h2{ float:left; border:1px solid #cbcbcb; background:#E7EFF8; padding:2px 2px 0; font-size:12px; font-weight:normal; margin:2px 0 0;}
+.leftContent .content .more h2 a{color:#000;}
+.leftContent .content .more h2 a:visited{color:#000;}
+.leftContent .content .more h2 a:hover{color:#bc2931;}
+.leftContent .content .more h6{float:right; color:#bc2931; padding:4px 3px 0 0; font-size:12px; font-weight:normal;}
+.leftContent .content .more span{float:right; padding:4px 5px 0 10px; background:url(http://cimg2.163.com/cnews/163/img6/bg7.gif) 3px 7px no-repeat;}
+.leftContent .content .more a{color:#1f3a87;}
+.leftContent .content .more a:visited{color:#1f3a87;}
+.leftContent .content .more a:hover{color:#bc2931;}
+
+/* 地方列表 */
+.leftContent .placeList{ position:absolute;display:none;left:-165px;top:22px;width:213px; height:190px; border:1px solid #CBCBCB; background:#F2F6FB;}
+.leftContent .placeList .titleT{height:19px; background:#A0AAC8; clear:both;border-bottom:1px solid #CBCBCB;}
+.leftContent .placeList .titleT h5{padding:4px 0 0; font-size:12px; font-weight:normal; color:#fff;}
+.leftContent .placeList .contentT{ clear:both; border-top:1px solid #fff; border-left:1px solid #fff;}
+.leftContent .placeList .contentT ul{}
+.leftContent .placeList .contentT li{float:left; list-style-type:none; height:14px; width:52px; display:block; border-right:1px solid #fff; border-bottom:1px solid #fff; padding:4px 0 2px;}
+
+.leftLine{border-bottom:1px solid #cbcbcb;}
+.leftLine1{height:1px; overflow:hidden; font-size:1px; clear:both;background:url(http://cimg2.163.com/cnews/163/img6/bg6.gif);}
+.leftHeight1{height:268px; overflow:hidden;}
+.leftHeight2{height:283px; overflow:hidden;}
+.leftHeight3{height:312px; overflow:hidden;}
+.leftHeight4{height:248px; overflow:hidden;}
+.leftContent a{color:#000;}
+.leftContent a:hover{color:#bc2931;}
+
+/* 右边内容 */
+.rightHeight{height:150px;}
+.rightLine{ border-top:1px solid #CBCBCB;}
+.rightLine1{ border-bottom:1px solid #CBCBCB;}
+.rightLine2{ border-top:1px solid #CBCBCB;}
+.rightTitle{ height:24px; margin:0 auto; width:298px; clear:both; background:#fff; border-bottom:1px solid #CBCBCB;}
+.rightTitle h5{float:left; padding:7px 0 0 8px; font-size:12px; font-weight:normal;color:#1f3a87;}
+.rightTitle h6{float:right; font-size:12px; font-weight:normal; padding:7px 6px 0 0; }
+.rightTitle a{color:#1f3a87;}
+.rightTitle a:visited{color:#1f3a87;}
+.rightTitle a:hover{color:#bc2931;}
+.rightTitle span{float:right; padding:7px 8px 0 0;}
+.rightTitle .cDRed{float:none;padding:0;}
+.rightTitle span a{color:#000;}
+.rightTitle span a:visited{color:#000;}
+.rightTitle span a:hover{color:#bc2931;}
+.rightTitle .s{padding:0;}
+
+.rightTitle1{ clear:both; border-left:1px solid #ccc; height:25px;background:url(http://cimg2.163.com/cnews/163/img6/bg10.gif) #fff bottom repeat-x;}
+.rightTitle1 ul{ clear:both; }
+.rightTitle1 li{float:left; width:148px; border-right:1px solid #ccc; height:23px;  list-style-type:none; border-top:1px solid #ccc;}
+.rightTitle1 li h2{padding:6px 10px 0; clear:both; font-size:12px; font-weight:normal;}
+.rightTitle1 .active{ background:#E9F1F6; width:149px;  height:24px;}
+.rightTitle1 .normal{}
+.rightTitle1 li a{color:#1f3a87;}
+.rightTitle1 li a:visited{color:#1f3a87;}
+.rightTitle1 li a:hover{color:#bc2931;}
+
+.rightContent{clear:both;}
+.rightContent .list{float:left; width:150px;}
+.rightContent .list ul{padding:6px 0 0; }
+.rightContent .list li{ clear:both;list-style-type:none; background:url(http://cimg2.163.com/cnews/163/img6/i1.gif) 11px 7px no-repeat; text-align:left; padding:3px 0 3px 20px;}
+.rightContent .listAD{float:left;}
+.rightContent .listW1{width:135px;}
+.rightContent .listW2{width:30px}
+.rightContent .listAD ul{padding:6px 0 0; clear:both;}
+.rightContent .listAD li{ clear:both;list-style-type:none; background:url(http://cimg2.163.com/cnews/163/img6/i1.gif) 11px 7px no-repeat; text-align:left; padding:3px 0 3px 20px;}
+.rightContent .listAD dl{padding:6px 0 0; clear:both;}
+.rightContent .listAD dd{ padding:3px 0; text-align:left;}
+.rightContent .listAD dd a{color:#000;}
+.rightContent .listAD dd a:visited{color:#000;}
+.rightContent .listAD dda:hover{color:#bc2931;}
+.rightContent .adlist{float:left; width:150px;}
+.rightContent .adlist ul{}
+.rightContent .adlist li{ clear:both;list-style-type:none; background:url(http://cimg2.163.com/cnews/163/img6/i1.gif) 11px 7px no-repeat; text-align:left; padding:3px 0 3px 20px;}
+.rightContent .theText{ clear:both; padding:7px 0 5px 9px; border-top:1px solid #CBCBCB; line-height:160%; color:#1f3a87; text-align:left;}
+.rightContent .list1{ clear:both;}
+.rightContent .list1 ul{padding:6px 0 0; }
+.rightContent .list1 li{ clear:both;list-style-type:none; text-align:left; }
+.rightContent .list1 li h6{ float:left; font-size:12px; font-weight:normal; padding:3px 0 3px 20px;background:url(http://cimg2.163.com/cnews/163/img6/i1.gif) 11px 7px no-repeat;}
+.rightContent .list1 li span{float:right; padding:3px 8px 0 0;}
+.rightContent .list2{ clear:both; padding:5px 0 0 5px;}
+.rightContent .list2 ol{ padding:2px 0 0;float:left; width:100%;}
+.rightContent .list2 li{clear:both; padding:2px 5px 1px 6px; color:#1f3a87;list-style-position:inside !important;  line-height:150%; list-style-type:decimal; text-align:left;}
+.rightContent .picText{ clear:both; padding:9px 0 0 9px; text-align:left;}
+.rightContent .picText img{border:1px solid #CBCBCB; }
+.rightContent .picText .pic{float:left; width:137px; padding:0 8px 0 0;}
+.rightContent .picText .textList{width:280px;}
+.rightContent .picText .textList ul{}
+.rightContent .picText .textList li{text-align:left; padding:3px 0 3px 10px; clear:both; background:url(http://cimg2.163.com/cnews/163/img6/i1.gif) 2px 7px no-repeat; list-style-type:none;}
+/* 无线搜索 */
+.rightContent .search{clear:both; padding:3px 0 0 11px;}
+.rightContent .search ul{}
+.rightContent .search li{text-align:left; padding:3px 0; list-style-type:none;}
+.rightContent .search li select{font-size:12px;}
+.rightContent .search .s1{border:1px solid #999; height:17px;width:80px; font-size:12px;}
+.rightContent .search .s2{height:20px; width:54px; background:url(http://cimg2.163.com/cnews/163/img6/input_bg1.gif); border:0; padding:2px 0 0; font-size:12px;}
+
+/* 博客推荐 */
+.blogCommend{ clear:both;}
+.blogCommend .list{ float:left; width:190px;}
+.blogCommend .list ul{padding:10px 0 0;}
+.blogCommend .list li{ clear:both;list-style-type:none; background:url(http://cimg2.163.com/cnews/163/img6/i1.gif) 11px 7px no-repeat; text-align:left; padding:3px 0 3px 20px;}
+.blogCommend .text{float:left; text-align:left; width:100px; padding:10px 0 0; line-height:170%;}
+.blogCommend .text a{color:#1f3a87;}
+.blogCommend .text a:visited{color:#1f3a87;}
+.blogCommend .text a:hover{color:#bc2931;}
+
+/* 公司介绍 */
+.aboutNetease{ margin:0 auto; width:748px; height:25px; background:#F2F6FB; border:1px solid #cbcbcb;}
+
+.aboutNetease ul{}
+.aboutNetease li{padding:7px 0 0; list-style-type:none; color:#CBCBCB;}
+.aboutNetease li a{color:#1F3A87; padding:0 5px;}
+.aboutNetease li a:visited{color:#1F3A87;}
+.aboutNetease li a:hover{color:#bc2931;}
+
+/* 页脚 */
+.foot{ margin:0 auto; width:750px; line-height:180%; padding:5px 0; }
+.foot img{margin:4px 0 0;}
+
+/* AD */
+.ebayText{ font-size:14px; text-align:left; clear:both; background:#fff; height:25px; overflow:hidden;}
+.ebayText h5{float:left; padding:3px 0 0;}
+.ebayText span{padding:7px 0 0 3px; float:left;}
+
+.ad145{clear:both; overflow:hidden; background:#fff;}
+.ad145 ul{}
+.ad145 li{float:left; width:50%; list-style-type:none;}
+.ad145 img{border:1px solid #CBCBCB;}
+.ad145 .s1{text-align:left;}
+.ad145 .s2{text-align:right;}
+
+.adEbay{ clear:both;border-bottom:1px solid #CBCBCB;}
+.adEbay .pic{ float:left; width:50%;}
+.adEbay .pic ul{}
+.adEbay .pic li{padding:5px 0 0; list-style-type:none;}
+.adEbay .picText{float:left; width:50%;}
+.adEbay .picText ul{padding:5px 2px 0 0;}
+.adEbay .picText li{text-align:left; line-height:150%; padding:4px 0; list-style-type:none;}
+.adEbay .picText li img{float:left; margin:0 3px 0 0 ;}
+.adEbay .picText .s{ background:url(http://cimg2.163.com/cnews/163/img6/bg1.gif) bottom repeat-x;}
+
+.adMenu{ height:26px; clear:both;}
+.adMenu ul{}
+
+.adMenu li{float:left; width:60px; height:26px; list-style-type:none;cursor:pointer;}
+.adMenu li h6{font-size:12px; font-weight:normal; padding:8px 0 0;}
+.adMenu .normal{background:url(http://cimg2.163.com/cnews/163/img6/admenu_bg2.gif);}
+.adMenu .active{background:url(http://cimg2.163.com/cnews/163/img6/admenu_bg1.gif);}
+
+.adMenu a{color:#1f3a87;}
+.adMenu a:visited{color:#1f3a87;}
+.adMenu a:hover{color:#bc2931;}
+
+.adPicList{ clear:both; background:url(http://cimg2.163.com/cnews/163/img6/ad_bg1.gif) bottom repeat-x; height:79px;}
+.adPicList ul{}
+.adPicList li{float:left; width:20%; list-style-type:none; padding:5px 0 0;}
+.adPicList li img{}
+.adPicList li h6{margin:0 auto; width:50px; text-align:left; padding:2px 0 0; font-size:12px; font-weight:normal;}
+.adTextList{ clear:both; padding:0 0 3px;}
+.adTextList ul{}
+.adTextList li{float:left; width:100px; height:19px; overflow:hidden; text-align:left; list-style-type:none; padding:3px 0 0;}
+.adTextList li h6{float:left; padding:0 0 0 8px;}
+.adTextList li span{padding:6px 0 0 5px; float:left;}
+-->
+</style>
+
+<script type="text/javascript">
+//<![CDATA[
+// 163 AJAX Tab 
+// update 2006.10.18
+// 增加鼠标延迟感应特性。
+// update 2006.10.8
+// A 标签 href 属性将保持原有HTML功能。增加urn属性为AJAX Load 路径。
+// update 2006.10.11
+// 修正IE5.0 undefined 未定义错误，增加脚本错误屏蔽
+var Browser = new Object();
+Browser.isMozilla = (typeof document.implementation != 'undefined') && (typeof document.implementation.createDocument != 'undefined') && (typeof HTMLDocument!='undefined');
+Browser.isIE = window.ActiveXObject ? true : false;
+Browser.isFirefox = (navigator.userAgent.toLowerCase().indexOf("firefox")!=-1);
+Browser.isOpera = (navigator.userAgent.toLowerCase().indexOf("opera")!=-1);
+if (Browser.isFirefox) { // entend Event Mod for FireFox
+	extendEventObject();
+}
+function extendEventObject() {
+	Event.prototype.__defineGetter__("srcElement", function () {
+		var node = this.target;
+		while (node.nodeType != 1) node = node.parentNode;
+		return node;
+	});
+
+	Event.prototype.__defineGetter__("fromElement", function () {
+		var node;
+		if (this.type == "mouseover")
+			node = this.relatedTarget;
+		else if (this.type == "mouseout")
+			node = this.target;
+		if (!node) return;
+		while (node.nodeType != 1) node = node.parentNode;
+		return node;
+	});
+
+	Event.prototype.__defineGetter__("toElement", function () {
+		var node;
+		if (this.type == "mouseout")
+			node = this.relatedTarget;
+		else if (this.type == "mouseover")
+			node = this.target;
+		if (!node) return;
+		while (node.nodeType != 1) node = node.parentNode;
+		return node;
+	});
+}
+function IsChild(cNode,pNode){
+	while(cNode!=null){
+		cNode=cNode.parentNode;
+		if(cNode==pNode) return true; 
+	}
+	return false;
+}
+
+
+var ajccache=new Object();
+var waitInterval;
+var tempref;
+var MouseDelayTime=150;//鼠标感应延迟300毫秒
+function getTBprefixName(str,sta){
+	if(str.indexOf("active")!=-1 || str.indexOf("normal")!=-1) str=str.substr(6);
+		else if(str.indexOf("over")!=-1) str=str.substr(4);
+			else str="";
+	return sta+str;
+}
+function startajaxtabs(){
+	for(var i=0;i<arguments.length;i++)
+	{
+		var ulobj=document.getElementById(arguments[i]);
+			ulist=ulobj.getElementsByTagName("li");			
+			for(var j=0;j<ulist.length;j++)
+			{
+				var thelist=ulist[j];
+				if(thelist.parentNode.parentNode!=ulobj) continue;//只有第一层li有效 fixed 2006.9.29
+				var ulistlink=thelist.getElementsByTagName("a")[0];
+				var ulistlinkurl=ulistlink.getAttribute("urn");
+				var ulistlinktarget=ulistlink.getAttribute("rel");
+				thelist.setActive=function(bactive){
+					if(bactive){
+						this.status="active";
+						this.className=getTBprefixName(this.className,"active");
+					}else{
+						this.status="normal";
+						this.className=getTBprefixName(this.className,"normal");
+					}
+				}
+				thelist.LoadTab=function(){
+					this.setActive(true);
+					this.parentNode.parentNode.activetab.setActive(false);
+					this.parentNode.parentNode.activetab=this;					
+					var ulistlink=this.getElementsByTagName("a")[0];
+					loadAJAXTab(ulistlink.getAttribute("urn"),ulistlink.getAttribute("rel"));
+				}
+				thelist.onmouseover=function(aEvent){
+					var myEvent = window.event ? window.event : aEvent;
+					var fm=myEvent.fromElement;
+					if(IsChild(fm,this) || fm==this) return;//过滤子元素event
+					if(this.status=="active") return;
+					tempref=this;
+					clearTimeout(waitInterval);
+					waitInterval=window.setTimeout("tempref.LoadTab();",MouseDelayTime);
+				}
+
+				thelist.onmouseout=function(aEvent){
+					var myEvent = window.event ? window.event : aEvent;
+					var em=myEvent.toElement;
+					if(IsChild(em,this) || em==this) return; //过滤子元素event
+					if(this.status=="active") return;
+					clearTimeout(waitInterval);
+				}
+
+				if(ulistlinkurl.indexOf("#default")!=-1){
+					thelist.setActive(true);
+					ulobj.activetab=thelist;
+					ajccache[ulistlinkurl]=getElement(ulistlinktarget).innerHTML;
+				}else{
+					thelist.setActive(false);
+				}
+
+			}
+		if(ulobj.activetab==null) ulobj.activetab=ulist[0];
+	}
+}
+
+function getXmlhttp()
+{
+	var http_request;
+	
+	if(window.XMLHttpRequest) { 
+		http_request = new XMLHttpRequest();
+		if (http_request.overrideMimeType) {
+			http_request.overrideMimeType("text/xml");
+		}
+	}
+	else if (window.ActiveXObject) { 
+		try {
+			http_request = new ActiveXObject("Msxml2.XMLHTTP");
+		} catch (e) {
+			try {
+				http_request = new ActiveXObject("Microsoft.XMLHTTP");
+			} catch (e) {}
+		}
+	}
+	if (!http_request) { 
+		window.alert("can't create XMLHttpRequest object.");
+		return null;
+	}	
+	return http_request;
+}
+
+function loadAJAXTab(url,contentid){
+	var ocontent=getElement(contentid);
+	if(ajccache[url]==null) {
+		var xhttp=getXmlhttp();		
+			xhttp.onreadystatechange=function(){
+				if(xhttp.readyState == 4 && (xhttp.status==200 || window.location.href.indexOf("http")==-1))
+				{					
+					ocontent.innerHTML=xhttp.responseText;
+					ajccache[url]=ocontent.innerHTML;
+				}
+			}
+		xhttp.open("GET",url,true);
+		xhttp.send(null);
+	}else{
+		ocontent.innerHTML=ajccache[url];
+	}
+}
+window.onerror=function(){return true}
+
+//xml.js
+var xhr;
+function getXHR()
+{
+	try {
+		xhr=new ActiveXObject("Msxml2.XMLHTTP");
+	} catch (e) {		
+		try {
+			xhr=new ActiveXObject("Microsoft.XMLHTTP");
+		} catch (e) {			
+			xhr=false;
+		}
+	}
+	if(!xhr&&typeof XMLHttpRequest!='undefined')
+	{
+		xhr=new XMLHttpRequest();
+	}	
+	
+	return xhr;
+}
+
+function openXHR(method,url,callback)
+{
+	getXHR();
+	xhr.open(method,url);
+	xhr.onreadystatechange=function()
+	{
+		if(xhr.readyState!=4)return;
+		callback(xhr);		
+	}
+	xhr.send(null);
+}
+
+function loadXML(method,url,callback)
+{
+	getXHR();
+	xhr.open(method,url);
+	xhr.setRequestHeader("Content-Type","text/xml");
+	xhr.setRequestHeader("Content-Type","GBK");
+	xhr.onreadystatechange=function()
+	{
+		if(xhr.readyState!=4)return;
+		callback(xhr.responseXML);
+	}
+	xhr.send(null);
+}
+//=================================================
+function quote(xhr)
+{	
+	alert(xhr.responseText);
+	document.getElementById("xml").innerText=xhr.responseText;
+}
+
+
+//首行登录
+function loginSubmit(login){
+var userName = login.elements['username'];
+var password = login.elements['password'];
+var loginSelect = login.elements['loginSelect'].value;
+if(userName.value == ""){alert("请输入用户名");return false;}
+if(password.value == ""){alert("请输入密码");password.focus();return false;}
+if(loginSelect == "网易通行证"){return true;}
+if(loginSelect == "163邮箱"){login.action="https://reg.163.com/logins.jsp?url=http://fm163.163.com/coremail/fcg/ntesdoor2?lightweight=1&"}
+if(loginSelect == "126邮箱"){userName.name = "user";password.name = "pass";login.action="https://entry.mail.126.com/cgi/login?redirTempName=https.htm&hid=10010102&lightweight=1&"}
+if(loginSelect == "VIP邮箱"){login.action="http://vip.163.com/logon.m?language=-1&style=-1&enterVip=true"}
+if(loginSelect == "188财富邮"){userName.name = "user";password.name = "pass";login.action="http://reg.mail.188.com/servlet/coremail/login?"}
+if(loginSelect == "Yeah邮箱"){userName.name = "user";password.name = "pass";login.action="http://entry.yeah.net/cgi/login?hid=10010102&verifycookie=1&language=0&style=0"}
+if(loginSelect == "Netease邮箱"){userName.name = "user";password.name = "pass";login.action="http://web.netease.com/cgi/login?verifycookie=1&language=0"}
+login.submit();
+}
+function enterSubmit(event){
+var obj = event.srcElement?event.srcElement:event.target;
+var login = obj.form;
+if(event.keyCode==13){loginSubmit(login);}
+}
+//搜索引擎
+function soComm(obj){
+obj.elements["word"].value=obj.elements["q"].value;
+obj.elements["keyWord"].value=obj.elements["q"].value;
+obj.action=obj.elements["url"].value;
+}
+function soCar(id){
+obj=document.getElementById(id);
+var url="http://page.so.163.com/Ztc.php";
+obj.action=url;
+obj.submit();
+}
+/*weather begin*/
+function getElement(aID)
+{
+  return (document.getElementById) ? document.getElementById(aID): document.all[aID];
+}
+var weather_gx;
+var w_timeID;
+var w_move_step=4;//值越小越平滑，速度越慢
+var w_move_speed=8; // 值越小越平滑，速度越慢
+function weather_init(){
+	var wobj=getElement("div_weather");
+	if(isNaN(parseInt(wobj.style.left)))wobj.style.left="367px"
+}
+function weather_on(){
+	weather_gx=85;
+	if (w_timeID ==undefined) w_timeID = setTimeout(tween_weatherm_move,w_move_speed);
+		else {
+			clearTimeout(w_timeID);
+			w_timeID = setTimeout(tween_weatherm_move,w_move_speed);
+		}
+}
+
+function weather_off(){
+	weather_gx=372;
+	clearTimeout(w_timeID);
+	w_timeID = setTimeout(tween_weatherm_move,w_move_speed);
+}
+
+function tween_weatherm_move(){
+	var wobj=getElement("div_weather");
+	var cx=parseInt(wobj.style.left);
+		cx+=(weather_gx-cx)/w_move_step;
+		cx=parseInt(cx);
+		wobj.style.left=cx+"px";
+	if (Math.abs(cx-weather_gx)<1){
+		wobj.style.left=weather_gx+"px";
+		clearTimeout(w_timeID);
+		w_timeID=undefined;
+	}else{
+		w_timeID = setTimeout(tween_weatherm_move,w_move_speed);
+	}
+}
+//local
+function getWeather(xmlDom)
+{
+
+var contemt='<div class="s1"><a href="http://adclient.163.com/event.ng/Type=click&FlightID=79947&AdID=81608&TargetID=502&Values=31,43,51,60,72,81,91,100,110,312,330,332,409,594,702,733,734&Redirect=http://www.snowbeer.com.cn/club/2007"><img src="http://adimg.163.com/channel3/002725/xuehua10020_070604.jpg" /></a></div>';
+	var doc=document.getElementById("div_weather");
+	var node=xmlDom.getElementsByTagName("weather");
+	var len=node.length;
+	for(var i=0;i<len;i++)
+	{
+		var c=node[i].getAttribute("c");
+		var city=node[i].getAttribute("city");
+		var wd=node[i].getAttribute("wd");
+		var qx=node[i].getAttribute("qx");
+		var img=node[i].getAttribute("qximg");
+		var imgs=img.split(",");
+		
+		contemt+='<div class="s2"><a href="http://weather.news.163.com/">'+c+':'+wd+' '+qx+'</a></div><div class="s3">';
+		for( var j=0;j<imgs.length;j++)
+		{
+			contemt+='<img src=http://news.163.com/img/logo/'+imgs[j]+'>';
+		}
+		contemt+='</div>';
+	}
+	doc.innerHTML=contemt;		
+}
+function weather(coder)
+{
+	loadXML("GET","/inc/weatherxml/"+coder+".xml",getWeather);
+}
+var city = new Array("安徽","黑龙江","山东","北京","湖北","山西","福建","湖南","陕西","甘肃","吉林","上海","广东","江苏","四川","广西","江西","天津","贵州","辽宁","西藏","海南","内蒙古","新疆","河北","宁夏","云南","河南","青海","浙江","重庆");
+var weaths = new Array('58321','50953','54823','54511','57494','53772','58847','57679','57036','52889','54161','58367','59287','58238','56294','59431','58606','54527','57816','54342','55591','59758','53463','51463','53698','53614','56778','57083','52866','58457','57516');
+function getCookieVal (offset) {
+  var endstr = document.cookie.indexOf (";", offset);
+  if (endstr == -1)
+  endstr = document.cookie.length;
+  return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) {
+  var arg = name + "=";
+  var alen = arg.length;
+  var clen = document.cookie.length;
+  var i = 0;
+  while (i < clen) {
+    var j = i + alen;
+    if (document.cookie.substring(i, j) == arg)
+      return getCookieVal (j);
+    i = document.cookie.indexOf(" ", i) + 1;
+    if (i == 0)
+       break;
+  }
+  return "";
+}
+function SetCookie(cookieName,cookieValue,nDays) {
+ var today = new Date();
+ var expire = new Date();
+ if (nDays==null || nDays==0) nDays=1;
+ expire.setTime(today.getTime() + 3600000*24*nDays);
+ document.cookie = cookieName+"="+escape(cookieValue) + ";path=/;domain=.163.com;expires="+expire.toGMTString();
+}
+function getCityWeatherID(cityname){
+        for(i=0;i<city.length;i++){
+        if(city[i]==cityname){
+                return weaths[i];
+                }
+        }
+        return "54511";
+}
+
+var loc = GetCookie("theaddr");
+if(!loc){
+document.write("<script type='text/javascript' src='http://202.108.39.152/ipquery'><" + "/script>");
+}
+var wloc = GetCookie("NTES_WeatherAddr");
+if(!wloc){
+	wloc=getCityWeatherID(loc);
+}
+
+//定制地方新闻
+var addr = new Array("ah","hlj","sd","bj","hubei","sx","fj","hunan","shanxi","gs","jl","sh","gd","js","sc","gx","jx","tj","guizhou","ln","xz","hainan","nmg","xj","hb","nx","yn","henan","qh","zj","cq");
+function getCityPage(aCity){
+	for(i=0;i<city.length;i++){
+		if(city[i]==aCity){
+			return "/inc/163new/" + addr[i] + "to163.html";
+		}
+	}
+	return "/inc/163new/bjto163.html";
+}
+function getLNewsHomeByCityName(aCity){
+	for(i=0;i<city.length;i++){
+		if(city[i]==aCity){
+			return "http://" + addr[i] + ".news.163.com";
+		}
+	}
+	return "http://bj.news.163.com";
+}
+function setLocNews(locstr){
+	var l=getElement("locbar");
+	l.setAttribute("href",getLNewsHomeByCityName(locstr));
+	l.setAttribute("urn",getCityPage(locstr));
+	l.innerHTML=locstr+"新闻";
+}
+function showLocSelect()
+{
+	var locdiv=getElement("locListDiv");
+	if(locdiv.style.display=="block"){
+		locdiv.style.display="none";
+		return;
+	}
+	locdiv.style.display="block";
+	var locs=locdiv.getElementsByTagName("li");
+	for(var i=0;i<locs.length;i++)
+	{
+		var theloc=locs[i];
+			theloc.onmouseover=function(){
+				this.style.backgroundColor="#A0AAC8"
+			}
+			theloc.onmouseout=function(){
+				this.style.backgroundColor="#F2F6FB"
+			}
+			theloc.onclick=function(){
+				var locstr=this.innerHTML;
+				if (locstr.indexOf(" ")!=-1) locstr=locstr.substr(0,locstr.indexOf(" ")); //fixbug 在IE下多出一个空格
+				SetCookie("NTES_LocNewsAddr",locstr,365);
+				setLocNews(locstr);
+				hideLocSelect();
+				var l=getElement("locbar");
+				loadAJAXTab(l.getAttribute("urn"),l.getAttribute("rel"));			
+			}
+	}
+}
+function hideLocSelect()
+{	
+	getElement("locListDiv").style.display="none";
+}
+document.onmousedown=function(aEvent){
+	var myEvent = window.event ? window.event : aEvent;
+	var lo=getElement("locListDiv");
+	if(!IsChild(myEvent.srcElement,lo))hideLocSelect();
+}
+//]]>
+</script>
+</head>
+<body>
+<!-- 通行证登录 -->
+<div class="passport">
+<form id="login" name="login" method="post" action="https://reg.163.com/logins.jsp" target="_self" onsubmit="return loginSubmit(this);">
+<input type="hidden" name="product" value="163" /><input type="hidden" name="type" value="1" />
+<div class="s1"><a href="http://reg.163.com/reg0.shtml">注册</a> <a href="http://reg.163.com">通行证</a>|<a href="http://www.126.com/index.htm?from=163sy3">邮箱</a></div>
+<div class="s1"><label for="userName">用户名</label></div>
+<div class="s2"><input id="userName" name="username" /></div>
+<div class="s1"><label for="password">密码</label></div>
+<div class="s2"><input id="password" name="password" type="password" /></div>
+<div class="s2"><select id="loginSelect"   onkeydown="enterSubmit(event)"><option value="网易通行证" selected="selected">网易通行证</option><option value="163邮箱">163邮箱</option><option value="126邮箱">126邮箱</option><option value="VIP邮箱">VIP邮箱</option><option value="188财富邮">188财富邮</option><option value="Yeah邮箱">Yeah邮箱</option><option value="Netease邮箱">Netease邮箱</option></select></div>
+<div class="s3">
+<input type="submit" value="登录" /> 
+</div>
+</form>
+<div class="s1"><a href="http://mail.163.com/">免费邮</a> <a href="http://vip.163.com">VIP邮箱</a> <a href="http://www.188.com/">188财富邮</a> 一卡通：<a href="http://pay.163.com/">充值中心</a> <a href="http://ecard.163.com/">在线购买</a></div>
+</div>
+<!-- 导航 -->
+<div class="globalMenu">
+<div class="title">
+  <a href="http://www.163.com"><img src="http://images.163.com/homepage/logo.gif" alt="网易" width="111" height="36" border="0" /></a>
+</div>
+<div class="mail">
+  <a href="http://www.126.com/index.htm?from=163sy1"><span>注册3G免费邮箱</span></a>
+</div>
+<div class="content">
+<ul>
+<li><a href="http://news.163.com/">新闻</a></li>
+<li><a href="http://sports.163.com/">体育</a> </li>
+<li><a href="http://sports.163.com/nba/">NBA</a> </li>
+<li><a href="http://ent.163.com/">娱乐</a> </li>
+<li><a href="http://ent.163.com/people/">明星</a> </li>
+<li><a href="http://money.163.com/">财经</a> </li>
+<li><a href="http://tech.163.com/">科技</a> </li>
+<li><a href="http://auto.163.com/">汽车</a> </li>
+<li><a href="http://mobile.163.com/">手机</a> </li>
+<li><a href="http://lady.163.com/">女人</a> </li>
+<li><a href="http://nie.163.com/">游戏</a> </li>
+<li><a href="http://war.163.com/">军事</a> </li>
+<li><a href="http://discover.163.com/">探索</a> </li>
+<li><a href="http://news.163.com/photo/">图片</a> </li>
+<li class="s"><a href="http://blog.163.com/?fromNavigation ">博客</a> </li>
+<li><span id="locnews"></span> </li>
+<li><a href="http://2008.163.com/ ">奥运</a> </li>
+<li><a href="http://sports.163.com/yc/">英超</a> </li>
+<li><a href="http://ent.163.com/movie/">电影</a> </li>
+<li><a href="http://biz.163.com/">商业</a> </li>
+<li><a href="http://money.163.com/stock/">证券</a> </li>
+<li><a href="http://money.163.com/fund/">基金</a> </li>
+<li><a href="http://auto.163.com/product/">车型</a> </li>
+<li><a href="http://digi.163.com/">数码</a> </li>
+<li><a href="http://lady.163.com/attractive/">时尚</a> </li>      
+<li><a href="http://lady.163.com/sense/">情爱</a> </li>       
+<!--<li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=81446&AdID=83085&TargetID=510&Values=31,43,51,60,72,83,91,100,110,312,330,332,515,594,702,733,734&Redirect=http://163.1010job.com/"><span class="cDRed">招聘</span></a> </li>-->
+<li><a href="http://history.163.com/">历史</span></a> </li>
+<li><a href="http://orz.163.com/">播吧</a> </li>       
+<li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=82802&AdID=84411&TargetID=510&Values=31,43,51,60,72,83,91,100,110,312,330,332,515,585,702,733,734&Redirect=http://maga.moka.cn/">杂志</a> </li>
+<li class="s"><a href="http://bbs.163.com">论坛</a> </li>
+</ul>
+</div>
+</div>
+<script type="text/javascript">//<![CDATA[
+function Get(namex){
+  var cookieString = new String(document.cookie)
+  var cookieHeader = namex + "="
+  var beginPosition = cookieString.indexOf(cookieHeader)
+  if (beginPosition != -1){
+    cookieString = cookieString.substring(beginPosition + cookieHeader.length);
+    if (cookieString.indexOf(";")>-1){
+ cookieString = cookieString.substring(0, cookieString.indexOf(";"));
+    }
+    return unescape(cookieString);
+  }
+  return "";
+}
+var loc_title =Get("NTES_LocNewsAddr");
+if(loc_title==""){
+loc_title =Get("theaddr");
+}
+if (loc_title=="")
+{
+  document.write("<script type='text/javascript' src='http://202.108.39.152/ipquery'><" + "/script>");
+}
+var loc_url = getLNewsHomeByCityName(loc_title);
+//alert (loc_title);
+//alert (loc_url);
+if (loc_title =="黑龙江"){
+document.getElementById("locnews").innerHTML = "<a href=http://hlj.news.163.com/>黑省</a>";
+}else if (loc_title =="内蒙古"){
+document.getElementById("locnews").innerHTML = "<a href=http://nmg.news.163.com/>本地</a>";
+}else{
+document.getElementById("locnews").innerHTML = "<a href="+ loc_url +">"+loc_title+"</a>";
+}
+//]]></script>
+<!-- 通栏1 -->
+<div class="ad750">
+<iframe id="icast_ifm" name="icast_banner" src="http://adclient.163.com/html.ng/site=netease&affiliate=homepage&cat=homepage&type=column&location=1" width="750" height="90" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no" ></iframe>
+
+</div>
+<!-- 内容开始 -->
+<div class="area">
+<!-- left -->
+<div class="col1">
+<!-- 网易产品 -->
+<div class="neteaseProduct">
+<div class="list">
+<div class="s1"><h5 class="bg1">通讯</h5></div>
+<div class="s2">
+<a href="http://mail.163.com">3G免费邮箱</a> <a href="http://www.126.com/index.htm?from=163sy2"><span class="cDRed">126免费邮</span></a> <a href="http://www.188.com/">188财富邮</a> <a href="http://music.163.com/index.html?pagetype=cl">彩铃</a> <a href="http://music.163.com/index.html?pagetype=mp3"><span class="cDRed">手机mp3</span></a>   <a href="http://popo.163.com/">POPO</a></div>
+
+</div>
+<div class="list">
+<div class="s1"><h5 class="bg2">娱乐</h5></div>
+<div class="s2">
+<a href="http://xyq.163.com/">梦幻西游</a> <a href="http://xy2.163.com/">大话Ⅱ</a> <a href="http://dt.163.com/">大唐豪侠</a> <a href="http://tx2.163.com/"><span class="cDRed">天下贰</span></a> <a href="http://love.163.com/">交友</a> <a href="http://idate.163.com/">约会</a> <a href="http://minisite.163.com/2006/0725/hp/">艺述客</a></div>
+</div>
+<div class="list">
+<div class="s1"><h5 class="bg3">服务</h5></div>
+<div class="s2">
+<a href="http://blog.163.com/?fromService "><span class="cDRed">博客</span></a> <a href="http://so.163.com/">搜索</a> <a href="http://photo.163.com/">免费相册</a> <a href="http://alumni.163.com/">同学录</a> <a href="http://mm.163.com/">非常男女</a> <a href="http://chat.163.com/">聊天</a> <a href="http://help.163.com/"><span class="cDRed">帮助</span></a> <a href="http://cards.163.com/">贺卡</a></div>
+</div>
+<div class="list bg">
+<div class="s1"><h5 class="bg4">推荐</h5></div>
+<div class="s2">
+<a href="http://classad.163.com/">分类</a> <a href="http://114.163.com/">黄页</a> <a href="http://co.163.com/">土木在线</a> <a href="http://vip.163.com/">VIP邮箱</a> <a href="http://biz.163.com/">商业</a> <a href="http://adclient.163.com/event.ng/Type=click&FlightID=87491&AdID=89003&TargetID=510&Values=31,43,51,60,72,84,90,100,110,312,330,332,515,582,733,734&Redirect=http://netease.englishtown.com/master/home/interstitial/LandingForm.asp%3Fctr%3Dcn%26lng%3Dcs%26%2520partner%3DNone%26etag%3DE04925">免费英语</a> <a href="http://club.163.com/">社区</a>
+</div>
+</div>
+</div>
+
+<div class="blankW9"></div>
+<!-- 个性区域 -->
+<div class="personality">
+<!-- login -->
+<script type="text/javascript">
+//<![CDATA[
+var __c = document.cookie;
+var __b = false;
+var __s = __c.indexOf('NTES_SESS');
+if(__s>-1){
+	var __a = __c.match(/NETEASE\_ADV=[&0-9]+&([0-9]+);/);
+	if(__a!=null){
+	   __t = __a[1]*1 + 25*60*1000;
+	   __n = (new Date()).getTime();
+	   if(__n>0 && __t >__n){__b=true;}
+	}	
+}
+if(__b){
+	document.write('<div class="login_w"><div class="text"><ul><li><iframe id="iframe_email" name="iframe_email" frameborder="0" scrolling="no" src="http://murs.163.com/coremail/fcg/ntesdoor2?funcid=getusrnewmsgcnt&fid=1&addSubFdrs=1&language=0&style=0&template=newmsgres_numnew.htm" height="100%" width="100%"></iframe></li></ul></div><div id="div_weather" class="weather" onmouseover="weather_on()" onmouseout="weather_off()"></div></div>');weather_init();}
+else{document.write('<div class="login"><div class="text"><ul><li><iframe src="#" style="display:none;"></iframe><a href="http://mail.163.com"><img src="http://cimg2.163.com/cnews/163/img4/3g.gif" alt="mail" width="24" height="16" border="0" /></a>  <a href="http://mail.163.com">请登录163邮箱</a> </li></ul></div><div id="div_weather" class="weather"></div></div>');}
+weather(wloc);
+//]]>
+</script>
+<!-- search -->
+<div class="search">
+<form id="soForm" method="get" onsubmit="soComm(this)">
+<ul>
+<li><span class="cBlack"><label for="q"><a href="http://so.163.com/">搜索</a>：</label></span>  <input id="q" name="q" maxlength="60" class="s1" />   
+  <select name="url" class="s2">
+	<option value="http://cha.so.163.com/so.php?key=001001287001">综合</option>
+               <option value="http://news.so.163.com/newsSearch.jsp?key=001001310009">新闻</option>
+	<option value="http://page.so.163.com/psearch.php?key=001001009001">网页</option>	
+	<option value="http://pic.so.163.com/picSearch.php?key=001001012002">图片</option>
+                <option value="http://dic.so.163.com/s.php?key=001001366010">字典</option>
+	<option value="http://yso.163.com/newSearch">黄页</option>
+</select>
+
+  <input  type="submit" value="搜 索" class="s3" /> <a href="#" onclick="soCar('soForm');return false;">e路通</a>
+    <input type="hidden" name="c" value="25" />
+  <input type="hidden" name="source" value="163" />
+  <input type="hidden" name="word" />
+  <input type="hidden" name="keyWord" />
+</li>
+<li>
+<script language="Javascript"> 
+<!--
+
+var if_show_ad = GetCookie("_ntes_show_ad");
+if (if_show_ad == "") {
+        if_show_ad = Math.random();
+        SetCookie("_ntes_show_ad", if_show_ad, 365);
+}
+
+if (if_show_ad < 0.4 && if_show_ad >= 0.15) {
+       document.write("<a href=\"http://blog.yodao.com/\"><span class=\"cDRed\">尽搜博客观点：</span></a> <a href=\"http://blog.yodao.com/search?q=%E9%AB%98%E8%80%8330%E5%B9%B4&t=a&keyfrom=163index\">高考30年</a> <a href=\"http://blog.yodao.com/search?q=%E4%B8%AD%E5%9B%BD%E8%82%A1%E5%B8%82&t=a&keyfrom=163index\">中国股市</a> <a href=\"http://blog.yodao.com/search?q=%E5%8A%A0%E5%8B%92%E6%AF%94%E6%B5%B7%E7%9B%973&t=a&keyfrom=163index\">加勒比海盗3</a> <a href=\"http://blog.yodao.com/search?q=%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%B8%AD%E4%BA%BA&t=a&keyfrom=163index\">红楼梦中人</a> <a href=\"http://blog.yodao.com/search?q=%E5%BF%AB%E4%B9%90%E7%94%B7%E5%A3%B0&t=a&keyfrom=163index\">快乐男声</a> <a href=\"http://blog.yodao.com/search?q=%E8%A5%BF%E7%94%B2&keyfrom=163index\">西甲</a>");
+}
+else {
+       document.write("<span class=\"cBlack\">热门搜索</span>：<a href=\"http://news.so.163.com\">新闻360°</a> <a href=\"http://cha.so.163.com/so.php?key=001001006&q=%CA%E4%CB%CD%BB%FA\">输送机</a> <a href=\"http://cha.so.163.com/so.php?key=001001006&q=%D5%FB%D0%CE\">整形</a> <a href=\"http://cha.so.163.com/so.php?key=001001006&q=%C6%BD%B0%E5\">平板</a> <a href=\"http://cha.so.163.com/so.php?key=001001006&q=%BB%FA%C6%B1\">机票</a> <a href=\"http://cha.so.163.com/so.php?key=001001006&q=%D6%D0%B9%FA%C2%E3%C1%C4%B5%E7%D3%B0%CD%F8\">中国聊天网</a> <a href=\"http://cha.so.163.com/so.php?key=001001006&q=%C6%BD%CC%A8\">平台</a> <a href=\"http://cha.so.163.com/so.php?key=001001006&q=%CA%D6%BB%FA\">手机</a> <a href=\"http://cha.so.163.com/so.php?key=001001006&q=%D6%E1%B3%D0\">轴承</a> ");
+}
+//-->
+</script>
+
+</li>
+
+</ul>
+</form>
+</div>
+<!-- newMessage -->
+<div class="newMessage">
+<ul>
+<li><span class="cDRed">最新消息： </span><a href="http://adclient.163.com/event.ng/Type=click&FlightID=88374&AdID=89860&TargetID=510&Values=31,43,51,60,72,81,92,100,110,312,330,332,515,589,702,733,734&Redirect=http://www.pizzahut.com.cn/phcda/promotion/afternoonTea.aspx"><span class="cDRed">超值</span>下午茶,<span class="cDRed">美味</span>随心搭</a> <a href="http://adfarm.mediaplex.com/ad/ck/4080-35044-9511-27?cn=netease;textlink070612;lp;bra&mpro=http://pages.ebay.com.cn/landing/bra.html">爆料:女人秘笈公开</a>  <a href="http://adclient.163.com/event.ng/Type=click&FlightID=86775&AdID=88298&TargetID=510&Values=31,43,51,60,72,85,91,100,110,312,330,332,515,586,702,733,734&Redirect=http://ad.bitauto.com:80/adsunion/lnk/;ik%3D4655377e37aab;pl%3Dpl-414-45455;/%3Fhttp://www.faw-benteng.com/into/newsinto.aspx%3FNID%3D276">百辆奔腾穿“政”装</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="blankW9"></div>
+<!-- 新闻 -->
+<div class="leftContent leftHeight3">
+<div class="menu" id="tabzero">
+<ul>
+<li class="active"><h5><a href="http://news.163.com/" urn="#default_news" rel="zeroarea">新闻</a></h5></li>
+<li class="normal"><h5><a href="http://news.163.com/photo/" urn="/inc/163new/n_to163photo.html" rel="zeroarea">图片新闻</a></h5></li>
+<li class="normal"><h6><a href="#" id="locbar" urn="/inc/163new/news1.html" rel="zeroarea">广东</a></h6>
+<span style="position:relative; "><a href="javascript:showLocSelect();" target="_self">订制本地</a>
+<div id="locListDiv" class="placeList">
+<div class="titleT"><h5>点击省份名称，订制您想要的本地新闻</h5></div>
+<div class="contentT">
+<ul>
+<li>北京</li>
+<li>广东</li>
+<li>上海</li>
+<li>山东</li>
+<li>江苏</li>
+<li>四川</li>
+<li>浙江</li>
+<li>河南</li>
+<li>辽宁</li>
+<li>陕西</li>
+<li>湖北</li>
+<li>湖南</li>
+<li>福建</li>
+<li>重庆</li>
+<li>安徽</li>
+<li>河北</li>
+<li>山西</li>
+<li>广西</li>
+<li>江西</li>
+<li>甘肃</li>
+<li>天津</li>
+<li>贵州</li>
+<li>吉林</li>
+<li>海南</li>
+<li>云南</li>
+<li>新疆</li>
+<li>宁夏</li>
+<li>青海</li>
+<li>西藏</li>
+<li>黑龙江</li>
+<li>内蒙古</li>
+</ul>
+</div>
+</div>
+</span></li>
+</ul>
+</div>
+<script type="text/javascript">
+var c_newsloc = GetCookie("NTES_LocNewsAddr");
+if(!c_newsloc) setLocNews(loc);
+	else setLocNews(c_newsloc);
+</script>
+<div class="content" id="zeroarea">
+<div class="col w1">
+<div class="pic">
+  <a href="http://news.163.com/07/0618/10/3H90MK1F0001124J.html"><img src="http://cimg2.163.com/cnews/2007/6/18/20070618135832eb397.jpg" alt="河北涉黑集团使用装甲车敲诈" width="160" height="120" border="0" /></a>
+  <h6><a href="http://news.163.com/07/0618/10/3H90MK1F0001124J.html">河北涉黑集团使用装甲车敲诈</a></h6>
+</div>
+<div class="listText">
+<a href="http://news.163.com/special/000121E2/review.html">评论</a>·<a href="http://bbs.163.com/">论坛</a>
+<br /><a href="http://news.163.com/07/0618/08/3H8ODIGA000121EP.html">中国环境政治中的三方角力</a>
+<br /><a href="http://news.163.com/07/0618/08/3H8PE798000121EP.html"></a>
+<br /><a href="http://bbs.culture.163.com/ltgch/265257,1.html">端午节应该是反腐败教育日</a>
+<br /><a href="http://bbs.163.com/shishi/3920473,2.html">端午将至,过期粽子吃了没?</a>
+</div>
+</div>
+<div class="col w2">
+<h4><a href="http://news.163.com/07/0617/20/3H7EG5KQ000120GU.html">财政部拟发放贫困生肉价补贴</a></h4>
+<p>国家出台系列措施调控肉价，财政部拟在6月底前对贫困学生和低保户发放肉价补贴。</p>
+<div class="list">
+<ul>
+<li><a href="http://money.163.com/07/0618/09/3H8Q261A00251LIE.html">重庆直辖10周年庆典收3000亿元"大礼包"</a></li>
+<li><a href="http://news.163.com/07/0617/21/3H7H2FPF000120GU.html">龙永图：每个人都想买房的观念非常错误</a></li>
+<li><a href="http://news.163.com/07/0618/02/3H84EURN0001124J.html">山西黑砖窑真相:地方有关部门事先知情</a></li>
+<li><a href="http://news.163.com/07/0618/13/3H98N1OM00011229.html">兰州城管1小时伤4人 摊主耳朵被撕裂(图)</a></li>
+<li><a href="http://news.163.com/07/0618/13/3H9ACLFH0001124J.html">日媒称日本自卫队与台湾建立秘密热线</a></li>
+<li><a href="http://news.163.com/07/0618/04/3H8A8O5000011229.html">付笛声夫妇参加演出险被泼“妇X洁”(图)</a></li>
+<li><a href="http://gd.news.163.com/">广东河源40万救灾款建桥2月就垮了(图)</a></li>
+<li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=87562&AdID=89072&TargetID=510&Values=31,43,51,60,72,84,92,100,110,312,330,332,515,589,702,733,734&Redirect=https://www.ascc.com.cn/feedback/Cusomer_Feedback.aspx">[商讯]免费获得美标卫浴设计指南</a></li>
+</ul>
+</div>
+<div class="more">
+<span><a href="http://news.163.com/">更多热点新闻</a></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- right -->
+<div class="col2">
+<!-- ad300*120 -->
+<div><iframe id="iframe_banner2" name="iframe_banner2" src="http://adclient.163.com/html.ng/site=netease&affiliate=homepage&cat=homepage&type=logo300120&location=1" width="300" height="120" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+<div class="blankW9"></div>
+<!-- 分类信息 -->
+<div class="adMenu" id="adMenu">
+<ul>
+<li class="active"><h6><a  urn="#default_Info" rel="adListContent1">资讯</a></h6></li>
+<li class="normal"><h6><a urn="adList_Edu" rel="adListContent1">教育</a></h6></li>
+<li class="normal"><h6><a urn="adList_House" rel="adListContent1">房产</a></h6></li>
+<li class="normal"><h6><a urn="adList_Bnz" rel="adListContent1">招商</a></h6></li>
+<li class="normal"><h6><a urn="adList_Bid" rel="adListContent1">拍卖</a></h6></li>
+</ul>
+</div>
+<div class="rightContent rightLine1 rightHeight">
+<div id="adListContent1"><div class="list">
+<ul>
+<li><a href="http://quanshiafa.allyes.com/main/adfclick?db=quanshiafa&bid=2428,2389,185&cid=3109,536,1&sid=6580&advid=34&camid=198&show=ignore&url=http://b2b.hc360.com/member/ad_proxy_898.html?returnurl=http://www.hc360.com/shop/mnzf2007.html">诱惑比基尼<span class="cDRed">特价28元</span></a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=88376&AdID=89861&TargetID=510&Values=31,43,51,60,72,81,92,100,110,312,330,332,515,589,702,733,734&Redirect=http://news.163.com/07/0611/14/3GNCPB5G0001125P.html">驰名商标或将<span class="cDRed">“摘牌”</span></a></li><li><a href="http://159.226.203.163/NetSurvey?PrCodes=BzBCCAeweZGxIVjUmskr">参加互联网调查赢大奖</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=53164&AdID=55150&TargetID=510&Values=31,43,51,60,72,78,83,91,100,110,312,330,332,515,594,702,733,734&Redirect=http://co.163.com/neteaseivp/zhuanti/200704092892/index.htm">室内装修知识宝典</a></li><li><a href="http://biz.163.com/special/000223MS/boss_blog.html">有品位的老板都写博客</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=53182&AdID=55168&TargetID=510&Values=31,43,51,60,72,78,83,91,100,110,312,330,332,515,594,702,733,734&Redirect=http://co.163.com/neteaseivp/zhuanti/job20070607/">网易土木在线诚聘英才</a></li>
+</ul>
+</div>
+<div class="list">
+<ul>
+<li><a href="http://666.89178.com/index_163_2.htm">做别人没想到的好<span class="cDRed">生意</span></a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=53180&AdID=55165&TargetID=510&Values=31,43,51,60,72,78,83,91,100,110,312,330,332,515,594,702,733,734&Redirect=http://money.163.com/07/0607/15/3GD4O2ME002524UB.html">126逍遥3.0全新登场</a></li><li><a href="http://tech.163.com/special/000929S1/net36ji.html">中国网络江湖三十六计</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=53170&AdID=55156&TargetID=510&Values=31,43,51,60,72,78,83,91,100,110,312,330,332,515,594,702,733,734&Redirect=http://hr-for163.blog.163.com/blog/static/17132565200742211027339/">网易网站诚聘人事专员</a></li><li><a href="http://hr.163.com">网易招聘Java工程师</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=53165&AdID=55151&TargetID=510&Values=31,43,51,60,72,78,83,91,100,110,312,330,332,515,594,702,733,734&Redirect=http://sports.163.com/yc/">关注曼联 关注英超</a></li>
+</ul>
+</div></div>
+<div id="adList_Edu" style="display:none"><div class="list">
+<ul>
+<li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=83019&AdID=84618&TargetID=510&Values=31,43,51,60,72,81,90,100,110,312,330,332,515,581,733,734&Redirect=http://www.qinzhe.com/chinese/index.htm">中国推出了Excel服务器</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=83020&AdID=84619&TargetID=510&Values=31,43,51,60,72,81,90,100,110,312,330,332,515,581,733,734&Redirect=http://www.onlyi.com.cn/newweb/07new_wangyi.htm">分类英语在线免费学！</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=83021&AdID=84620&TargetID=510&Values=31,43,51,60,72,85,92,100,110,312,330,332,515,589,702,733,734&Redirect=http://www.btesting.com/">软件测试—黄金职业！</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=83023&AdID=84621&TargetID=510&Values=31,43,51,60,72,81,90,100,110,312,330,332,515,582,733,734&Redirect=http://www.elight.net.cn/">育灵童2007国学夏令营</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=83024&AdID=84623&TargetID=510&Values=31,43,51,60,72,81,90,100,110,312,330,332,515,581,733,734&Redirect=http://www.chengcai.net/zhaosheng/07gaoxiao/%3Ffid%3D7429">全国名牌高校联合扩招</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=83025&AdID=84624&TargetID=510&Values=31,43,51,60,72,81,90,100,110,312,330,332,515,581,733,734&Redirect=http://gz.chengcai.net/2007edu/0615zd/zdzs.htm">中山大学远程教育招生</a></li>
+</ul>
+</div>
+<div class="list">
+<ul>
+<li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=83026&AdID=84625&TargetID=510&Values=31,43,51,60,72,85,92,100,110,312,330,332,515,589,702,733,734&Redirect=http://www.longre.com">高中生PK雅思高分</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=83027&AdID=84626&TargetID=510&Values=31,43,51,60,72,81,90,100,110,312,330,332,515,581,733,734&Redirect=http://www.ielts.com.cn">环球雅思托福火火火！</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=83028&AdID=84627&TargetID=510&Values=31,43,51,60,72,81,90,100,110,312,330,332,515,582,733,734&Redirect=http://www.dellenglish.com/international/index.htm">07戴尔国际夏令营热招</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=83029&AdID=84628&TargetID=510&Values=31,43,51,60,72,81,90,100,110,312,330,332,515,582,733,734&Redirect=http://www.edu24ol.com/">职称外语/经济师/造价</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=83031&AdID=84630&TargetID=510&Values=31,43,51,60,72,81,90,100,110,312,330,332,515,582,733,734&Redirect=http://www.chengcai.net/zhaosheng/07kehu/0609yashen">高中生升学首选！！！</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=83033&AdID=84631&TargetID=510&Values=31,43,51,60,72,81,91,100,110,312,330,332,515,587,702,733,734&Redirect=http://www.chengcai.net/default/%3Ffid%3D324860">2007全国招生考试政策</a></li>
+</ul>
+</div></div>
+<div id="adList_House" style="display:none"><div class="list">
+<ul>
+<li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=87075&AdID=88593&TargetID=510&Values=31,43,51,60,72,81,91,100,110,312,330,332,515,586,702,733,734&Redirect=http://www.sunhome.com.cn">琴湖湾Ⅱ组团澎湃开盘</a></li><li><a href="http://159.226.203.163/NetSurvey?PrCodes=BzBCCAeweZGxIVjUmskr">参加互联网调查赢大奖</a></li><li><a href="http://hr-for163.blog.163.com/blog/static/17132565200751541430296/">网易娱乐诚聘策划主编</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=53167&AdID=55153&TargetID=510&Values=31,43,51,60,72,78,83,91,100,110,312,330,332,515,594,702,733,734&Redirect=http://fever.lady.163.com/">酒色艳遇，蜜糖色诱惑</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=82978&AdID=84581&TargetID=510&Values=31,43,51,60,72,85,91,100,110,312,330,332,515,587,702,733,734&Redirect=http://www.foloda.com/">房老大 老婆老二我老三</a></li><li><a href="http://mail.163.com">1.9亿网民的共同选择</a></li>
+</ul>
+</div>
+<div class="list">
+<ul>
+<li><a href="http://sports.163.com/07/0615/13/3H1GGHGM00051CA1.html">马刺夺冠伊娃激吻帕克</a></li><li><a href="http://q.163.com/zhub/">媒体主编圈聚一堂</a></li><li><a href="http://survey.163.com/survey/survey/mop/survey.php">我们为什么玩游戏？</a></li><li><a href="http://auto.163.com/">最具性价比网上车库</a></li><li><a href="http://hr.163.com/job.php?jobid=88">网易诚招市场推广经理</a></li><li><a href="http://fever.lady.163.com/">音乐试听：恋上你的床</a></li>
+</ul>
+</div></div>
+<div id="adList_Bnz"  style="display:none"><div class="list">
+<ul>
+<li><a href="http://xyq.163.com/2007/dj_music">首款游戏电台节目</a></li><li><a href="http://ent.163.com/rank/">娱乐新闻点击排行榜</a></li><li><a href="http://cards.163.com/">最精美的电子贺卡</a></li><li><a href="http://hr.163.com/job.php?jobid=72">招聘人力资源经理</a></li><li><a href="http://xyq.163.com/activity/q4/">梦幻话筒交给真正主角</a></li><li><a href="http://go.ent.163.com/index.html">快来寻找明星老乡</a></li>
+</ul>
+</div>
+<div class="list">
+<ul>
+<li><a href="http://finance.163.com/06/1231/11/33LU2EEJ00251VHM.html">股市大涨该什么赚钱？</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=53177&AdID=55163&TargetID=510&Values=31,43,51,60,72,78,83,91,100,110,312,330,332,515,594,702,733,734&Redirect=http://hr.163.com/job.php?jobid=86">聘高级网页美术设计师</a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=53175&AdID=55161&TargetID=510&Values=31,43,51,60,72,78,83,91,100,110,312,330,332,515,594,702,733,734&Redirect=http://cards.163.com/draw_show/">菜鸟自制贺卡送心上人</a></li><li><a href="http://hr.163.com/">网易招聘Java工程师 </a></li><li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=53166&AdID=55152&TargetID=510&Values=31,43,51,60,72,78,83,91,100,110,312,330,332,515,594,702,733,734&Redirect=http://popogame.163.com/fjxy/">梦幻西游版大富翁</a></li><li><a href="http://ent.163.com/special/000327U7/yangchenglin.html">杨丞琳向全国人民道歉</a></li>
+</ul>
+</div></div>
+<div id="adList_Bid" style="display:none"><div class="adPicList">
+<ul>
+<li><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;lp;mobile&mpro=http://pages.ebay.com.cn/landing/mobile.html" target="_blank"><img src="http://adimg.163.com/channel5/ebaycpc/mobile.gif" alt="ad" width="50" height="50" border="0" /></a><h6><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;lp;mobile&mpro=http://pages.ebay.com.cn/landing/mobile.html" target="_blank">特价手机</a></h6></li>
+<li><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;kw;2&mpro=http://camera.search.ebay.com.cn/_W0QQsacatZ74823QQsatitleZQ2dQe8QafQbbQQsbrftogZ1QQsofocusZbsQQhkwZ1QQsaprchiZ75&hkw=1&mkw=" target="_blank"><img src="http://adimg.163.com/channel5/ebaycpc/card.gif" alt="ad" width="50" height="50" border="0" /></a><h6><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;kw;2&mpro=http://camera.search.ebay.com.cn/_W0QQsacatZ74823QQsatitleZQ2dQe8QafQbbQQsbrftogZ1QQsofocusZbsQQhkwZ1QQsaprchiZ75&hkw=1&mkw=" target="_blank">闪存卡</a></h6></li>
+<li><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;lpe;cheap&mpro=http://specials.ebay.com.cn/audio" target="_blank"><img src="http://adimg.163.com/channel5/ebaycpc/mp3.gif" alt="ad" width="50" height="50" border="0" /></a><h6><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;lpe;cheap&mpro=http://specials.ebay.com.cn/audio" target="_blank">低价mp3</a></h6></li>
+<li><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;kw;4&mpro=http://search-desc.ebay.com.cn/ws/search/SaleSearch?catref=C5&fcl=3&few=%E8%A1%A8+%E6%89%8B%E8%A1%A8&from=R7&frpp=50&fsoo=2&fsop=28&fss=0&fswc=1&fts=2&ga10244=10425&hkw=1&mkw=%E7%8F%A0%E5%AE%9D&nojspr=y&saatc=45&sacat=281&sacqyop=ge&sacur=14&saprchi=38&sascs=1&saslop=1&saobs=55qE&sofindtype=28&sofocus=bs&" target="_blank"><img src="http://adimg.163.com/channel5/ebaycpc/jewel.gif" alt="ad" width="50" height="50" border="0" /></a><h6><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;kw;4&mpro=http://search-desc.ebay.com.cn/ws/search/SaleSearch?catref=C5&fcl=3&few=%E8%A1%A8+%E6%89%8B%E8%A1%A8&from=R7&frpp=50&fsoo=2&fsop=28&fss=0&fswc=1&fts=2&ga10244=10425&hkw=1&mkw=%E7%8F%A0%E5%AE%9D&nojspr=y&saatc=45&sacat=281&sacqyop=ge&sacur=14&saprchi=38&sascs=1&saslop=1&saobs=55qE&sofindtype=28&sofocus=bs&" target="_blank">进口饰品</a></h6></li>
+<li><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;kw;5&mpro=http://search.ebay.com.cn/_W0QQsacatZ11450QQsaprchiZ50QQsaprcloZ30QQsatitleZQ28Qe5Qa4Q96Qe8Qb4Qb8Q2cQe5Q87QbaQe5Q8fQa3Q2cQe5Q8eQ9fQe5Q8dQ95Q29QQhkwZ1" target="_blank"><img src="http://adimg.163.com/channel5/ebaycpc/fashion.gif" alt="ad" width="50" height="50" border="0" /></a><h6><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;kw;5&mpro=http://search.ebay.com.cn/_W0QQsacatZ11450QQsaprchiZ50QQsaprcloZ30QQsatitleZQ28Qe5Qa4Q96Qe8Qb4Qb8Q2cQe5Q87QbaQe5Q8fQa3Q2cQe5Q8eQ9fQe5Q8dQ95Q29QQhkwZ1" target="_blank">夏日美衣</a></h6></li>
+</ul>
+</div>
+
+
+
+
+<div class="adTextList">
+<ul>
+<li><h6><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;lp;01&mpro=http://specials.ebay.com.cn/1yuan"><img src="http://adimg.163.com/channel5/ebaycpc/1yuan.gif" alt="ad" width="20" height="19" border="0" /></a></h6><span><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;lp;01&mpro=http://specials.ebay.com.cn/1yuan" target="_blank">1元起拍</a></span></li>
+<li><h6><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;lp;b4s&mpro=http://pages.ebay.com.cn/landing/daigou.html"><img src="http://adimg.163.com/channel5/ebaycpc/abroad.gif" alt="ad" width="20" height="19" border="0" /></a></h6><span><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;lp;b4s&mpro=http://pages.ebay.com.cn/landing/daigou.html" target="_blank">国内外代购</a></span></li>
+<li><h6><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;kw;cargo&mpro=
+http://search.ebay.com.cn/search/search.dll?&satitle=&#25652;&#25779;&#29928;%20-&#38344;?-&#38346;&#9539;&#22679;%20-&#37919;&#28848;&#38468;%20-&#38009;&#28844;&#29304;%20-&#37826;&#29256;&#57561;%20-&#38334;?-&#25652;&#26944;&#21812;%20-&#38005;&#35268;&#37108;&hkw=1&mkw=&#37911;&#36891;&#29615;&#25652;&#25779;&#29928;&#23059;&#21612;&#31912;&fsoo=1&fsop=1&frpp=200"><img src="http://adimg.163.com/channel5/ebaycpc/kc.gif" alt="ad" width="20" height="19" border="0" /></a></h6><span><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;kw;cargo&mpro=http://search.ebay.com.cn/search/search.dll?&satitle=&#25652;&#25779;&#29928;%20-&#38344;?-&#38346;&#9539;&#22679;%20-&#37919;&#28848;&#38468;%20-&#38009;&#28844;&#29304;%20-&#37826;&#29256;&#57561;%20-&#38334;?-&#25652;&#26944;&#21812;%20-&#38005;&#35268;&#37108;&hkw=1&mkw=&#37911;&#36891;&#29615;&#25652;&#25779;&#29928;&#23059;&#21612;&#31912;&fsoo=1&fsop=1&frpp=200" target="_blank">库存清仓</a></span></li>
+<li><h6><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;kw;specel&mpro=http://search.ebay.com.cn/ws/search/SaleSearch?catref=C5&fcl=3&from=R7&frpp=25&fsoo=1&fsop=1&fss=0&fswc=1&ga10244=10425&hkw=1&mkw=&#28051;&#25780;&#29014;&#37725;&#20345;&#22694;&#37814;&#27196;&#20793;&#37719;?nojspr=y&sacat=-1&sacqyop=ge&sacur=0&sascs=1&saslc=0&saslop=1&saobs=5LiT5p+c&sofindtype=28&sofocus=bs&"><img src="http://adimg.163.com/channel5/ebaycpc/discount.gif" alt="ad" width="20" height="19" border="0" /></a></h6><span><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;kw;specel&mpro=http://search.ebay.com.cn/ws/search/SaleSearch?catref=C5&fcl=3&from=R7&frpp=25&fsoo=1&fsop=1&fss=0&fswc=1&ga10244=10425&hkw=1&mkw=&#28051;&#25780;&#29014;&#37725;&#20345;&#22694;&#37814;&#27196;&#20793;&#37719;?nojspr=y&sacat=-1&sacqyop=ge&sacur=0&sascs=1&saslc=0&saslop=1&saobs=5LiT5p+c&sofindtype=28&sofocus=bs&" target="_blank">打折专柜品</a></span></li>
+<li><h6><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;kw;2nd&mpro=
+http://search.ebay.com.cn/search/search.dll?&satitle=(&#38338;&#33580;&#30086;,&#27996;&#23678;&#22684;,&#37812;&#24877;&#26570;)%20-&#38344;?-&#38346;&#9539;&#22679;%20-&#37919;&#28848;&#38468;%20-&#38009;&#28844;&#29304;&hkw=1&mkw=&#27996;&#23678;&#22684;&#38338;&#33580;&#30086;&#37815;&#23941;&#23840;&fsoo=2&fsop=10&frpp=200"><img src="http://adimg.163.com/channel5/ebaycpc/2s.gif" alt="ad" width="20" height="19" border="0" /></a></h6><span><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;kw;2nd&mpro=
+http://search.ebay.com.cn/_W0QQsatitleZQ28Qe4QbaQ8cQe6Q89Q8bQ2cQe9Q97Qb2Qe7QbdQaeQ2cQe8QbdQacQe8QaeQa9Q29QQhkwZ1" target="_blank">二手/闲置</a></span></li>
+<li><h6><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;lpe;ggg&mpro=http://specials.ebay.com.cn/24hgone"><img src="http://adimg.163.com/channel5/ebaycpc/xs.gif" alt="ad" width="20" height="19" border="0" /></a></h6><span><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-18?cn=netease;aucton;lpe;ggg&mpro=http://specials.ebay.com.cn/24hgone" target="_blank">限时抢拍</a></span></li>
+</ul>
+</div>
+
+
+</div>
+<div class="adlist">
+<ul>
+<li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=53174&AdID=55160&TargetID=510&Values=31,43,51,60,72,78,83,91,100,110,312,330,332,515,594,702,733,734&Redirect=http://cards.163.com/letter/">真情贺卡 我心只有你</a></li>
+</ul>
+</div>
+<div class="adlist">
+<ul>
+<li><a href="http://adclient.163.com/event.ng/Type=click&FlightID=82792&AdID=84401&TargetID=510&Values=31,43,51,60,72,83,91,100,110,312,330,332,515,585,702,733,734&Redirect=http://www.aierchina.com/mini/061221/main.htm">揭密<span class="cDRed">近视手术成功</span>要素</a></li>
+</ul>
+</div>
+<div class="clear"></div>
+</div>
+<div class="blankW6"></div>
+<div class="ad145" style="background:#fff;">
+<ul>
+<li class="s1">
+<iframe id="iframe_logo1" name="iframe_logo1" src="http://adclient.163.com/html.ng/site=netease&affiliate=homepage&cat=homepage&type=logo145x50&location=1" width="145" height="50" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="No" ></iframe>
+</li>
+<li class="s2">
+<iframe id="iframe_logo2" name="iframe_logo2" src="http://adclient.163.com/html.ng/site=netease&affiliate=homepage&cat=homepage&type=logo145x50&location=2" width="145" height="50" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="No" ></iframe>
+</li></ul>
+</div>
+
+
+<div class="blankW6"></div>
+<div class="rightTitle rightLine">
+<h5><a href="http://blog.163.com/">博客</a></h5><span><a 
+href="http://blog.163.com/redirect.html?url=http://pepsi.163.com?0706pepsiwc05"><strong class="cDRed" 
+style="font-weight: normal">相片支持中国队,下一个百事明星就是你!</strong></a>  </span></div>
+<div class="blogCommend">
+<div style="padding:8px 8px 0 8px;">
+  <div align="left"><a href="
+http://loniya.blog.163.com/blog/static/1489942920075172583922/?fromRe" style="color:#000000;font-family:黑体;font-weight:500;font-size:18px" onmouseover="this.style.color='#B42922'" onmouseout="this.style.color='#000000'">"悲伤"郭敬明南宁"逆流成河"(图)</a></div>
+</div>
+<div style="padding: 5px 8px 0pt 20px;">
+  <div style="color: rgb(0, 0, 0);" align="left">他一个微笑，惹来下面等待签名的美女一片欢叫。</div>
+</div>
+
+<div class="list" style="width:150px">
+<ul>
+  <li><a href="http://cldq1974.blog.163.com/blog/static/2229385820075186332653/?fromRe">
+我就是农民工我爱加班</a>  </li>
+  <li><a href="
+http://jiadai62.blog.163.com/blog/static/1666441820075175456820/?fromRe">老师为啥不做高考监考</a>  </li>
+  <li><a href="http://1117111719861117.blog.163.com/blog/static/433671200751451557423/?fromRe">
+变性一年刘炫怡在娘家</a>  </li></ul></div>
+<div class="list" style="width:150px">
+<ul>
+  <li><a href="http://blog.163.com/blog_admin/blog/static/72127920075151196877/?fromRe">博客再添17套全新靓装</a>  </li>
+  <li><a href="http://vip.elva.blog.163.com/blog/static/241705452007518103223261/?fromRe">萧亚轩答谢博友附新照</a></li>
+  <li><a href="http://blog.163.com/gwemo_liang/blog/static/31317789200751591142369/?fromRe">漫画家鸡毛开博送好图</a>  </li></ul></div>
+  <div class="list" style="padding-top:8px;width:300px">
+  <div style="text-align:left;line-height:150%;margin-left:10px">圈子:  
+    <a href="http://q.163.com/manage/?fromReQ">营销专家</a> <span style="color:#cbcbcb">|</span> 
+    <a href="http://q.163.com/denghuolanshan/?fromReQ">情感交友</a> <span style="color:#cbcbcb">|</span> 
+    <a href="http://q.163.com/2008zeal/?fromReQ">奥运专区</a> <span style="color:#cbcbcb">|</span> 
+    <a href="http://q.163.com/zuojia/?fromReQ">学生作家</a><br>
+	人物:  
+    <a href="http://hsb.111.blog.163.com/?fromfamous">高考志愿</a> <span style="color:#cbcbcb">|</span> 
+    <a href="http://blog.163.com/pub/happyboy/index.html?fromRe">快乐男声</a> <span style="color:#cbcbcb">|</span> 
+    <a href="http://eryueyatou.blog.163.com/?fromfamous">二月丫头</a> <span style="color:#cbcbcb">|</span> 
+    <a href="http://ztz.1.blog.163.com?fromRe">烟斗同志</a></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="clear"></div>
+</div>
+<div class="lineH"></div>
+
+<!-- 通栏2 -->
+<div class="ad750"><iframe src="http://adclient.163.com/html.ng/site=netease&affiliate=homepage&cat=homepage&type=column&location=2" width="750" height="120" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div>
+
+<!-- 内容1 -->
+<div class="area">
+<!-- left -->
+<div class="col1">
+<div class="leftContent leftHeight2">
+<div class="menuC" id="tabone">
+<ul>
+<li class="active"><a href="http://ent.163.com" urn="#default_ent" rel="onearea">娱乐</a></li>
+<li class="normal"><a href="http://data.ent.163.com" urn="/inc/163new/to163ent071.html" rel="onearea">影视·音乐</a></li>
+<li class="normal"><a href="http://ent.163.com/people/" urn="/inc/163new/to163ent072.html" rel="onearea">明星</a></li>
+</ul>
+</div>
+<div class="content" id="onearea">
+<div class="col w1">
+<div class="pic">
+  <a href="http://ent.163.com/07/0618/09/3H8SV1NK0003000E.html"><img src="http://cimg2.163.com/ent/2007/6/18/2007061809404864586.jpg" alt="Twins火辣热舞 阿娇大方露底" width="160" height="120" border="0" /></a>
+  <h6><a href="http://ent.163.com/07/0618/09/3H8SV1NK0003000E.html">Twins火辣热舞 阿娇大方露底</a></h6>
+</div>
+<div class="listText">
+<a href="http://adclient.163.com/event.ng/Type=click&FlightID=88834&AdID=90311&TargetID=510&Values=31,43,51,60,72,85,92,100,110,312,330,332,515,589,702,733,734&Redirect=http://pepsi.163.com/">下一个百事明星就是你！</a><br>
+<a href="http://ent.163.com/07/0617/11/3H6F3RQT00031H2L.html">张柏芝挺大肚为卡通片配音</a><br>
+<a href="http://ent.163.com/07/0616/19/3H4NSJQU00031H2L.html">蔡依林穿性感鱼鳞装亮相</a><br>
+<a href="http://ent.163.com/07/0617/11/3H6HCNMA00031H2L.html">老公指李赛凤与义子不伦恋</a></div>
+</div>
+<div class="col w2">
+<h4><a href="http://ent.163.com/07/0618/04/3H8AH8340003rt.html">冯小刚：不要仇恨中国大片</a></h4>
+<p>冯小刚:“艺谋凯歌和我撑起了中国内地电影半壁江山，对大片的仇恨没道理。”</p>
+<div class="list">
+<ul>
+<li><a href="http://ent.163.com/07/0618/07/3H8KEA0200031H2L.html">章子怡外籍男友老底：他不是一般的有钱</a></li>
+<li><a href="http://ent.163.com/07/0618/07/3H8JMNDL00031H2L.html">付笛声夫妇参加演出险被泼“妇炎洁”</a></li>
+<li><a href="http://ent.163.com/07/0618/07/3H8J8TV500031H2L.html">和舒淇再传暧昧 张震:这个由你们去想象</a></li>
+<li><a href="http://ent.163.com/07/0618/04/3H88PFGA0003rt.html">李湘拒绝扶贫被家乡父老怒斥“忘本”</a></li>
+<li><a href="http://ent.163.com/special/000328LJ/2007_superboy.html">快男再掀骂战 杨二车娜姆：包小柏太毒</a></li>
+<li><a href="http://ent.163.com/07/0618/07/3H8LTN6B00031H2L.html">赵薇坦言对爱情绝望 不喜欢“姐弟恋”</a></li>
+<li><a href="http://maga.moka.cn/public/magazine/detail/221/990/index.jsp">中国大片走向穷途末路？</a></li>
+
+</ul>
+</div>
+<div class="more">
+<span><a href="http://ent.163.com/">更多娱乐新闻&gt;&gt;</a></span>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<!-- right -->
+<div class="col2">
+<!-- 分类信息 -->
+<div class="rightTitle rightLine"><h5><a href="http://classad.163.com/">分类信息</a></h5>
+<span><a href="http://classad.163.com/html/common/guestbook.html">分类招代理</a></span>
+<span><a href="http://classad.163.com/html/area/79/index.html">潍坊</a></span>
+<span><a href="http://classad.163.com/html/area/16/index.html">深圳</a></span>
+<span><a href="http://classad.163.com/html/area/313/index.html">荆门</a></span>
+<span><a href="http://classad.163.com/html/area/3/index.html">上海</a></span>
+<span><a href="http://classad.163.com/html/area/82/index.html">广东</a></span>
+
+
+
+
+
+
+
+
+</div>
+<div class="rightContent rightLine1">
+
+<div class="listAD listW1">
+<ul><li><a href="http://www.matesay.cn/">曝光:30天说英语真相</a></li><li><a href="http://www.wipr.com.cn/sina2/">３万投资<span class="cDRed">年利100万！</span></a></li><li><a href="http://www.e26.cn/corpInfo/1/7918/owsxy/07060443656.shtml">上班赚钱两不误(图)</a></li><li><a href="http://333.e26.cn/tom/200703/03191700.html">推迟更年期延缓衰老</a></li><li><a href="http://333.e26.cn/tom/200705/05240952.html">鼻炎咽炎--怎么办？</a></li><li><a href="http://333.e26.cn/tom/200706/06131008.html">白发-脱发 全新疗法</a></li><li><a href="http://333.e26.cn/tom/200704/04121714.html">高血压高血脂新发现</a></li><li><a href="http://333.e26.cn/tom/200702/02281325.html">糖尿病--不再年年治</a></li><li><a href="http://333.e26.cn/tom/200704/04261045.html">白发--白发--新突破</a></li><li><a href="http://333.e26.cn/tom/200608/08211526.html">中医名医治子宫肌瘤</a></li></ul>
+</div>
+<div class="listAD listW1">
+<ul><li><a href="http://www.nalan.cn/new/sanbing/163.html">女人比男人富大揭密</a></li><li><a href="http://www.balincan.com/">07年财富沸点百莲凯</a></li><li><a href="http://333.e26.cn/tom/200705/05231725.html">耳聋耳鸣--新攻略！</a></li><li><a href="http://333.e26.cn/tom/200705/05221436.html">鼻炎咽炎--不容忽视</a></li><li><a href="http://333.e26.cn/tom/200704/04121604.html">糖尿病——健康资讯</a></li><li><a href="http://333.e26.cn/tom/200704/04231503.html">女性祛斑--新突破！</a></li><li><a href="http://333.e26.cn/tom/200706/06011555.html">痛风新药研发新突破</a></li><li><a href="http://333.e26.cn/tom/200611/11291038.html">湿疹荨麻疹紧急公告</a></li><li><a href="http://333.e26.cn/tom/200702/02051352.html">失眠抑郁０７新突破</a></li><li><a href="http://333.e26.cn/tom/200701/01251636.html">打呼噜－－危害健康</a></li></ul>
+</div>
+<div class="listAD listW2">
+<dl><dd><a href="http://www.wipr.com.cn/sina2/">专利</a></dd><dd><a href="http://www.nalan.cn/new/sanbing/163.html">美容</a></dd><dd><a href="http://www.matesay.cn/">语伴</a></dd><dd><a href="http://www.u69.cn/siteunion/start/goto.asp?adfrom=23">创业</a></dd><dd><a href="http://www.balincan.com/">招商</a></dd><dd><a href="http://333.e26.cn/tom/200706/06011555.html">痛风</a></dd><dd><a href="http://333.e26.cn/tom/200704/04041446.html">减肥</a></dd><dd><a href="http://www.e26.cn/corpInfo/1/7918/owsxy/07060443656.shtml">靓鞋</a></dd><dd><a href="http://333.e26.cn/tom/200706/06131107.html">口臭</a></dd><dd><a href="http://333.e26.cn/tom/200703/03071730.html">骨科</a></dd></dl>
+</div>
+<div class="clear"></div>
+</div>
+<div class="blankW9"></div>
+<div class="ad145" style="background:#fff"><ul>
+<li class="s1">
+  <a href="http://tech.163.com/special/000929S1/net36ji.html"><img src="http://images.163.com/images/netease/tech/20070613/145x50.gif" alt="pic" width="145" height="50" border="0" /></a>
+</li>
+<li class="s2">
+  <a href="http://data.ent.163.com/ent/index.html"><img src="http://images.163.com/images/netease/ent/20070613/145x50.gif" alt="pic" width="145" height="50" border="0" /></a>
+</li></ul>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="lineH1"></div>
+<div class="blank9"></div>
+
+<!-- 内容2 -->
+<div class="area">
+<!-- left -->
+<div class="col1">
+<div class="leftContent leftHeight1">
+<div class="menuC" id="tabtwo">
+<ul>
+<li class="active"><a href="http://sports.163.com/" urn="#default_sports" rel="twoarea">体育</a></li>
+<li class="normal"><a href="http://sports.163.com/nba/" urn="/inc/163new/to163nba.html" rel="twoarea">NBA·姚明</a></li>
+<li class="normal"><a href="http://2008.163.com/" urn="/inc/163new/to163ay.html" rel="twoarea">奥运</a></li>
+</ul>
+</div>
+<div class="content" id="twoarea">
+<div class="col w1">
+<div class="pic">
+  <a href="http://sports.163.com/07/0618/03/3H880JS900051CA1.html"><img src="http://cimg2.163.com/sports/2007/6/18/200706180842493ddc1.jpg" alt="专家建议湖人弃科比选易建联" width="160" height="120" border="0" /></a>
+  <h6><a href="http://sports.163.com/07/0618/03/3H880JS900051CA1.html">专家建议湖人弃科比选易建联</a></h6>
+</div>
+<div class="listText">
+<a href="http://sports.163.com/07/0618/08/3H8PAVS600051KMG.html">图-田亮电影选秀竟大搞色情</a> <br />
+<a href="http://sports.163.com/07/0618/07/3H8LHEB200051KMG.html">奥尼尔表白:最想跟库娃交欢</a> <br />
+<a href="http://sports.163.com/07/0618/07/3H8KKRGN00051KMJ.html">组图-低胸库娃展露傲人上围</a> <br />
+</div>
+</div>
+<div class="col w2">
+<h4><a href="http://sports.163.com/07/0618/04/3H8BG2CH00051C8V.html">皇马四年来首夺西甲冠军</a></h4>
+<p>雷耶斯梅开二度，皇马3-1逆转马洛卡，依靠胜负关系压倒同分的巴萨，重夺西甲 </p>
+<div class="list">
+<ul>
+<li><a href="http://sports.163.com/07/0618/04/3H8BEJ5L00051C8V.html">巴萨5-1屠杀弱旅 最后20分钟痛失冠军</a></li>
+<li><a href="http://sports.163.com/07/0618/11/3H938EOQ00051CD5.html">皇马电话连线竟教唆卡卡闹翻AC米兰</a></li>
+<li><a href="http://sports.163.com/special/00052ADD/sudirman07.html">羽毛球苏迪曼杯：中国3-0完胜印尼卫冕</a></li>
+<li><a href="http://sports.163.com/07/0617/17/3H759OO50005rt.html">姚明接受特训 “贾巴尔天勾”成新绝招</a></li>
+<li><a href="http://sports.163.com/07/0618/11/3H90R8VT00051CA1.html">NBA夏季联赛赛程：中国将战骑士等5队</a></li>
+<li><a href="http://sports.163.com/07/0618/02/3H83RCB600051CDQ.html">汉密尔顿F1美国站夺魁 领先阿隆索10分</a></li>
+</ul>
+</div>
+<div class="more">
+<span><a href="http://sports.163.com/">更多体育新闻&gt;&gt;</a></span>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<!-- right -->
+<div class="col2">
+<!-- eBay -->
+<div class="rightTitle rightLine2"><!--h5 class="s"><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-1?cn=netease;html;hp&mpro=http://www.ebay.com.cn"><img src="http://adimg.163.com/homepage/eachnet/homepagelogo.gif" alt=" ebay广告" width="71" height="23" border="0" /></a></h5-->
+<span><a href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;lp;bra&mpre=http://pages.ebay.com.cn/landing/bra.html">激情内衣秀</a> <a href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;lp;13&mpre=http://pages.ebay.com.cn/community/index.html?ssPageName=h:h:over:CN">火爆热贴</a> <a href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;lp;09&mpre=http://hub.ebay.com.cn/buy?ssPageName=h:h:ct;:CN">买东西</a> <a href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;sell&mpre=http://sell.ebay.com.cn/sell">卖东西</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;reg&mpre=http://cgi4.ebay.com.cn/aw-cgi/eBayISAPI.dll?RegisterShow&ssPageName=h:h:reg:CN">易趣注册>></a>
+</span></div> 
+<div class="adEbay">
+<div class="pic">
+<ul>
+<li><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-1?cn=netease;train070604o;pr;train&mpro=http://eachnetcatalog.tom.com/070515/"><img src="http://adimg.163.com/channel5/ebaycpc/train_12765_070605.gif" alt="ebay广告" width="127" height="65" border="0" /></a></li>
+<li><a href="http://adfarm.mediaplex.com/ad/ck/4080-25838-9511-1?cn=netease;digi070608;lpe;digi&mpro=http://specials.ebay.com.cn/digi"><img src="http://adimg.163.com/channel5/ebaycpc/digi070423o_127x65_163_cpa.gif" alt="ebay广告" width="127" height="65" border="0" /></a></li>
+</ul>
+</div>
+<div class="picText">
+<ul>
+<li class="s"><a href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024"><img src="http://adimg.163.com/channel5/ebaycpc/digi_3636_070522.gif" alt="ebay广告" width="36" height="36" border="0" /></a>
+<a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;camera&mpre=http://camera.listings.ebay.com.cn/_W0QQfcclZ1QQfclZ4QQfromZR7QQfrppZ25QQkwrefZC4QQloglZ0QQnojsprZyQQsacatZ115284QQsacqyopZgeQQsacurZ0QQsakwZ115284QQsargnZsalisQQsaselZQQsbrsrtZdQQsocmdZListingItemList">相机</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;mobile&mpre=http://phone.listings.ebay.com.cn/GSM_W0QQfcclZ1QQfclZ4QQfromZR4QQfsooZ2QQfsopZ28QQsakw;Z61999QQsbrsrtZdQQsocmdZListingItemList">手机</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;audio&mpre=http://search.ebay.com.cn/_W0QQfcclZ1QQfclZ4QQfromZR4QQfsooZ2QQfsopZ28QQsacatZ48681Q20119900QQsbrsrtZd">mp3/mp4</a><br />
+<a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;pc&mpre=http://computer.listings.ebay.com.cn/_W0QQfcclZ1QQfclZ4QQfromZR4QQfsooZ2QQfsopZ28QQsacatZ95394QQsbrsrtZdQQsocmdZListingItemList">硬盘</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;pc&mpre=http://listings.ebay.com.cn/_W0QQcatrefZC6QQfcclZ1QQfclZ4QQfgtpZQQflocZ1QQfromZR2QQfsooZ2QQfsopZ28QQga10244Z10425QQpf_queryZQQsacatZ47778QQsaslcZ0QQsatitleZQQsocmdZListingItemList">鼠标</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;pc&mpre=http://listings.ebay.com.cn/_W0QQcatrefZC6QQfcclZ1QQfclZ4QQfgtpZQQflocZ1QQfromZR2QQfsooZ2QQfsopZ28QQga10244Z10425QQsacatZ177QQsaslcZ0QQsatitleZQQsocmdZListingItemList">笔记本</a>
+</li>
+<li class="s"><a href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;"><img src="http://adimg.163.com/channel5/ebaycpc/fashion_3636_070522.gif" alt="ebay广告" width="36" height="36" border="0" /></a>
+<a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;ct;11450&mpre=http://womenclothing.ebay.com.cn">女装</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;ct;281&mpre=http://jewelry.ebay.com.cn"></a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;womenaccessory&mpre=http://womenclothing.listings.ebay.com.cn/_W0QQfcclZ1QQfclZ4QQfromZR4QQfsooZ2QQfsopZ28QQsacatZ11514QQsbrsrtZdQQsocmdZListingItemList">内衣</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;fashion&mpre=http://womenclothing.listings.ebay.com.cn/_W0QQfcclZ1QQfclZ4QQfromZR4QQfsooZ2QQfsopZ28QQsacatZ46806QQsbrsrtZdQQsocmdZListingItemList">女裤</a>  <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;womenaccessory&mpre=http://womenaccessory.listings.ebay.com.cn/_W0QQfcclZ1QQfclZ4QQfromZR7QQfrppZ25QQfsooZ2QQfsopZ28QQkw;refZC4QQnojsprZyQQsacatZ3034QQsacqyopZgeQQsacurZ0QQsakw;Z3034QQsargnZ0QQsaselZQQsbrsrtZdQQsocmdZListingItemList">鞋</a><br />
+<a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;jewlery&mpre=http://jewelry.listings.ebay.com.cn/_W0QQfcclZ1QQfclZ4QQfromZR4QQfsooZ2QQfsopZ28QQsacatZ281QQsbrsrtZdQQsocmdZListingItemList">首饰</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;health&mpre=http://search.ebay.com.cn/_W0QQcatrefZC6QQfcclZ1QQfclZ4QQflocZ1QQfromZR10QQfsooZ2QQfsopZ28QQga10244Z10425QQsacatZ26395QQsaslcZ0QQsatitleZQe5Qb0Q8fQe6Qa0Qb7">小样</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;health&mpre=http://search.ebay.com.cn/_W0QQcatrefZC6QQcoactionZcompareQQcoentrypageZsearchQQcopagenumZ1QQfcclZ1QQfclZ4QQflocZ1QQfromZR10QQfsooZ2QQfsopZ28QQga10244Z10425QQsacatZ26395QQsaprchiZQQsaprcloZQQsaslcZ0QQsatitleZQe6Q8aQa4Qe8Q82Qa4">护肤</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;menclothing&mpre=http://listings.ebay.com.cn/_W0QQcatrefZC6QQfcclZ1QQfclZ4QQfgtpZQQflocZ1QQfromZR2QQfsooZ2QQfsopZ28QQga10244Z10425QQpf_queryZQQsacatZ15725QQsaslcZ0QQsatitleZQQsocmdZListingItemList">包</a>
+</li>
+<li><a href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;
+"><img src="http://adimg.163.com/channel5/ebaycpc/man_3636_070522.gif" alt="ebay广告" width="36" height="36" border="0" /></a>
+<a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;ct;man&mpre=http://menclothing.ebay.com.cn/">男装</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;man&mpre=http://menclothing.listings.ebay.com.cn/_W0QQfcclZ1QQfclZ4QQfromZR4QQfsooZ2QQfsopZ28QQsacatZ52357QQsbrsrtZdQQsocmdZListingItemList">男包</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;man&mpre=http://menclothing.listings.ebay.com.cn/__W0QQfcclZ1QQfclZ4QQfromZR4QQfsooZ2QQfsopZ28QQsacatZ97616QQsbrsrtZdQQsocmdZListingItemList">皮鞋</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;man&mpre=http://gift.listings.ebay.com.cn/_W0QQfcclZ1QQfclZ4QQfromZR4QQfsooZ2QQfsopZ28QQsacatZ98211QQsbrsrtZdQQsocmdZListingItemList">刀</a><br />
+<a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;game&mpre=http://games.search.ebay.com.cn/_W0QQkw;refZC12QQcoactionZcompareQQcoentrypageZsearchQQcopagenumZ1QQfcclZ1QQfclZ4QQflocZ1QQfromZR2QQfsooZ2QQfsopZ28QQga10244Z10425QQsakw;Z117750QQsaslcZ0QQsatitleZQe7Q82Qb9Qe5Q8dQa1QQsbrsrtZd">点卡</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;game&mpre=http://search.ebay.com.cn/psp_PS-PS2-PSP_W0QQcatrefZC6QQfcclZ1QQfclZ4QQflocZ1QQfromZR10QQfsooZ2QQfsopZ28QQga10244Z10425QQpriceZ1QQsacatZ87148QQsaprcloZ1000QQsaslcZ0">PSP</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;qq&mpre=http://games.search.ebay.com.cn/q_QQ_W0QQcatrefZC6QQfcclZ1QQfclZ4QQflocZ1QQfromZR2QQfsooZ2QQfsopZ28QQga10244Z10425QQsacatZ75257QQsaslcZ0QQsatitleZqQe5Qb8Q81QQsbrsrtZd">Q币</a> <a 
+href="http://rover.ebay.com/rover/1/4080-25838-9511-1/4?cn=netease;html1024;kw;zippo&mpre=http://gift.listings.ebay.com.cn/_W0QQfromZR4QQsacatZ951QQsocmdZListingItemList">zippo</a>
+</li>
+</ul>
+</div>
+<div class="blank9"></div>
+<div class="clear"></div>
+</div>
+
+
+
+
+
+
+<div class="blankW6"></div><div class="blankW6"></div>
+<div><iframe src="http://adclient.163.com/html.ng/site=netease&affiliate=homepage&cat=homepage&type=logo300x70&location=1" width="300" height="70" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no" ></iframe></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="lineH1"></div>
+<div class="blank9"></div>
+
+<!-- 内容3 -->
+<div class="area">
+<!-- left -->
+<div class="col1">
+<div class="leftContent leftHeight2">
+<div class="menuA" id="maintab">
+<ul>
+<li class="active"><a href="http://money.163.com/" urn="#default_stock" rel="ajaxcontentarea">财经</a></li>
+<li class="normal"><a href="http://money.163.com/stock/" urn="/inc/163new/to163gp07.html" rel="ajaxcontentarea">证券</a></li>
+<li class="normal"><a href="http://biz.163.com/" urn="/inc/163new/to163biz07.html" rel="ajaxcontentarea">商业</a></li>
+<li class="normal"><a href="http://tech.163.com/" urn="/inc/163new/to163tech07.html" rel="ajaxcontentarea">科技</a></li>
+</ul>
+</div>
+<div class="content"  id="ajaxcontentarea">
+<div class="col w1">
+<div class="picText">
+<div><a href="http://quotes.stock.163.com/index.html"><img src="http://money.163.com/special/100.gif?Nsg" alt="stock" width="150" height="100" /></a></div>
+<div class="s1">
+
+
+
+
+<img src=http://cimg.163.com/stock/u.gif>
+<a href=http://quotes.stock.163.com/index.html  target=_blank>上证指数</a> 
+ <font color=#FF0000>4230.41   2.36%</font></div>
+<div class="s2">
+<script type="text/javascript">
+function goto1()
+{
+var code= document.getElementById("code").value;
+var area= 0;
+var skit=",000008,000016,000903,000001,000017,000002,000010,000905,000011,000906,000004,000012,000005,000006,000901,000007,000902,";
+if(area=="0")
+{
+var pattern=/^[0-9]{6}$/;
+if(pattern.test(code))
+{
+if(skit.indexOf(","+code+",")==-1)
+{
+window.open("http://quotes.money.163.com/quote/"+code+".html");
+return false;
+}
+}
+return true;
+}
+else
+{
+var pattern2=/^[0-9]{4}$/;
+if(pattern2.test(code))
+{
+window.open("http://quotes.money.163.com/hkquotes.jsp?code="+code);
+return false;
+}
+return true;
+}
+return true;
+}
+</script>
+<form action="http://quotes.money.163.com/query_result.jsp" onsubmit="return goto1();" name="find"  method="post" target="_blank">
+<input name="code" id="code" type="text" class="input" /> <input type="submit" value="股票查询" name="gpsub" id="gpsub" class="bu" />
+</form>
+</div>
+</div>
+<div class="blank6"></div>
+<div class="listText">
+<a href="http://money.163.com/stock/">证券</a> | <a href="http://money.163.com/licai/">理财</a> | <a href="http://money.163.com/fund/">基金</a> | <a href="http://bbs.stock.163.com/">论坛</a><br />
+<a href="http://bbs.stock.163.com/agu/1174622,4.html">公司禁止上班炒股，怎么办</a> <br />
+<a href="http://money.163.com/07/0607/16/3GD9GI6300251LIE.html"><font color=red>免费创建</font>“我的股票账户”</a> <br />
+</div>
+</div>
+<div class="col w2">
+<h4><a href="http://money.163.com/07/0618/11/3H92SMVM00251LIE.html">沪指午盘报收4254点</a></h4>
+<p>沪指午盘收于4254.87点，上涨122.00点或2.95％；深证成指午盘收于14122.73点</p>
+<div class="list">
+<ul>
+<li><a href="http://money.163.com/stock/">[证券]</a> <a href=http://money.163.com/07/0618/06/3H8GUP8100251LIE.html>深交所:10亿以上大单应全盘披露</a></a></li>
+<li><a href="http://biz.163.com">[商业]</a> <a href=http://money.163.com/07/0618/09/3H8Q261A00251LIE.html>重庆预约3000余亿元战略投资</a></li>
+<li><a href="http://money.163.com/fund/">[基金]</a> <a href="http://money.163.com/07/0618/08/3H8N1V7000251LDV.html">本周买啥基金</a> <a href="http://money.163.com/07/0618/08/3H8NPC2600251LDV.html">近期封基投资策略</a></a></li>
+<li><a href="http://money.163.com/licai/">[理财]</a> <a href=http://money.163.com/07/0618/09/3H8Q35DT00251LAM.html>家庭财务规划全攻略</a> <a href=http://money.163.com/special/0025220S/story.html>理财糗事</a></a></li>
+<li><a href="http://money.163.com/stock/">[证券]</a> <a href=http://money.163.com/07/0618/08/3H8MIIOE00251LIE.html>业绩行情掀起 红色星期一或重现</a></a></li>
+<li><a href="http://tech.163.com/">[科技]</a> <a href="http://tech.163.com/07/0618/12/3H97D0HL000915BE.html">日本最大移动运营商欲进军中国3G</a></li>
+<li><a href="http://money.163.com/special/002529OV/bft.html">[寻找中国巴菲特]系列之民间高手贾先生</a></li>
+<!-- /special/163finance.html -->
+</ul>
+</div>
+<div class="more">
+<span><a href="http://money.163.com/">进入财经频道&gt;&gt;</a></span>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<!-- right -->
+<div class="col2">
+<!-- 分类信息 -->
+
+<div class="rightTitle rightLine2"><h5><a href="http://tj.28.com/?comeID=1270">商机</a></h5><span><a href="http://ht.28.com/yb/sheke/weburl.php?id=3943">边打工边做老板赚疯了</a>  <a href="http://ht.28.com/yb/sheke/weburl.php?id=4523">代理学习卡,年赚100万</a></span></div>
+<div class="rightContent rightLine1">
+<div class="list">
+<ul>
+<li><a href="http://ht.28.com/yb/sheke/weburl.php?id=3685">5分打天下·长途免费!</a></li><li><a href="http://ht.28.com/yb/sheke/weburl.php?id=3869">！做代理---赚大钱！</a></li><li><a href="http://ht.28.com/yb/sheke/weburl.php?id=3687">翻新轮胎,年利100万！</a></li><li><a href="http://ht.28.com/yb/sheke/weburl.php?id=3868">一夜成为网站制作高手</a></li><li><a href="http://ht.28.com/yb/sheke/weburl.php?id=3686">开家幸运神一店抵十店</a></li><li><a href="http://ht.28.com/yb/sheke/weburl.php?id=3870">做别人想不到的生意</a></li><li><a href="http://ht.28.com/yb/sheke/weburl.php?id=4885">会打字上网就会建网站</a></li>
+</ul>
+</div>
+<div class="list">
+<ul>
+<li><a href="http://ht.28.com/yb/sheke/weburl.php?id=3688">5.5万元开数码彩扩店</a></li><li><a href="http://ht.28.com/yb/sheke/weburl.php?id=3689">孝顺子女,怎样赚钱?</a></li><li><a href="http://ht.28.com/yb/sheke/weburl.php?id=3690">千元投资 半年成富翁</a></li><li><a href="http://ht.28.com/yb/sheke/weburl.php?id=3871">女人暴富靠什么(图)</a></li><li><a href="http://ht.28.com/yb/sheke/weburl.php?id=3872">未来十年赚有车人的钱</a></li><li><a href="http://ht.28.com/yb/sheke/weburl.php?id=3873">3万元办厂,做建材老大</a></li><li><a href="http://ht.28.com/yb/sheke/weburl.php?id=4889">小投资 日赚３０００！</a></li>
+</ul>
+</div>
+<div class="clear"></div>
+</div>
+<div class="blankW6"></div>
+<div class="ad145" style="background:#fff;"><a href="http://ht.28.com/yb/sheke/weburl.php?id=4909"><img src="http://adimg.163.com/channel1/3015_1_0531.gif" alt="" width="100" height="50" style="border:0;" /></a><a href="http://wp.28.com?comeID=32221"><img src="http://adimg.163.com/channel5/003015/2.gif" alt="" width="100" height="50" style="border:0;" /></a><a href="http://www.sooe.cn/?comeID=3334"><img src="http://adimg.163.com/channel1/0315_3_0605.gif" alt="" width="100" height="50" style="border:0;" /></a></div>
+<div class="blankW6"></div>
+<div class="ad145" style="background:#fff;"><ul>
+<li class="s1"><iframe src="http://adclient.163.com/html.ng/site=netease&affiliate=homepage&cat=homepage&type=logo145x50&location=3" width="145" height="50" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no" ></iframe>
+</li>
+<li class="s2"><iframe src="http://adclient.163.com/html.ng/site=netease&affiliate=homepage&cat=homepage&type=logo145x50&location=4" width="145" height="50" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no" ></iframe>
+</li></ul>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="lineH1"></div>
+<!-- 通栏3 -->
+<div class="ad750"><iframe src="http://adclient.163.com/html.ng/site=netease&affiliate=homepage&cat=homepage&type=column&location=3" width="750" height="120" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div>
+<!-- 内容4 -->
+<div class="area">
+<!-- left -->
+<div class="col1">
+<div class="leftContent leftHeight1">
+<div class="menuC" id="tabthree">
+<ul>
+<li class="active"><a href="http://auto.163.com" urn="#default_auto" rel="threearea">汽车</a></li>
+<li class="normal"><a href="http://digi.163.com/" urn="/inc/163new/to163digi07.html" rel="threearea">数码</a></li>
+<li class="normal"><a href="http://mobile.163.com/" urn="/inc/163new/to163mobile07.html" rel="threearea">手机</a></li>
+</ul>
+</div>
+<div class="content" id="threearea">
+<div class="col w1">
+<div class="pic">
+  <a href="http://auto.163.com/07/0615/10/3H192NCQ000827U2.html"><img src="http://cimg2.163.com/auto/2007/6/15/200706152347596e4cc.jpg" alt="曝光靓丽车模们的幕后生活" width="160" height="120" border="0" /></a>
+  <h6><a href="http://auto.163.com/07/0615/10/3H192NCQ000827U2.html">曝光靓丽车模们的幕后生活</a></h6>
+</div>
+<div class="listText">
+   <a href="http://auto.163.com/07/0614/10/3GUKI5BM000827RR.html">芙蓉姐姐未曝光车模照片</a> <br>   
+   <a href="http://auto.163.com/07/0608/16/3GFQ2F1R000827U2.html">07深圳车展出位美女真不少</a><br>
+   <a href="http://auto.163.com/07/0611/19/3GNSR7IK000827U2.html">邵小珊全裸扮车模(组图) </a></div>
+</div>
+<div class="col w2">
+<h4><a href="http://auto.163.com/special/00082AGL/ruihu3cover.html">试驾瑞虎3：10万元以下的SUV</a></h4>
+<p>平民版SUV瑞虎3非常适合那些喜欢越野感觉的城市青年，就如同一头"披着狼皮的 </p>
+<div class="list">
+<ul>
+<li><a href="http://auto.163.com/07/0618/10/3H8VP6ME000816IP.html">九江大桥惨祸教训:汽车入水如何自救</a></li>
+<li><a href="http://club.auto.163.com/main.jsp?boardid=AAABAAAC&articleid=1182133905196">购买前要三思！十大"性价比"欠佳车型</a></li>
+<li><a href="http://auto.163.com/07/0618/09/3H8T2RRK00081S9K.html">雷诺研发2万元车型 预计3年内印度上市</a></li>
+<li><a href="http://auto.163.com/07/0618/08/3H8PCLFU00081S8M.html">马自达即将在华投放8款新车型揭秘</a></li>
+<li><a href="http://auto.163.com/07/0618/08/3H8O5JRS000816HJ.html">广州最贵车牌"粤A000A1"拍出42万元</a></li>
+<li><a href="http://auto.163.com/07/0618/07/3H8LFSAH000816HJ.html">1.6L酷派明年国产?</a> <a href="http://auto.163.com/07/0618/07/3H8KB7IP00081G9U.html">日产新370Z火爆亮相</a></li>
+</ul>
+</div>
+<div class="more">
+<span><a href="http://auto.163.com/">更多汽车资讯&gt;&gt;</a></span>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<!-- right -->
+<div class="col2">
+<div class="rightTitle1" id="mostnews">
+        <ul>
+          <li class="active">
+            <h2><a href="http://news.163.com/rank/?l=8" urn="#default_mostnews" rel="mostlist">24小时点击最高的新闻</a></h2>
+          </li>
+          <li class="normal">
+            <h2><a href="http://news.163.com/rank/?l=1" urn="/inc/163new/to163mostnews.html" rel="mostlist">评论最多的新闻</a></h2>
+          </li>
+        </ul>
+      </div>
+<div class="rightContent rightLine1" id="mostlist">
+<div class="list2">
+<ol>
+<li><a href="http://ent.163.com/07/0617/11/3H6F3RQT00031H2L.html">张柏芝胎教小霆锋 大肚后复工为卡通片配音</a></li>
+<li><a href="http://news.163.com/07/0618/04/3H8A8O5000011229.html">付笛声夫妇参加演出险被泼“妇XX”药水</a></li>
+<li><a href="http://news.163.com/07/0617/10/3H6C91G100011229.html">17岁少女吃夜宵被下春药 遭强暴昏迷不醒</a></li>
+<li><a href="http://news.163.com/07/0618/03/3H880LPA00011229.html">男子招聘会现场拉下裤链贴身猥亵女生(图)</a></li>
+<li><a href="http://ent.163.com/07/0617/08/3H65PCLQ00031H2L.html">上海电影节开幕 沙朗斯通大牌被催</a></li>
+<li><a href="http://news.163.com/07/0617/09/3H69ICVB0001125G.html">饭店开张竟用伟人做宣传(组图)</a></li>
+<li><a href="http://ent.163.com/07/0618/07/3H8KEA0200031H2L.html">章子怡外籍男友身家大起底：他不是一般的有钱</a></li>
+<li><a href="http://sports.163.com/07/0617/01/3H5ETV6800051CA1.html">费根：火箭应换阿泰斯特 阿尔斯通海德作筹码</a></li>
+</ol>
+<div class="clear"></div>
+</div>
+</div>
+<!--end-->
+<div class="blankW6"></div>
+<div class="ad145" style="background:#fff"><ul>
+<li class="s1">
+  <a href="http://mobile.163.com/special/001129PN/mobilestock.html"><img src="http://images.163.com/images/netease/mobile/20070613/145x50.gif" alt="pic" width="145" height="50" border="0" /></a>
+</li>
+<li class="s2">
+  <a href="http://lady.163.com/"><img src="http://cimg2.163.com/lady/2007/6/11/slim.jpg" alt="pic" width="145" height="50" border="0" /></a>
+</li></ul>
+</div>
+
+</div>
+<div class="clear"></div>
+</div>
+<div class="lineH1"></div>
+<div class="blank9"></div>
+
+<!-- 内容5 -->
+<div class="area">
+<!-- left -->
+<div class="col1">
+<div class="leftContent leftHeight1">
+<div class="menuC" id="tabfour">
+<ul>
+<li class="active"><a href="http://lady.163.com/" urn="#default_lady" rel="fourarea">女人</a></li>
+<li class="normal"><a href="http://lady.163.com/attractive/" urn="/inc/163new/to163lady071.html" rel="fourarea">女人·时尚</a></li>
+<li class="normal"><a href="http://lady.163.com/sense/" urn="/inc/163new/to163lady072.html" rel="fourarea">女人·情爱</a></li>
+</ul>
+</div>
+<div class="content" id="fourarea">
+<div class="col w1">
+<div class="pic">
+  <a href="http://lady.163.com/special/00261SCG/07baowen.html"><img src="http://cimg2.163.com/lady/2007/6/18/5.jpg" alt="明星豹纹装 看谁最性感" width="160" height="120" border="0" /></a>
+  <h6><a href="http://lady.163.com/special/00261SCG/07baowen.html">明星豹纹装 看谁最性感</a></h6>
+</div>
+<div class="listText">
+<a href="http://lady.163.com/">女人首页</a>|<a href=http://bbs.lady.163.com/>论坛</a>|<a href="http://lady.163.com/special/00261PJK/constellation.html">星座</a>|<a href="http://lady.163.com/special/00261MPK/fahtersday2007.html">父亲节</a><br />
+<a href="http://go.lady.163.com/temper/moreMood.jsp">心情日记</a>|<a href="http://lady.163.com/07/0611/14/3GNB0CIE00261PDH.html">韩美胸皇后宋慧乔</a><br /><a href="http://lady.163.com/07/0612/11/3GPIQF00002626K2.html">夏日防走光</a> <a href="http://lady.163.com/special/00262AIN/beautyhair.html">发型</a> <a href="http://lady.163.com/special/00262AGO/fit.html">减肥征文</a></div>
+</div>
+<div class="col w2">
+<h4><a href="http://lady.163.com/special/00261MPK/love-city.html">中国最渴望女人的城市</a></h4>
+<p>太原最渴望女人，上海男人最受青睐？南昌竟是中国浪漫之城？我们为你一一佐证</p>
+<div class="list">
+<ul>
+<li><a href="http://lady.163.com/attractive/">[时尚]</a> <a href="http://lady.163.com/07/0615/10/3H17MID7002626K2.html">好莱坞女星示范：超短裙搭配</a></li>
+<li><a href="http://lady.163.com/attractive/">[服饰]</a> <a href="http://lady.163.com/07/0615/10/3H18OEQN002626K1.html">修正脸形 14款个性发带造型</a></li>
+<li><a href="http://lady.163.com/special/00261J1O/testlist.html">[测试]</a> <a href="http://lady.163.com/07/0615/19/3H2661PQ00261IEK.html">旧情人的心里还有你吗</a></li>
+<li><a href="http://lady.163.com/sense/">[口述]</a> <a href="http://lady.163.com/07/0615/13/3H1H3LF600261KQ0.html">我发现了老公写在论坛里的秘密</a></li>
+<li><a href="http://lady.163.com/special/00261J1O/qlglist.html">[困惑]</a> <a href="http://lady.163.com/07/0615/17/3H21BHF300261KQ2.html">男友出差回来 身体出现种种可疑</a></li>
+<li><a href="http://zine.lady.163.com">[易游人]</a> <a href="http://zine.lady.163.com/?page=18">印度洋热恋，最甜蜜的三小岛</a></li>
+</ul>
+</div>
+<div class="more">
+<span><a href="http://lady.163.com/">更多女人话题&gt;&gt;</a></span>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<!-- right -->
+<div class="col2">
+<div class="rightTitle rightLine"><h5>网易游戏</h5><span><A HREF="http://xy2.163.com/">大话II</A> <A HREF="http://xyq.163.com/">梦幻</A> <A HREF="http://dt.163.com/">大唐</A> <A HREF="http://tx2.163.com/">天下贰</A> <A HREF="http://popogame.163.com/">泡泡游戏</A></span></div>
+<div class="rightContent rightLine1">
+<div class="picText">
+<div class="textList">
+  <ul class="s1">
+<li><a href="http://xy3.163.com/2007/ing/"><span class="cDRed">《大话3》-专题： “内测进行时” 与君共求索</span></a></li><li><a href="http://dt.163.com/2007/sp/index.html">《大唐》-新资料片《倾城之战》 专题网站</a></li><li><a href="http://xy3.163.com/2007/6/5/894_178776.html">大话3之变身卡系统——看我72变</a></li>
+<li><a href="http://xyq.163.com/2007/5/30/100_178640.html">怀抱好心情 梦幻新服鱼峰山邀您游</a></li> 
+<li><a href="http://gs.163.com/news/2007/6/1/452_178704.html">6月推广赢大奖，喜游推广吉尼斯！</a></li>
+<li><a href="http://xyq.163.com/2007/5/30/99_178633.html">《梦幻西游》-代表大会成都站代表报名ING～</a></li>
+  </ul>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="blankW6"></div>
+<!-- 网易动态 -->
+<div class="rightTitle rightLine"><h5><a href="http://gb.corp.163.com/corpnews/">网易动态</a>　<a href="http://e-newsletter.blog.163.com/">网易快讯</a></h5><h6>NTES:17.48 Change:-0.4%
+
+</h6></div>
+<div class="rightContent">
+<div class="list1">
+<div class="list1">
+<ul>
+<li><h6><a href="http://gb.corp.163.com/corpnews/07/0522/09/3F3BEALD0073238H.html">网易公司宣布2007年第一季度未经审计财务业绩</a></h6></li>
+<li><h6><a href="http://gb.corp.163.com/corpnews/07/0405/15/3BB0DAHM0073238I.html">杭州市市长孙忠焕一行领导莅临网易参观视察</a></h6></li>
+<li><h6><a href="http://gb.corp.163.com/corpnews/07/0417/12/3C9I95AQ0073238J.html">网易获“校园先锋品牌”和“最佳市场研究团队”</a></h6><span><a href="http://gb.corp.163.com/corpnews/">更多</a></span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="lineH"></div>
+<div class="blank9"></div>
+<script type="text/javascript">
+startajaxtabs("maintab","tabone","tabtwo","tabzero","tabthree","tabfour","adMenu","mostnews");
+ajccache["adList_Edu"] = getElement("adList_Edu").innerHTML;
+ajccache["adList_House"] = getElement("adList_House").innerHTML;
+ajccache["adList_Bnz"] = getElement("adList_Bnz").innerHTML;
+ajccache["adList_Bid"] = getElement("adList_Bid").innerHTML;
+
+var iTab=GetCookie("NTES_adMenuNum");
+iTab = iTab ? parseInt(iTab):parseInt(Math.random()*5);
+if(iTab!=0) getElement("adMenu").getElementsByTagName("li")[iTab].LoadTab();
+iTab++;
+if(iTab>4) iTab=0;
+
+
+SetCookie("NTES_adMenuNum",iTab,365);
+</script>
+
+<div class="aboutNetease">
+<ul>
+<li><a href="http://corp.163.com/eng/about/overview.html">About NetEase</a> 　-　<a href="http://gb.corp.163.com/gb/about/overview.html">公司简介</a>　-　<a href="http://gb.corp.163.com/gb/contactus.html">联系方法</a>　-　<a href="http://hr.163.com/">招聘信息</a>　-　<a href="http://help.163.com/">客户服务</a>　-　<a href="http://gb.corp.163.com/gb/legal.html">相关法律</a>　 - 　<a  href="http://emarketing.163.com/">网络营销</a></li>
+</ul>
+</div>
+<div class="blank6"></div>
+<!-- 页脚 -->
+<div class="foot">
+<div class="copyRight">网易公司版权所有　　&copy;1997-2007<br />
+    <a href="http://images.163.com/images/163/license_040421.gif">ICP证粤B2-20030235</a>　<a href="http://cimg.163.com/home/2005/8/22/20050822155442d41d8.jpg">跨地区ICP证</a>　<a href="http://images.163.com/images/163/cert.jpg">互联网出版许可证粤002号</a>　<a href="http://cimg2.163.com/cnews/163/img6/news.htm">互联网新闻信息服务许可证</a>　<a href="http://www.gdca.gov.cn/">广东省通信管理局</a>　<a href="http://cimg.163.com/home/2005/8/16/20050816101415d41d8.jpg">国际联网备案</a><br />
+<a href="http://net.china.cn/chinese/index.htm">违法不良信息举报中心</a>　<a href="http://post.news.163.com/msg/jubao.jsp">不良信息举报信箱</a>　<a href="http://post.news.163.com/msg/zhubian.jsp">文明办网举报电话</a>　<a href="http://netbj.org.cn/index.asp">北京网络行业协会</a><br />
+    北京网通提供网络带宽 <br />
+<a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=0102000102300012"><img src="http://images.163.com/images/163homepage/biaoshi.gif" 
+alt="" /></a> <a href="http://www.bj.cyberpolice.cn/index.htm"><img alt="" 
+src="http://images.163.com/bj110.gif" /></a> </div>
+</div>
+
+
+
+
+
+
+
+
+<div id="ssid1"></div>
+<script type="text/javascript" src="http://popme.163.com/js/nadCouplet2.js"></script>
+<script type="text/javascript">
+new nadCouplet(
+'http://adimg.163.com/channel6/eachnet/digi070611o_110x260_163_hp_a.swf',
+'nad2912Home');
+new nadCouplet(
+'http://adimg.163.com/channel6/eachnet/digi070611o_110x260_163_hp_b.swf',
+'nad2912Home',
+{x:'right'});
+</script>
+
+
+
+
+
+<SCRIPT LANGUAGE="JavaScript1.1" 
+SRC="http://adclient.163.com/js.ng/site=netease&affiliate=homepage&cat=homepage&type=popup&location=1"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript1.1" 
+SRC="http://adclient.163.com/js.ng/site=netease&affiliate=homepage&cat=homepage&type=popup&location=2"></SCRIPT>
+
+
+<SCRIPT LANGUAGE="JavaScript1.1" 
+SRC="http://adclient.163.com/js.ng/site=netease&affiliate=homepage&cat=homepage&type=flash&location=1"></SCRIPT>
+<img src='http://adgeo.163.com/ad_cookies'  width="0" height="0">
+
+<!-- START NNR Site Census V5.1 -->
+<!-- COPYRIGHT 2004 Nielsen // Netratings -->
+<script language="JavaScript" type="text/javascript">
+<!--
+	var _rsCI="cn-netease";
+	var _rsCG="0";
+	var _rsDT=0;
+	var _rsDU=0; 
+	var _rsDO=0; 
+	var _rsX6=0;  
+	var _rsSI=escape(window.location);
+	var _rsLP=location.protocol.indexOf('https')>-1?'https:':'http:';
+	var _rsRP=escape(document.referrer);
+	var _rsND=_rsLP+'//secure-cn.imrworldwide.com/';
+
+	if (parseInt(navigator.appVersion)>=4)
+	{
+		var _rsRD=(new Date()).getTime();
+		var _rsSE=1;	
+		var _rsSV="";
+		var _rsSM=0.01;
+		_rsCL='<scr'+'ipt language="JavaScript" type="text/javascript" src="'+_rsND+'v51.js"></scr'+'ipt>';
+	}
+	else
+	{
+		_rsCL='<img src="'+_rsND+'cgi-bin/m?ci='+_rsCI+'&cg='+_rsCG+'&si='+_rsSI+'&rp='+_rsRP+'">';
+	}
+	document.write(_rsCL);
+//-->
+</script>
+<noscript>
+<img src="//secure-cn.imrworldwide.com/cgi-bin/m?ci=cn-netease&cg=0" alt="">
+</noscript>
+<!-- END NNR Site Census V5.1 -->
+<!-- START NetEase Devilfish 2006 -->
+<script src="http://analytics.163.com/ntes.js" type="text/javascript"></script>
+<script type="text/javascript">
+_ntes_nacc = "www";
+neteaseTracker();
+neteaseClickStat();
+</script>
+<!-- END NetEase Devilfish 2006 -->
+</body>
+</html>

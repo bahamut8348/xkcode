@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ISAPIFilter", "ISAPIFilter.vcproj", "{B3E1F2FA-04C2-4033-9AD7-4D685EEC844A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FilterAddon", "FilterAddon\FilterAddon.vcproj", "{BC16810B-BAD3-4BCA-A210-38AF1AD63C14}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FilterServer", "FilterServer\FilterServer.vcproj", "{BA3604FC-4A86-4CB7-A76A-CDCBEA88CD06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3E1F2FA-04C2-4033-9AD7-4D685EEC844A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B3E1F2FA-04C2-4033-9AD7-4D685EEC844A}.Debug|Win32.Build.0 = Debug|Win32
+		{B3E1F2FA-04C2-4033-9AD7-4D685EEC844A}.Release|Win32.ActiveCfg = Release|Win32
+		{B3E1F2FA-04C2-4033-9AD7-4D685EEC844A}.Release|Win32.Build.0 = Release|Win32
+		{BC16810B-BAD3-4BCA-A210-38AF1AD63C14}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC16810B-BAD3-4BCA-A210-38AF1AD63C14}.Debug|Win32.Build.0 = Debug|Win32
+		{BC16810B-BAD3-4BCA-A210-38AF1AD63C14}.Release|Win32.ActiveCfg = Release|Win32
+		{BC16810B-BAD3-4BCA-A210-38AF1AD63C14}.Release|Win32.Build.0 = Release|Win32
+		{BA3604FC-4A86-4CB7-A76A-CDCBEA88CD06}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BA3604FC-4A86-4CB7-A76A-CDCBEA88CD06}.Debug|Win32.Build.0 = Debug|Win32
+		{BA3604FC-4A86-4CB7-A76A-CDCBEA88CD06}.Release|Win32.ActiveCfg = Release|Win32
+		{BA3604FC-4A86-4CB7-A76A-CDCBEA88CD06}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

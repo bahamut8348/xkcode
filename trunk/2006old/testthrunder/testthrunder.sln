@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testthrunder", "testthrunder\testthrunder.vcproj", "{A7FBFC30-ABE0-4FD4-86C5-3377F6D4F645}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7FBFC30-ABE0-4FD4-86C5-3377F6D4F645}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7FBFC30-ABE0-4FD4-86C5-3377F6D4F645}.Debug|Win32.Build.0 = Debug|Win32
+		{A7FBFC30-ABE0-4FD4-86C5-3377F6D4F645}.Release|Win32.ActiveCfg = Release|Win32
+		{A7FBFC30-ABE0-4FD4-86C5-3377F6D4F645}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

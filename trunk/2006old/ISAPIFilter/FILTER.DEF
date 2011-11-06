@@ -1,0 +1,4 @@
+LIBRARY	     ISAPIFilter
+EXPORTS
+    HttpFilterProc
+    GetFilterVersion

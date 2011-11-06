@@ -1,0 +1,11 @@
+test = chat
+# curuser  ------- # current user
+
+touser  = users2
+chatmsg = hi, a message
+
+onchatrecv
+{
+	apply = true
+	
+}

@@ -1,0 +1,51 @@
+// EventFiringObject.idl : IDL source for EventFiringObject.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (EventFiringObject.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(8E396CC0-A266-481E-B6B4-0CB564DAA3BC),
+		dual,
+		helpstring("IEventFiringObject Interface"),
+		pointer_default(unique)
+	]
+	interface IEventFiringObject : IDispatch
+	{
+		[id(1), helpstring("method TestFunction")] HRESULT TestFunction([in] long lValue);
+	};
+
+[
+	uuid(0B199966-76EA-479F-881D-ED7CB5F3457B),
+	version(1.0),
+	helpstring("EventFiringObject 1.0 Type Library")
+]
+library EVENTFIRINGOBJECTLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(32F2B52C-1C07-43BC-879B-04C70A7FA148),
+		helpstring("_IEventFiringObjectEvents Interface")
+	]
+	dispinterface _IEventFiringObjectEvents
+	{
+		properties:
+		methods:
+		[id(1), helpstring("method Event1")] HRESULT Event1([in] long lValue);
+	};
+
+	[
+		uuid(A17BC235-A924-4FFE-8D96-22068CEA9959),
+		helpstring("EventFiringObject Class")
+	]
+	coclass EventFiringObject
+	{
+		[default] interface IEventFiringObject;
+		[default, source] dispinterface _IEventFiringObjectEvents;
+	};
+};

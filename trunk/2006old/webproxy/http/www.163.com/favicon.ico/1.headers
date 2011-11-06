@@ -1,0 +1,9 @@
+GET http://www.163.com/favicon.ico HTTP/1.1 2007-06-18T06:38:03Z
+HTTP/1.0 304 Not Modified
+Date: Sun, 17 Jun 2007 20:35:26 GMT
+Content-Type: image/x-icon
+Last-Modified: Wed, 27 Jul 2005 05:43:47 GMT
+Age: 36550
+X-Cache: HIT from www.163.com
+Connection: close
+

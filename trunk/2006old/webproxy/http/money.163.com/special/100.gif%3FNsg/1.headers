@@ -1,0 +1,14 @@
+GET http://money.163.com/special/100.gif?Nsg HTTP/1.1 2007-06-18T06:38:05Z
+HTTP/1.0 200 OK
+Date: Mon, 18 Jun 2007 06:44:38 GMT
+Server: Apache/2.0.54 (Unix)
+Last-Modified: Mon, 18 Jun 2007 06:44:13 GMT
+ETag: "1c04eea-6d7-86602940"
+Accept-Ranges: bytes
+Content-Length: 1751
+Cache-Control: max-age=2592000
+Expires: Wed, 18 Jul 2007 06:44:38 GMT
+Content-Type: image/gif
+X-Cache: MISS from news.163.com
+Connection: close
+

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdoTest", "OleDBTest.vcproj", "{867D4406-BABE-4310-86F7-981F9683E22C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "asyncAdo", "asyncAdo\asyncAdo.vcproj", "{5085ED89-7AA6-43E9-BD5D-8CEA499E77D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "adoview", "adoview\adoview.vcproj", "{CB3F3307-8DEF-4BBF-8AE9-2CC1B7530541}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{867D4406-BABE-4310-86F7-981F9683E22C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{867D4406-BABE-4310-86F7-981F9683E22C}.Debug|Win32.Build.0 = Debug|Win32
+		{867D4406-BABE-4310-86F7-981F9683E22C}.Release|Win32.ActiveCfg = Release|Win32
+		{867D4406-BABE-4310-86F7-981F9683E22C}.Release|Win32.Build.0 = Release|Win32
+		{5085ED89-7AA6-43E9-BD5D-8CEA499E77D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5085ED89-7AA6-43E9-BD5D-8CEA499E77D7}.Debug|Win32.Build.0 = Debug|Win32
+		{5085ED89-7AA6-43E9-BD5D-8CEA499E77D7}.Release|Win32.ActiveCfg = Release|Win32
+		{5085ED89-7AA6-43E9-BD5D-8CEA499E77D7}.Release|Win32.Build.0 = Release|Win32
+		{CB3F3307-8DEF-4BBF-8AE9-2CC1B7530541}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB3F3307-8DEF-4BBF-8AE9-2CC1B7530541}.Debug|Win32.Build.0 = Debug|Win32
+		{CB3F3307-8DEF-4BBF-8AE9-2CC1B7530541}.Release|Win32.ActiveCfg = Release|Win32
+		{CB3F3307-8DEF-4BBF-8AE9-2CC1B7530541}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

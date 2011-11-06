@@ -1,0 +1,14 @@
+GET http://68.142.232.116/49/182209993_04067f5105.jpg HTTP/1.1 2007-06-18T06:48:28Z
+HTTP/1.0 200 OK
+Date: Mon, 18 Jun 2007 06:55:00 GMT
+Server: Apache/2.0.52 (Red Hat)
+Cache-Control: max-age=315360000
+Expires: Mon, 28 Jul 2014 23:30:00 GMT
+Last-Modified: Wed, 05 Jul 2006 05:40:44 GMT
+Accept-Ranges: bytes
+Content-Length: 157823
+Content-Type: image/jpeg
+X-Cache: MISS from photocache4.flickr.re2.yahoo.com
+Via: 1.0 photocache4.flickr.re2.yahoo.com:80 (squid/2.6.STABLE10)
+Connection: close
+

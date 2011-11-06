@@ -1,0 +1,9 @@
+
+roomname = xxx
+nickname = what
+usepassword = 1
+password = roompass
+roomtype = 1
+desc = "create room test"
+
+expect = 106000

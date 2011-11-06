@@ -1,0 +1,9 @@
+; atlcom.def : Declares the module parameters.
+
+LIBRARY      "atlcom.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

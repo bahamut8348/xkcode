@@ -1,0 +1,9 @@
+; ComTest.def : Declares the module parameters.
+
+LIBRARY      "ComTest.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

@@ -1,0 +1,8 @@
+I:\Program\tool\MakeStrTable\MakeStrTable\bin\Debug\MakeStrTable.exe
+I:\Program\tool\MakeStrTable\MakeStrTable\bin\Debug\MakeStrTable.pdb
+I:\Program\tool\MakeStrTable\MakeStrTable\obj\Debug\ResolveAssemblyReference.cache
+I:\Program\tool\MakeStrTable\MakeStrTable\obj\Debug\MakeStrTable.Properties.Resources.resources
+I:\Program\tool\MakeStrTable\MakeStrTable\obj\Debug\MakeStrTable.csproj.GenerateResource.Cache
+I:\Program\tool\MakeStrTable\MakeStrTable\obj\Debug\MakeStrTable.exe
+I:\Program\tool\MakeStrTable\MakeStrTable\obj\Debug\MakeStrTable.pdb
+I:\Program\tool\MakeStrTable\MakeStrTable\obj\Debug\MakeStrTable.Form1.resources

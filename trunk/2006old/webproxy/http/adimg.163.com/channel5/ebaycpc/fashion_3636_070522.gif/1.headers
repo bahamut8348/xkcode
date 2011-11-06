@@ -1,0 +1,10 @@
+GET http://adimg.163.com/channel5/ebaycpc/fashion_3636_070522.gif HTTP/1.1 2007-06-18T06:38:05Z
+HTTP/1.0 304 Not Modified
+Date: Mon, 18 Jun 2007 06:30:00 GMT
+Content-Type: image/gif
+Expires: Mon, 18 Jun 2007 06:45:00 GMT
+Last-Modified: Tue, 22 May 2007 04:00:17 GMT
+Age: 875
+X-Cache: HIT from adimg.163.com
+Connection: close
+

@@ -1,0 +1,55 @@
+// ShorCutExt.idl : IDL source for ShorCutExt
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ShorCutExt.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+[
+	object,
+	uuid(BA359EC9-C3B3-490C-A006-2B25D7372734),
+	dual,
+	nonextensible,
+	helpstring("IMyFactory Interface"),
+	pointer_default(unique)
+]
+interface IMyFactory : IDispatch{
+};
+[
+	object,
+	uuid(5997762E-4E74-49A2-AD57-210CEFA8C5E1),
+	dual,
+	nonextensible,
+	helpstring("IShellExt Interface"),
+	pointer_default(unique)
+]
+interface IShellExt : IDispatch{
+};
+[
+	uuid(12D02135-0648-4493-8DDE-4963AFF5553A),
+	version(1.0),
+	helpstring("ShorCutExt 1.0 Type Library")
+]
+library ShorCutExtLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(DD02782A-FF67-40C6-8736-592B5CF66F7B),
+		helpstring("MyFactory Class")
+	]
+	coclass MyFactory
+	{
+		[default] interface IMyFactory;
+	};
+	[
+		uuid(95A21815-1753-4195-AF6A-EDD26D362791),
+		helpstring("ShellExt Class")
+	]
+	coclass ShellExt
+	{
+		[default] interface IShellExt;
+	};
+};
