@@ -1,0 +1,13 @@
+﻿Build started 2011/7/8 13:01:34.
+     1>Project "E:\work\testpcap\testpcap.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\testpcap.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iwpdpack/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _DLL /D BOOST_PYTHON_STATIC_LIB /D WPCAP /D HAVE_REMOTE /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\testpcap.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>e:\work\testpcap\stdafx.h(17): fatal error C1083: Cannot open include file: 'boost/python.hpp': No such file or directory
+     1>Done Building Project "E:\work\testpcap\testpcap.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.57

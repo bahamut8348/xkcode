@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="testpcap">
+</Property><Property Name="Solution File" Value="E:\work\testpcap\testpcap.sln">
+</Property><Property Name="User Options File" Value="E:\work\testpcap\testpcap.suo">
+</Property><Property Name="Date" Value="2011年7月8日">
+</Property><Property Name="Time" Value="13:01">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="testpcap.sln" Description="Error creating backup file: E:\work\testpcap\testpcap.sln.old">
+</Event><Event ErrorLevel="2" Project="" Source="testpcap.suo" Description="Error creating backup file: E:\work\testpcap\testpcap.suo.old">
+</Event><Event ErrorLevel="0" Project="testpcap" Source="testpcap.vcproj" Description="Converting project file 'E:\work\testpcap\testpcap.vcproj'.">
+</Event><Event ErrorLevel="1" Project="testpcap" Source="testpcap.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="testpcap" Source="testpcap.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="testpcap" Source="testpcap.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="testpcap" Source="testpcap.vcproj" Description="MSB8012: $(TargetName) ('testpcap') does not match the Linker's OutputFile property value 'bin\winpcap.pyd' ('winpcap') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="testpcap" Source="testpcap.vcproj" Description="MSB8012: $(TargetExt) ('.dll') does not match the Linker's OutputFile property value 'bin\winpcap.pyd' ('.pyd') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetExt) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="testpcap" Source="testpcap.vcproj" Description="MSB8012: $(TargetPath) ('E:\work\testpcap\Debug\testpcap.dll') does not match the Linker's OutputFile property value 'bin\winpcap.pyd' ('E:\work\testpcap\bin\winpcap.pyd') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="testpcap" Source="testpcap.vcproj" Description="MSB8012: $(TargetName) ('testpcap') does not match the Linker's OutputFile property value 'bin\winpcap.pyd' ('winpcap') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="testpcap" Source="testpcap.vcproj" Description="MSB8012: $(TargetExt) ('.dll') does not match the Linker's OutputFile property value 'bin\winpcap.pyd' ('.pyd') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetExt) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="testpcap" Source="testpcap.vcproj" Description="MSB8012: $(TargetPath) ('E:\work\testpcap\Release\testpcap.dll') does not match the Linker's OutputFile property value 'bin\winpcap.pyd' ('E:\work\testpcap\bin\winpcap.pyd') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="testpcap" Source="testpcap.vcproj" Description="Done converting to new project file 'E:\work\testpcap\testpcap.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="testpcap" Source="testpcap.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="testpcap.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="testpcap.sln" Description="Converted">
+</Event></UpgradeLog>
