@@ -1,0 +1,15 @@
+test = login
+
+
+UserName = username1
+PassWord = password1
+
+ExpectResult = 1
+
+
+
+
+
+
+
+

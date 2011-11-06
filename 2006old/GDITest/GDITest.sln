@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GDITest", "GDITest\GDITest.vcproj", "{683C53CF-FED9-4596-A0B4-788E7A40BB69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{683C53CF-FED9-4596-A0B4-788E7A40BB69}.Debug|Win32.ActiveCfg = Debug|Win32
+		{683C53CF-FED9-4596-A0B4-788E7A40BB69}.Debug|Win32.Build.0 = Debug|Win32
+		{683C53CF-FED9-4596-A0B4-788E7A40BB69}.Release|Win32.ActiveCfg = Release|Win32
+		{683C53CF-FED9-4596-A0B4-788E7A40BB69}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

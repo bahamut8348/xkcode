@@ -1,0 +1,36 @@
+1. 登陆抓包 
+
+i. 发送请求
+POST /login/login.php HTTP/1.1
+Host: www.kaixin001.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.1.1) Gecko/20090715 Firefox/3.5.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-cn,zh;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: GB2312,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Referer: http://www.kaixin001.com/
+Cookie: _uid=6336984; SERVERID=_srv100-49_; _ref=.
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 68
+
+url=%2Fhome%2F&email=lovecpp%40gmail.com&password=3281044&remember=1
+
+
+ii. 返回
+
+HTTP/1.1 302 Found
+Date: Sun, 19 Jul 2009 00:40:20 GMT
+Server: Apache
+Set-Cookie: _user=a0ba6f558aa37fc1f0264bbe147d07e1_6336984_1247964020; path=/; domain=.kaixin001.com
+Set-Cookie: _uid=6336984; expires=Mon, 19-Jul-2010 00:40:20 GMT; path=/; domain=.kaixin001.com
+Set-Cookie: _email=lovecpp%40gmail.com; expires=Mon, 19-Jul-2010 00:40:20 GMT; path=/; domain=.kaixin001.com
+Set-Cookie: _kx=0aca40a46faca2178f56768f78530895_6336984; expires=Mon, 19-Jul-2010 00:40:20 GMT; path=/; domain=.kaixin001.com
+Set-Cookie: _invisible=0; path=/; domain=.kaixin001.com
+Location: /home/?uid=6336984
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Length: 20
+Connection: close
+Content-Type: text/html

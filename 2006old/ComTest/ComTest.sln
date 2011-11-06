@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComTest", "ComTest.vcproj", "{2B5B57ED-6020-4B70-95FE-D84650C50449}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComTestPS", "ComTestPS.vcproj", "{87FFFCF1-BB5D-4B89-9BC2-FBDBEC2ECA2F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2B5B57ED-6020-4B70-95FE-D84650C50449} = {2B5B57ED-6020-4B70-95FE-D84650C50449}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B5B57ED-6020-4B70-95FE-D84650C50449}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2B5B57ED-6020-4B70-95FE-D84650C50449}.Debug|Win32.Build.0 = Debug|Win32
+		{2B5B57ED-6020-4B70-95FE-D84650C50449}.Release|Win32.ActiveCfg = Release|Win32
+		{2B5B57ED-6020-4B70-95FE-D84650C50449}.Release|Win32.Build.0 = Release|Win32
+		{87FFFCF1-BB5D-4B89-9BC2-FBDBEC2ECA2F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87FFFCF1-BB5D-4B89-9BC2-FBDBEC2ECA2F}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

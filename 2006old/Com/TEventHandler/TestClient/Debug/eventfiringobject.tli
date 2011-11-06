@@ -1,0 +1,29 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.50727.42 (d0406ae5).
+//
+// j:\program\com\teventhandler\testclient\debug\eventfiringobject.tli
+//
+// Wrapper implementations for Win32 type library ..\EventFiringObject\Debug\EventFiringObject.dll
+// compiler-generated file created 05/17/07 at 15:43:21 - DO NOT EDIT!
+
+#pragma once
+
+//
+// dispinterface _IEventFiringObjectEvents wrapper method implementations
+//
+
+inline HRESULT _IEventFiringObjectEvents::Event1 ( long lValue ) {
+    HRESULT _result = 0;
+    _com_dispatch_method(this, 0x1, DISPATCH_METHOD, VT_ERROR, (void*)&_result, 
+        L"\x0003", lValue);
+    return _result;
+}
+
+//
+// interface IEventFiringObject wrapper method implementations
+//
+
+inline HRESULT IEventFiringObject::TestFunction ( long lValue ) {
+    HRESULT _hr = raw_TestFunction(lValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

@@ -1,0 +1,1 @@
+id, loginname, password, lastlogintime, lastloginip, Email, nickname, city, sex, age, sendemail, status, birth, rightid, type

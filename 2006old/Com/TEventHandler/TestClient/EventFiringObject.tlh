@@ -1,0 +1,79 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.9782.0 (c8775e80).
+//
+// EventFiringObject.tlh
+//
+// C++ source equivalent of Win32 type library ..\EventFiringObject\Debug\EventFiringObject.dll
+// compiler-generated file created 12/09/04 at 15:47:15 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace EVENTFIRINGOBJECTLib {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("32f2b52c-1c07-43bc-879b-04c70a7fa148"))
+/* dispinterface */ _IEventFiringObjectEvents;
+struct /* coclass */ EventFiringObject;
+struct __declspec(uuid("8e396cc0-a266-481e-b6b4-0cb564daa3bc"))
+/* dual interface */ IEventFiringObject;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(_IEventFiringObjectEvents, __uuidof(IDispatch));
+_COM_SMARTPTR_TYPEDEF(IEventFiringObject, __uuidof(IEventFiringObject));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("32f2b52c-1c07-43bc-879b-04c70a7fa148"))
+_IEventFiringObjectEvents : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    // Methods:
+    HRESULT Event1 (
+        long lValue );
+};
+
+struct __declspec(uuid("a17bc235-a924-4ffe-8d96-22068cea9959"))
+EventFiringObject;
+    // [ default ] interface IEventFiringObject
+    // [ default, source ] dispinterface _IEventFiringObjectEvents
+
+struct __declspec(uuid("8e396cc0-a266-481e-b6b4-0cb564daa3bc"))
+IEventFiringObject : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT TestFunction (
+        long lValue );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_TestFunction (
+        long lValue ) = 0;
+};
+
+//
+// Wrapper method implementations
+//
+
+#include "EventFiringObject.tli"
+
+} // namespace EVENTFIRINGOBJECTLib
+
+#pragma pack(pop)

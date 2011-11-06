@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[PSDemo.sln]
+SCC_Aux_Path = "\\lechuck\VSS"
+SCC_Project_Name = "$/PSServer/Tools/PSDemo/PSDemo", SUSAAAAA
+
+[PSDemo.vcproj]
+SCC_Aux_Path = "\\lechuck\VSS"
+SCC_Project_Name = "$/PSServer/Tools/PSDemo/PSDemo", SUSAAAAA

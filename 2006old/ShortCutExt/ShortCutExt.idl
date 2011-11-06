@@ -1,0 +1,36 @@
+// ShortCutExt.idl : IDL source for ShortCutExt
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ShortCutExt.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(53355447-4EEA-458B-BB79-8115140AFA50),
+	dual,
+	nonextensible,
+	helpstring("IShortCut Interface"),
+	pointer_default(unique)
+]
+interface IShortCut : IDispatch{
+};
+[
+	uuid(66B2F5BD-4F07-4F83-A7FD-44A29BF1C756),
+	version(1.0),
+	helpstring("ShortCutExt 1.0 Type Library")
+]
+library ShortCutExtLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(A81EBE8C-831C-4D06-AAC7-CA605822026E),
+		helpstring("ShortCut Class")
+	]
+	coclass ShortCut
+	{
+		[default] interface IShortCut;
+	};
+};

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pyFport", "pyFport.vcproj", "{5702AE1A-C602-4B55-8143-21F88025938B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pyPort", "pyPort\pyPort.vcproj", "{73A768AF-188E-4975-8296-DEAA93B997DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5702AE1A-C602-4B55-8143-21F88025938B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5702AE1A-C602-4B55-8143-21F88025938B}.Debug|Win32.Build.0 = Debug|Win32
+		{5702AE1A-C602-4B55-8143-21F88025938B}.Release|Win32.ActiveCfg = Release|Win32
+		{5702AE1A-C602-4B55-8143-21F88025938B}.Release|Win32.Build.0 = Release|Win32
+		{73A768AF-188E-4975-8296-DEAA93B997DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{73A768AF-188E-4975-8296-DEAA93B997DB}.Debug|Win32.Build.0 = Debug|Win32
+		{73A768AF-188E-4975-8296-DEAA93B997DB}.Release|Win32.ActiveCfg = Release|Win32
+		{73A768AF-188E-4975-8296-DEAA93B997DB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

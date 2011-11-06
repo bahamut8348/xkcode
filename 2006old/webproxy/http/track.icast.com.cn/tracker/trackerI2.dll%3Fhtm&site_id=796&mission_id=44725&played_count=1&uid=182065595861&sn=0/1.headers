@@ -1,0 +1,12 @@
+GET http://track.icast.com.cn/tracker/trackerI2.dll?htm&site_id=796&mission_id=44725&played_count=1&uid=182065595861&sn=0 HTTP/1.1 2007-06-18T06:38:04Z
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Content-Length: 0
+Content-Type: application/x-msdownload
+Last-Modified: Wed, 14 Feb 2007 09:58:44 GMT
+Accept-Ranges: bytes
+ETag: "0623cb61e50c71:44d"
+Server: Microsoft-IIS/6.0
+Date: Mon, 18 Jun 2007 06:44:30 GMT
+Connection: close
+

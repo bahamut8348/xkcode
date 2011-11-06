@@ -1,0 +1,26 @@
+HKCR
+{
+	EventFiringObject.EventFiringObject.1 = s 'EventFiringObject Class'
+	{
+		CLSID = s '{A17BC235-A924-4FFE-8D96-22068CEA9959}'
+	}
+	EventFiringObject.EventFiringObject = s 'EventFiringObject Class'
+	{
+		CLSID = s '{A17BC235-A924-4FFE-8D96-22068CEA9959}'
+		CurVer = s 'EventFiringObject.EventFiringObject.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {A17BC235-A924-4FFE-8D96-22068CEA9959} = s 'EventFiringObject Class'
+		{
+			ProgID = s 'EventFiringObject.EventFiringObject.1'
+			VersionIndependentProgID = s 'EventFiringObject.EventFiringObject'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{0B199966-76EA-479F-881D-ED7CB5F3457B}'
+		}
+	}
+}

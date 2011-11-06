@@ -1,0 +1,10 @@
+I:\Program\CallCom\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+I:\Program\CallCom\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+I:\Program\CallCom\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+I:\Program\CallCom\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+I:\Program\CallCom\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+I:\Program\CallCom\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+I:\Program\CallCom\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+I:\Program\CallCom\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+I:\Program\CallCom\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+I:\Program\CallCom\WindowsApplication1\obj\Debug\WindowsApplication1.pdb

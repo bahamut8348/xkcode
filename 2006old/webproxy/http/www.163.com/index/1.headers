@@ -1,0 +1,12 @@
+GET http://www.163.com/ HTTP/1.1 2007-06-18T06:38:01Z
+HTTP/1.0 200 OK
+Date: Mon, 18 Jun 2007 06:40:09 GMT
+Server: Apache/2.0.59 (Unix)
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Length: 115413
+Content-Type: text/html; charset=GB2312
+Age: 267
+X-Cache: HIT from www.163.com
+Connection: close
+

@@ -1,0 +1,752 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LOGIN DIALOGEX 0, 0, 191, 145
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "Login"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO1,63,34,112,63,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_USERNAME,63,51,112,13,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_PASSWORD,63,67,112,14,ES_AUTOHSCROLL,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE
+    PUSHBUTTON      "&Register",IDC_REGISTER,34,115,50,14
+    DEFPUSHBUTTON   "Login(&L)",ID_LOGIN,110,115,50,14
+    GROUPBOX        "",IDC_STATIC,7,25,177,62
+    LTEXT           "Server:",IDC_STATIC,15,36,35,8
+    LTEXT           "Username:",IDC_STATIC,15,52,36,8
+    LTEXT           "Password:",IDC_STATIC,15,69,34,8
+    PUSHBUTTON      "&Connect",IDC_BUTTON4,34,91,50,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,7,110,177,1,WS_EX_STATICEDGE
+    LTEXT           "AppID:",IDC_STATIC,44,12,24,8
+    COMBOBOX        IDC_APPID,73,10,27,68,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "SubID:",IDC_STATIC,106,12,23,8
+    COMBOBOX        IDC_SUBID,129,10,28,79,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Version",IDC_STATIC,7,3,177,22
+    PUSHBUTTON      "&Option",IDC_Game,110,91,50,14
+END
+
+IDD_SHOWLOG DIALOGEX 0, 0, 186, 94
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LOGEDIT,"RichEdit20A",ES_AUTOHSCROLL | WS_BORDER | WS_TABSTOP,0,0,185,94
+END
+
+IDD_LOBBYSERVERDLG DIALOGEX 0, 0, 230, 169
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Lobby Server List"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,173,148,50,14
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,6,216,127
+    CONTROL         "",IDC_STATIC2,"Static",SS_ETCHEDFRAME,7,140,216,1,WS_EX_STATICEDGE
+END
+
+IDD_fileserver DIALOGEX 0, 0, 215, 118
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "File Server"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close",ID_CLOSE,158,97,50,14
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,201,83
+END
+
+IDD_CREATEROOM DIALOGEX 0, 0, 248, 159
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create Room"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,105,138,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,191,138,50,14
+    GROUPBOX        "Create Room",IDC_STATIC,7,7,234,82
+    EDITTEXT        IDC_ROOMNAME,85,35,95,12,ES_AUTOHSCROLL
+    LTEXT           "RoomName:",IDC_STATIC,21,36,41,8
+    LTEXT           "Max User Number:",IDC_STATIC,21,53,60,8
+    EDITTEXT        IDC_MAXUSER,85,51,40,13,ES_AUTOHSCROLL
+    CONTROL         "User Password",IDC_BUSEPASS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,72,63,10
+    EDITTEXT        IDC_PASSWORD,85,70,111,13,ES_AUTOHSCROLL
+    GROUPBOX        "Room Type",IDC_STATIC,7,92,234,40
+    CONTROL         "Chat Room",IDC_CHATTYPE,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,21,109,53,10
+    CONTROL         "Game Room",IDC_GAMETYPE,"Button",BS_AUTORADIOBUTTON,89,109,54,10
+    LTEXT           "NickName:",IDC_STATIC,21,20,34,8
+    EDITTEXT        IDC_NICKNAME,85,18,97,12,ES_AUTOHSCROLL
+END
+
+IDD_REGISTER DIALOGEX 0, 0, 236, 231
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Register"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Submit",IDOK,161,210,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,210,50,14
+    GROUPBOX        "Register",IDC_STATIC,7,7,222,192
+    EDITTEXT        IDC_USERNAME,83,23,114,14,ES_AUTOHSCROLL
+    LTEXT           "UserName*:",IDC_STATIC,20,26,40,8
+    LTEXT           "Password*:",IDC_STATIC,20,58,38,8
+    EDITTEXT        IDC_PASSWORD,83,57,114,14,ES_AUTOHSCROLL
+    LTEXT           "Confirm Password*:",IDC_STATIC,20,71,61,18
+    EDITTEXT        IDC_PASSWORD1,83,75,114,14,ES_AUTOHSCROLL
+    LTEXT           "NickName:",IDC_STATIC,20,41,34,8
+    EDITTEXT        IDC_NICKNAME,83,40,114,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EMAIL,83,93,114,14,ES_AUTOHSCROLL
+    LTEXT           "Email:",IDC_STATIC,20,95,20,8
+    LTEXT           "Location:",IDC_STATIC,20,112,30,8
+    COMBOBOX        IDC_LOCATION,83,111,114,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "City:",IDC_STATIC,20,129,16,8
+    EDITTEXT        IDC_CITY,83,128,114,14,ES_AUTOHSCROLL
+    LTEXT           "Gender:",IDC_STATIC,20,148,27,8
+    COMBOBOX        IDC_GENDER,83,146,114,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Birthday:",IDC_STATIC,20,168,30,8
+    LTEXT           "Year:",IDC_STATIC,83,168,18,8
+    EDITTEXT        IDC_YEAR,101,165,21,13,ES_AUTOHSCROLL
+    LTEXT           "Month:",IDC_STATIC,125,168,24,8
+    EDITTEXT        IDC_MONTH,149,165,18,13,ES_AUTOHSCROLL
+    LTEXT           "Day:",IDC_STATIC,170,167,16,8
+    EDITTEXT        IDC_DAY,189,165,17,13,ES_AUTOHSCROLL
+    CONTROL         "Subscribe to PS Newsletter",IDC_NEWSLETTER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,184,102,10
+    PUSHBUTTON      "Reset",IDC_RESET,28,210,50,14
+END
+
+IDD_SELUSERNAME DIALOGEX 0, 0, 186, 127
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Username to Register"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,118,106,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,55,106,50,14
+    CONTROL         "Radio1",IDC_NAME1,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,28,19,100,8
+    CONTROL         "Radio2",IDC_NAME2,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,28,29,100,10
+    GROUPBOX        "Select your prefer username",IDC_STATIC,7,7,172,92
+    EDITTEXT        IDC_CUSUSERNAME,39,72,78,14,ES_AUTOHSCROLL
+    CONTROL         "Radio3",IDC_NAME3,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,28,40,141,10
+    CONTROL         "Radio4",IDC_NAME4,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,28,51,140,10
+    CONTROL         "Radio5",IDC_NAME5,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,28,62,151,10
+    CONTROL         "Radio1",IDC_CUSRADIO,"Button",BS_AUTORADIOBUTTON,28,74,9,10
+END
+
+IDD_PROMOTE DIALOGEX 0, 0, 253, 70
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Caption"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_BNLEFT,127,49,50,14
+    PUSHBUTTON      "Cancel",ID_BNRIGHT,196,49,50,14
+    EDITTEXT        IDC_MSG,39,19,197,14,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_DLGDESC,7,7,239,35
+END
+
+IDD_DETAILINFO DIALOGEX 0, 0, 276, 175
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Account Information"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Close",IDOK,214,154,50,14
+    PUSHBUTTON      "&Refresh",ID_REFRESH,95,154,50,14
+    GROUPBOX        "Account Information",IDC_STATIC,7,7,262,142
+    PUSHBUTTON      "&Modify",ID_MODIFY,155,154,50,14
+    LTEXT           "UserName:",IDC_STATIC,23,21,36,8
+    EDITTEXT        IDC_USERNAME,62,19,72,12,ES_AUTOHSCROLL
+    LTEXT           "Nick Name:",IDC_STATIC,147,21,36,8
+    EDITTEXT        IDC_NICKNAME,191,19,66,12,ES_AUTOHSCROLL
+    LTEXT           "Email:",IDC_STATIC,23,39,20,8
+    EDITTEXT        IDC_EMAIL,62,38,121,12,ES_AUTOHSCROLL
+    LTEXT           "Location:",IDC_STATIC,23,59,30,8
+    COMBOBOX        IDC_LOCATION,62,57,122,119,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "City:",IDC_STATIC,23,79,16,8
+    EDITTEXT        IDC_CITY,61,77,73,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_GENDER,61,95,73,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Gender:",IDC_STATIC,23,97,27,8
+    LTEXT           "Birthday:",IDC_STATIC,24,116,30,8
+    LTEXT           "Year:",IDC_STATIC,62,116,18,8
+    EDITTEXT        IDC_YEAR,80,114,21,13,ES_AUTOHSCROLL
+    LTEXT           "Month:",IDC_STATIC,111,116,24,8
+    EDITTEXT        IDC_MONTH,135,114,18,13,ES_AUTOHSCROLL
+    LTEXT           "Day:",IDC_STATIC,161,115,16,8
+    EDITTEXT        IDC_DAY,180,113,17,13,ES_AUTOHSCROLL
+    CONTROL         "Subscribe to PS Newsletter",IDC_NEWSLETTER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,132,102,10
+END
+
+IDD_CHANGEPASS DIALOGEX 0, 0, 202, 114
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Change Password"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,145,93,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,79,93,50,14
+    GROUPBOX        "",IDC_STATIC,7,7,188,79
+    LTEXT           "Old Password:",IDC_STATIC,13,23,47,8
+    EDITTEXT        IDC_OLDPASSWORD,67,21,113,12,ES_AUTOHSCROLL
+    LTEXT           "New Password:",IDC_STATIC,14,39,50,8
+    EDITTEXT        IDC_PASSWORD,67,36,113,12,ES_AUTOHSCROLL
+    LTEXT           "Confirm new password:",IDC_STATIC,13,50,43,17
+    EDITTEXT        IDC_PASSWORD1,67,53,113,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 184
+        VERTGUIDE, 15
+        VERTGUIDE, 34
+        VERTGUIDE, 110
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 138
+        HORZGUIDE, 16
+        HORZGUIDE, 91
+        HORZGUIDE, 110
+    END
+
+    IDD_SHOWLOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 185
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_LOBBYSERVERDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 162
+        HORZGUIDE, 133
+    END
+
+    IDD_fileserver, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_CREATEROOM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 241
+        VERTGUIDE, 21
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 229
+        VERTGUIDE, 20
+        VERTGUIDE, 83
+        VERTGUIDE, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 224
+        HORZGUIDE, 178
+    END
+
+    IDD_SELUSERNAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+
+    IDD_PROMOTE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 246
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_DETAILINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 269
+        VERTGUIDE, 23
+        VERTGUIDE, 134
+        VERTGUIDE, 145
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_CHANGEPASS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 107
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_CHATUSERS MENU 
+BEGIN
+    POPUP "pop"
+    BEGIN
+        MENUITEM "&Add to buddy",               ID_POP_ADDTOMYBUDDYLIST
+        POPUP "&Invite to Room"
+        BEGIN
+            MENUITEM "Rooms",                       ID_INVITETOROOM_ROOMS
+        END
+    END
+END
+
+IDR_BUDDY MENU 
+BEGIN
+    POPUP "pop"
+    BEGIN
+        MENUITEM "&Remove",                     ID_POP_REMOVE
+        POPUP "&Invite To Room"
+        BEGIN
+            MENUITEM "Rooms",                       ID_INVITETOROOM_ROOMS32786
+        END
+    END
+END
+
+IDR_ROOMLIST MENU 
+BEGIN
+    POPUP "pop"
+    BEGIN
+        MENUITEM "&Create Room",                ID_POP_CREATEROOM
+        MENUITEM SEPARATOR
+        MENUITEM "&Refresh\tF5",                ID_POP_REFRESH
+    END
+END
+
+IDR_SHOWIP MENU 
+BEGIN
+    POPUP "POP"
+    BEGIN
+        MENUITEM "LocalIP",                     ID_POP_LOCALIP
+        MENUITEM "PublicIP",                    ID_POP_PUBLICIP
+        MENUITEM "IS IP",                       ID_POP_ISIP
+    END
+END
+
+IDR_AREA MENU 
+BEGIN
+    POPUP "pop"
+    BEGIN
+        MENUITEM "&Refresh Area",               ID_POP_REFRESHAREA
+        MENUITEM SEPARATOR
+        MENUITEM "Refresh &All",                ID_POP_REFRESHALL
+    END
+END
+
+IDR_TAB MENU 
+BEGIN
+    POPUP "Tab"
+    BEGIN
+        MENUITEM "&Close",                      ID_TAB_CLOSE
+    END
+END
+
+IDR_LOGINOPT MENU 
+BEGIN
+    POPUP "pop"
+    BEGIN
+        MENUITEM "&Show Log",                   ID_POP_SHOWLOG
+        MENUITEM SEPARATOR
+        MENUITEM "&LobbyServers",               ID_POP_LOBBYSERVERS
+        MENUITEM "&FileServers",                ID_POP_FILESERVERS
+        MENUITEM SEPARATOR
+        MENUITEM "&Game Login",                 ID_POP_GAMELOGIN
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_CLOSEROOMLIST       ICON                    "res\\CloseRoomList.ico"
+IDI_ROOM                ICON                    "res\\room.ico"
+IDI_SERVER              ICON                    "res\\Server.ico"
+IDI_OFFLINE             ICON                    "res\\useroffline.ico"
+IDI_ONLINE              ICON                    "res\\useronline.ico"
+IDI_MSG                 ICON                    "res\\message.ico"
+IDI_ACCOUNTID           ICON                    "res\\accountid.ico"
+IDI_psuid               ICON                    "res\\PSUID.ico"
+IDI_VERSION             ICON                    "res\\Version.ico"
+IDI_IP                  ICON                    "res\\IP.ico"
+IDI_START               ICON                    "res\\start.ico"
+IDI_LOCK                ICON                    "res\\Lock.ico"
+IDI_ICON1               ICON                    "res\\icon1.ico"
+IDI_STARTGAME           ICON                    "res\\StartGame.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+ID_POP_LOBBYSERVERS     BITMAP                  "res\\Server.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 187, 102
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,81,50,14
+    CTEXT           "Possibility Space v1.0\n\n(c) Copyright 2007",IDC_STATIC,25,57,78,32
+    ICON            IDR_MAINFRAME,IDC_STATIC,55,26,20,20
+    GROUPBOX        "",IDC_STATIC,7,7,115,88
+END
+
+IDD_SENDMSGDLG DIALOGEX 0, 0, 158, 26
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_MSG,62,4,41,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Send(&S)",IDC_BNSEND,103,5,50,14
+    COMBOBOX        IDC_USERS,5,5,48,151,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+
+    IDD_SENDMSGDLG, DIALOG
+    BEGIN
+        VERTGUIDE, 62
+        VERTGUIDE, 103
+        VERTGUIDE, 153
+        BOTTOMMARGIN, 25
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Acount Information",         ID_FILE_PERINFO
+        MENUITEM "&Change Password",            ID_FILE_CHANGEPASSWORD
+        MENUITEM SEPARATOR
+        MENUITEM "Create &Game Room",           ID_FILE_CREATEAGAMEROOM
+        MENUITEM SEPARATOR
+        MENUITEM "&Logout\tCtrl+L",             ID_FILE_LOGOUT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tCtrl+X",               ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "Show &Log",                   ID_VIEW_LOG
+        MENUITEM SEPARATOR
+        MENUITEM "&LobbyServers",               ID_VIEW_LOBBYSERVERS
+        MENUITEM "",                            ID_Menu
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About PSDemo...",            ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\PSDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDR_ROOMTB              BITMAP                  "res\\toolbar1.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_LOGOUT
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_ROOMTB TOOLBAR  24, 24
+BEGIN
+    BUTTON      ID_ROOM_QUIT
+    BUTTON      ID_ROOM_SET
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "Q",            ID_APP_EXIT,            VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_LOGOUT,              VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "PSDemo Module"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "PSDemo"
+            VALUE "LegalCopyright", "Copyright 2007"
+            VALUE "OriginalFilename", "PSDemo.exe"
+            VALUE "ProductName", "PSDemo Module"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "PSDemo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_LOGOUT               "Logout\\Logout"
+    ID_LOGPOP_COPY          "Copy select log"
+    ID_LOGPOP_COPYALL       "Copy All Log\nCopyALl"
+    ID_LOGPOP_CLEAR         "Clear Log"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_LOG             "Show Log"
+    ID_VIEW_LOBBYSERVERS    "Show Lobby Server List\nShow lobby server"
+    ID_ROOM_QUIT            "Quit Room\nQuit"
+    ID_ROOM_SET             "Change setting\nChange Setting"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_POP_CREATEROOM       "Create a new room"
+    ID_POP_LOCALIP          "LocalIP"
+    ID_POP_PUBLICIP         "PublicIP"
+    ID_POP_ISIP             "Interface Server IP"
+    ID_POP_REFRESH          "Refresh room list"
+    ID_POP_REFRESHALL       "Refresh all area\nID_POP_REFRESHALL"
+    ID_POP_REFRESHAREA      "Refresh selected area"
+    ID_FILE_PERINFO         "Show your detail information"
+    ID_FILE_LOGOUT          "Logout\nLogout"
+END
+
+STRINGTABLE 
+BEGIN
+    IDI_ACCOUNTID           "AccountID: %d"
+    IDI_psuid               "PSUID: %s"
+    IDI_IP                  "%s"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_CHANGEPASSWORD  "Change my password\nChange password"
+    ID_TAB_CLOSE            "Close Room List"
+    ID_FILE_CREATEAGAMEROOM "Create a game room"
+END
+
+STRINGTABLE 
+BEGIN
+    IDI_STARTGAME           "Start a game\nStart Game"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_LOGMENU MENU 
+BEGIN
+    POPUP "LogPop"
+    BEGIN
+        MENUITEM "Copy",                        ID_LOGPOP_COPY
+        MENUITEM "Copy &All",                   ID_LOGPOP_COPYALL
+        MENUITEM "Clea&r",                      ID_LOGPOP_CLEAR
+    END
+END
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

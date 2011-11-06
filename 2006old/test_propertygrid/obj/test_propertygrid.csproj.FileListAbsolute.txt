@@ -1,0 +1,17 @@
+I:\Program\test_propertygrid\bin\Debug\test_propertygrid.exe
+I:\Program\test_propertygrid\bin\Debug\test_propertygrid.pdb
+I:\Program\test_propertygrid\obj\Debug\ResolveAssemblyReference.cache
+I:\Program\test_propertygrid\obj\Debug\test_propertygrid.Form1.resources
+I:\Program\test_propertygrid\obj\Debug\test_propertygrid.Properties.Resources.resources
+I:\Program\test_propertygrid\obj\Debug\test_propertygrid.csproj.GenerateResource.Cache
+I:\Program\test_propertygrid\obj\Debug\test_propertygrid.exe
+I:\Program\test_propertygrid\obj\Debug\test_propertygrid.pdb
+I:\Program\test_propertygrid\obj\Release\ResolveAssemblyReference.cache
+I:\Program\test_propertygrid\obj\Release\test_propertygrid.Form1.resources
+I:\Program\test_propertygrid\obj\Release\test_propertygrid.Properties.Resources.resources
+I:\Program\test_propertygrid\obj\Release\test_propertygrid.csproj.GenerateResource.Cache
+I:\Program\test_propertygrid\bin\Release\test_propertygrid.exe
+I:\Program\test_propertygrid\bin\Release\test_propertygrid.pdb
+I:\Program\test_propertygrid\obj\Release\test_propertygrid.exe
+I:\Program\test_propertygrid\obj\Release\test_propertygrid.pdb
+I:\Program\test_propertygrid\bin\Release\test_propertygrid.exe.config

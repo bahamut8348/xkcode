@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestQueryDNS", "TestQueryDNS\TestQueryDNS.vcproj", "{EB8CF8EB-9589-43EF-8E58-CD603350436B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qMX", "qMX\qMX.vcproj", "{0DBB3FE6-17AC-4AFF-8CDE-3ADE51B6D314}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB8CF8EB-9589-43EF-8E58-CD603350436B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EB8CF8EB-9589-43EF-8E58-CD603350436B}.Debug|Win32.Build.0 = Debug|Win32
+		{EB8CF8EB-9589-43EF-8E58-CD603350436B}.Release|Win32.ActiveCfg = Release|Win32
+		{EB8CF8EB-9589-43EF-8E58-CD603350436B}.Release|Win32.Build.0 = Release|Win32
+		{0DBB3FE6-17AC-4AFF-8CDE-3ADE51B6D314}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0DBB3FE6-17AC-4AFF-8CDE-3ADE51B6D314}.Debug|Win32.Build.0 = Debug|Win32
+		{0DBB3FE6-17AC-4AFF-8CDE-3ADE51B6D314}.Release|Win32.ActiveCfg = Release|Win32
+		{0DBB3FE6-17AC-4AFF-8CDE-3ADE51B6D314}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

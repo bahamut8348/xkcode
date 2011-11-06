@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: Skin - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/Skin.res" /d "_DEBUG" /d "_AFXDLL" "C:\Sonu\Codefinger\Articles\Skin\Skin.rc"" 
+Erstellen der Befehlzeile "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Skin.pdb" /debug /machine:I386 /out:"Debug/Skin.exe" /pdbtype:sept  .\Debug\Skin.obj .\Debug\SkinDlg.obj .\Debug\StdAfx.obj .\Debug\Skin.res .\Debug\BtnST.obj "
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+Skin.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

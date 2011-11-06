@@ -1,0 +1,1 @@
+pscp -C * xuke@fancyguo.cn:/home/xuke/qf/

@@ -1,0 +1,27 @@
+HKCR
+{
+	ShorCutExt.ShellExt.1 = s 'ShellExt Class'
+	{
+		CLSID = s '{95A21815-1753-4195-AF6A-EDD26D362791}'
+	}
+	ShorCutExt.ShellExt = s 'ShellExt Class'
+	{
+		CLSID = s '{95A21815-1753-4195-AF6A-EDD26D362791}'
+		CurVer = s 'ShorCutExt.ShellExt.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {95A21815-1753-4195-AF6A-EDD26D362791} = s 'ShellExt Class'
+		{
+			ProgID = s 'ShorCutExt.ShellExt.1'
+			VersionIndependentProgID = s 'ShorCutExt.ShellExt'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{12D02135-0648-4493-8DDE-4963AFF5553A}'
+		}
+	}
+}

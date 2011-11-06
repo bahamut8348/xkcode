@@ -1,0 +1,27 @@
+HKCR
+{
+	ShorCutExt.MyFactory.1 = s 'MyFactory Class'
+	{
+		CLSID = s '{DD02782A-FF67-40C6-8736-592B5CF66F7B}'
+	}
+	ShorCutExt.MyFactory = s 'MyFactory Class'
+	{
+		CLSID = s '{DD02782A-FF67-40C6-8736-592B5CF66F7B}'
+		CurVer = s 'ShorCutExt.MyFactory.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {DD02782A-FF67-40C6-8736-592B5CF66F7B} = s 'MyFactory Class'
+		{
+			ProgID = s 'ShorCutExt.MyFactory.1'
+			VersionIndependentProgID = s 'ShorCutExt.MyFactory'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{12D02135-0648-4493-8DDE-4963AFF5553A}'
+		}
+	}
+}

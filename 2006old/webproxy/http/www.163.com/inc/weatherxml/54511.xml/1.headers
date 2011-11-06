@@ -1,0 +1,9 @@
+GET http://www.163.com/inc/weatherxml/54511.xml HTTP/1.1 2007-06-18T06:38:03Z
+HTTP/1.0 304 Not Modified
+Date: Mon, 18 Jun 2007 05:56:31 GMT
+Content-Type: application/xml
+Last-Modified: Sun, 17 Jun 2007 12:11:53 GMT
+Age: 2886
+X-Cache: HIT from www.163.com
+Connection: close
+

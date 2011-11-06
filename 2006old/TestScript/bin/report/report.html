@@ -1,0 +1,1226 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title> Server Test Report </title>
+</head>
+<style>
+	body{ font-size:12px;}
+	h3{font-family:Arial}
+	.logo{background-image:url(images/logo_fill.jpg); background-position:0 -1px;}
+	.testcase{ margin-left:30px; width:600px; float:left; border-bottom:1px solid #a1a1a1; border-right:1px solid #a1a1a1; border-left:1px solid #a1a1a1;}
+	.testcase .index{float:left; width:60px; text-align:right; border-left:0px solid #a1a1a1; height:18px; line-height:18px;}
+	.testcase .casename{text-indent:10px; float:left; width: 300px; border-left:1px solid #a1a1a1;height:18px; line-height:18px;}
+	.testcase .caseimg{text-indent:10px; float:left; border-left:1px solid #a1a1a1; height:18px; line-height:18px;}
+	.allcase{ float:left; width:599px; }
+	.testitem{font-family:Arial; margin-top:4px; background-color: #A2B5CD;float:left;width:600px; border: 1px solid #a1a1a1; height:25px; font-size:14px; text-indent:20px; font-weight:bold; margin-left:30px; line-height:25px;}
+	.reth{
+		color:#555555; font-weight:bold; background-color:#DCDCDC;height:18px; line-height:18px; border-top: 1px solid #a1a1a1; 
+	}
+	.itemtime{float:right;}
+	.itemname{float:left;}
+	.ret0{color:red;}
+	.detailitem{float:right; width:539px; border-left:1px solid #a1a1a1;border-top:1px solid #a1a1a1;}
+	.detailitem .itemname{ float:left; width:80px; text-indent: 20px; font-family:Arial}
+	.detailitem .itemvalue{ float:right; width:430px;border-left:1px solid #a1a1a1; line-height:16px; text-indent:4px;}
+	.detailitem .listname{ text-indent:4px; float:left; width:538px; background-color:#DCDCDC; height:20px; line-height:20px;}
+	.detailitem .index{float:left; width:61px; border-left:0px; padding:0; border-right: 1px solid #a1a1a1;}
+	.detailinfo {width:599px; float:right; border-left: 0px solid #a1a1a1; }
+	.casedetail {float:left; line-height:18px; height:18px; padding-top:3px; padding-bottom:3px; margin-left:10px; cursor:hand; }
+	.caseimg{}
+	.foot{ float:left; width:900px; ;}
+	.testitemwrap{float:left; width:900px;}
+</style>
+<body>
+<div class="logo"><img src="images/logo.jpg" /></div>
+<h3>Server Test Report</h3>
+<hr />
+<div class='testitemwrap' > <div class="testitem" > <a class="itemname">Join Room Test</a><span class="itemtime">2008-03-24 11:11:17</span> </div> 
+<div class='allcase'><div class='testcase reth' ><div class='index'>No.</div><div class='casename'>Item Name</div><div class='caseimg'>Result</div></div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>1</span> </div><div class="casename">Success</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106010</div> <div class="itemvalue">CP_E_JoinRoom_Succ</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106010</div> <div class="itemvalue">CP_E_JoinRoom_Succ</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Roomid</div> <div class="itemvalue">1048656</div> </div><div class="detailitem" ><div class="itemname">Usepass</div> <div class="itemvalue">True</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>2</span> </div><div class="casename">Room not exist</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106013</div> <div class="itemvalue">CP_E_JoinRoom_RoomNotExist</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106014</div> <div class="itemvalue">CP_E_JoinRoom_User_Exist</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Roomid</div> <div class="itemvalue">1048656</div> </div><div class="detailitem" ><div class="itemname">Usepass</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>3</span> </div><div class="casename">User has exist</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106014</div> <div class="itemvalue">CP_E_JoinRoom_User_Exist</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106014</div> <div class="itemvalue">CP_E_JoinRoom_User_Exist</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Roomid</div> <div class="itemvalue">97</div> </div><div class="detailitem" ><div class="itemname">Usepass</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>4</span> </div><div class="casename">Wrong password</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106012</div> <div class="itemvalue">CP_E_JoinRoom_IncorrectPassword</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106010</div> <div class="itemvalue">CP_E_JoinRoom_Succ</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Roomid</div> <div class="itemvalue">96</div> </div><div class="detailitem" ><div class="itemname">Usepass</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>5</span> </div><div class="casename">Reach max user</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106011</div> <div class="itemvalue">CP_E_JoinRoom_ReceiveMax</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106011</div> <div class="itemvalue">CP_E_JoinRoom_ReceiveMax</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">7444</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Roomid</div> <div class="itemvalue">98</div> </div><div class="detailitem" ><div class="itemname">Usepass</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div></div></div><div class='testitemwrap' > <div class="testitem" > <a class="itemname">Change Password Test</a><span class="itemtime">2008-04-01 11:07:32</span> </div> 
+<div class='allcase'><div class='testcase reth' ><div class='index'>No.</div><div class='casename'>Item Name</div><div class='caseimg'>Result</div></div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>1</span> </div><div class="casename">Success</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104079</div> <div class="itemvalue">Change password successful!</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">Newpassword</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Oldpassword</div> <div class="itemvalue">123123</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>2</span> </div><div class="casename">No this user</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">101080</div> <div class="itemvalue">Username does not exist.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104081</div> <div class="itemvalue">Old password is incorrect.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">a</div> </div><div class="detailitem" ><div class="itemname">Newpassword</div> <div class="itemvalue">d</div> </div><div class="detailitem" ><div class="itemname">Oldpassword</div> <div class="itemvalue">s</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>3</span> </div><div class="casename">Old pass error</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104081</div> <div class="itemvalue">Old password is incorrect.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104081</div> <div class="itemvalue">Old password is incorrect.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">Newpassword</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Oldpassword</div> <div class="itemvalue">b</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>4</span> </div><div class="casename">New password missing</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104085</div> <div class="itemvalue">New password is missing.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104085</div> <div class="itemvalue">New password is missing.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">Newpassword</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Oldpassword</div> <div class="itemvalue">123123</div> </div>
+	
+	
+	
+	</div>
+</div></div></div><div class='testitemwrap' > <div class="testitem" > <a class="itemname">ModifyUserAccount Test</a><span class="itemtime">2008-04-01 15:51:48</span> </div> 
+<div class='allcase'><div class='testcase reth' ><div class='index'>No.</div><div class='casename'>Item Name</div><div class='caseimg'>Result</div></div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>1</span> </div><div class="casename">Modify Success</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104000</div> <div class="itemvalue">Registration successful!</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104902</div> <div class="itemvalue">Database Error. Please try again later.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>2</span> </div><div class="casename">Short user name</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104001</div> <div class="itemvalue">Username is too short. Username must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104902</div> <div class="itemvalue">Database Error. Please try again later.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>3</span> </div><div class="casename">Long user name</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104002</div> <div class="itemvalue">Username is too long. Username must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104902</div> <div class="itemvalue">Database Error. Please try again later.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">1</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>4</span> </div><div class="casename">Start with number</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104003</div> <div class="itemvalue">Username must start with a letter. Username must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104902</div> <div class="itemvalue">Database Error. Please try again later.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">2</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>5</span> </div><div class="casename">Use invalid character</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104004</div> <div class="itemvalue">Username contains invalid character. Username must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104902</div> <div class="itemvalue">Database Error. Please try again later.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">1</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>6</span> </div><div class="casename">A exist username</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104005</div> <div class="itemvalue">Username is already taken.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104902</div> <div class="itemvalue">Database Error. Please try again later.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">3</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>7</span> </div><div class="casename">Empty user name</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104006</div> <div class="itemvalue">We're sorry, but you did not enter an user name.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104902</div> <div class="itemvalue">Database Error. Please try again later.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>8</span> </div><div class="casename">Disallowed username</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104007</div> <div class="itemvalue">Username contains profanity or disaollowed text.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104902</div> <div class="itemvalue">Database Error. Please try again later.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>9</span> </div><div class="casename">No password</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104014</div> <div class="itemvalue">We're sorry, but you did not enter a password.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104902</div> <div class="itemvalue">Database Error. Please try again later.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>10</span> </div><div class="casename">Short nickname</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104030</div> <div class="itemvalue">Nickname is too short. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104030</div> <div class="itemvalue">Nickname is too short. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">a</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>11</span> </div><div class="casename">Long nickname</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104031</div> <div class="itemvalue">Nickname is too long. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104031</div> <div class="itemvalue">Nickname is too long. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">sssssssssssssssssssssssssssssssss</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>12</span> </div><div class="casename">Start with number</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104032</div> <div class="itemvalue">Nickname must start with a letter. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104032</div> <div class="itemvalue">Nickname must start with a letter. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">12sdfdsf</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>13</span> </div><div class="casename">Use invalid character</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104033</div> <div class="itemvalue">Nickname is invalid. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104033</div> <div class="itemvalue">Nickname is invalid. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">sd**df</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>14</span> </div><div class="casename">Disallowed nickname</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104035</div> <div class="itemvalue">Nickname contains profanity or disaollowed text.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104902</div> <div class="itemvalue">Database Error. Please try again later.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">ofucku</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>15</span> </div><div class="casename">Invalid Country</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104042</div> <div class="itemvalue">Country is invalid.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104902</div> <div class="itemvalue">Database Error. Please try again later.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">a</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">500</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>16</span> </div><div class="casename">Short city name</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104046</div> <div class="itemvalue">City name is too short. contain 1 to 15 characters.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104902</div> <div class="itemvalue">Database Error. Please try again later.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">q</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>17</span> </div><div class="casename">Long city name</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104047</div> <div class="itemvalue">City name is too long. contain 1 to 15 characters.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104047</div> <div class="itemvalue">City name is too long. contain 1 to 15 characters.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>18</span> </div><div class="casename">Invalid Email</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104055</div> <div class="itemvalue">Email address is invalid.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104055</div> <div class="itemvalue">Email address is invalid.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">sdfdsf</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>19</span> </div><div class="casename">Invalid birth</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104058</div> <div class="itemvalue">Date of birth is invalid. </div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104058</div> <div class="itemvalue">Date of birth is invalid. </div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">8000</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>20</span> </div><div class="casename">Email address too short</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104053</div> <div class="itemvalue">Email address too short. Email must contain 7 to 31 characters.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104902</div> <div class="itemvalue">Database Error. Please try again later.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">2@1.cn</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>21</span> </div><div class="casename">Email address too long</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104054</div> <div class="itemvalue">Email address too long. Email must contain 7 to 31 characters.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104054</div> <div class="itemvalue">Email address too long. Email must contain 7 to 31 characters.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk@k.cn</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>22</span> </div><div class="casename">Email address invalid</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104055</div> <div class="itemvalue">Email address is invalid.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104902</div> <div class="itemvalue">Database Error. Please try again later.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">ksdfj**@kk.com</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Accountid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div></div></div><div class='testitemwrap' > <div class="testitem" > <a class="itemname">Register Test</a><span class="itemtime">2008-04-16 16:17:16</span> </div> 
+<div class='allcase'><div class='testcase reth' ><div class='index'>No.</div><div class='casename'>Item Name</div><div class='caseimg'>Result</div></div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>1</span> </div><div class="casename">Registration successful</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104000</div> <div class="itemvalue">Registration successful!</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104000</div> <div class="itemvalue">Registration successful!</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.00579824</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123456</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>2</span> </div><div class="casename">Username too short</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104001</div> <div class="itemvalue">Username is too short. Username must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104001</div> <div class="itemvalue">Username is too short. Username must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">a</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>3</span> </div><div class="casename">Username too long</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104002</div> <div class="itemvalue">Username is too long. Username must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104002</div> <div class="itemvalue">Username is too long. Username must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>4</span> </div><div class="casename">Username must start with a letter</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104003</div> <div class="itemvalue">Username must start with a letter. Username must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104003</div> <div class="itemvalue">Username must start with a letter. Username must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">1sasdd</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>5</span> </div><div class="casename">Username is invalid</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104004</div> <div class="itemvalue">Username contains invalid character. Username must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104004</div> <div class="itemvalue">Username contains invalid character. Username must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">sdf*dsf</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>6</span> </div><div class="casename">Username is taken</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104005</div> <div class="itemvalue">Username is already taken.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104005</div> <div class="itemvalue">Username is already taken.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>7</span> </div><div class="casename">Username is missing</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104006</div> <div class="itemvalue">We're sorry, but you did not enter an user name.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104006</div> <div class="itemvalue">We're sorry, but you did not enter an user name.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>8</span> </div><div class="casename">Username disallowed</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104007</div> <div class="itemvalue">Username contains profanity or disaollowed text.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104005</div> <div class="itemvalue">Username is already taken.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ofuckha</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>9</span> </div><div class="casename">Password is missing</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104014</div> <div class="itemvalue">We're sorry, but you did not enter a password.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104014</div> <div class="itemvalue">We're sorry, but you did not enter a password.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.59458833</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">nname</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>10</span> </div><div class="casename">Nickname is too short</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104030</div> <div class="itemvalue">Nickname is too short. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104030</div> <div class="itemvalue">Nickname is too short. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.43292489</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">a</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>11</span> </div><div class="casename">Nickname is too long</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104031</div> <div class="itemvalue">Nickname is too long. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104031</div> <div class="itemvalue">Nickname is too long. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.56297646</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">sssssssssssssssssssssssssssssssss</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>12</span> </div><div class="casename">Nickname must start with a letter</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104032</div> <div class="itemvalue">Nickname must start with a letter. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104032</div> <div class="itemvalue">Nickname must start with a letter. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.44556342</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">12sdfdsf</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>13</span> </div><div class="casename">Nickname is invalid</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104033</div> <div class="itemvalue">Nickname is invalid. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104033</div> <div class="itemvalue">Nickname is invalid. Nickname must contain 3 to 15 characters. Only a-z, 0-9, underscores(_), and periods(.) are allowed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.51488189</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">sd**df</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>14</span> </div><div class="casename">Nickname is disallowed</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104035</div> <div class="itemvalue">Nickname contains profanity or disaollowed text.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104000</div> <div class="itemvalue">Registration successful!</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.76203900</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">ofucku</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>15</span> </div><div class="casename">Invalid Country</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104042</div> <div class="itemvalue">Country is invalid.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104000</div> <div class="itemvalue">Registration successful!</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.17159727</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">a</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">1500</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>16</span> </div><div class="casename">Short city name</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104046</div> <div class="itemvalue">City name is too short. contain 1 to 15 characters.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104000</div> <div class="itemvalue">Registration successful!</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.59960286</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">a</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>17</span> </div><div class="casename">Long city name</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104047</div> <div class="itemvalue">City name is too long. contain 1 to 15 characters.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104047</div> <div class="itemvalue">City name is too long. contain 1 to 15 characters.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.87275586</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>18</span> </div><div class="casename">Invalid Email</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104055</div> <div class="itemvalue">Email address is invalid.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104055</div> <div class="itemvalue">Email address is invalid.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.06466752</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">sdfdsf</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>19</span> </div><div class="casename">Invalid birth</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104058</div> <div class="itemvalue">Date of birth is invalid. </div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104058</div> <div class="itemvalue">Date of birth is invalid. </div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.58974889</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">8000</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>20</span> </div><div class="casename">Email address too short</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104053</div> <div class="itemvalue">Email address too short. Email must contain 7 to 31 characters.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104000</div> <div class="itemvalue">Registration successful!</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.62102666</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">2@1.cn</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>21</span> </div><div class="casename">Email address too long</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104054</div> <div class="itemvalue">Email address too long. Email must contain 7 to 31 characters.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104054</div> <div class="itemvalue">Email address too long. Email must contain 7 to 31 characters.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.99140933</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk@k.cn</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>22</span> </div><div class="casename">Email address invalid</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104055</div> <div class="itemvalue">Email address is invalid.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104000</div> <div class="itemvalue">Registration successful!</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_te.24254155</div> </div><div class="detailitem" ><div class="itemname">City</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">abcdefg</div> </div><div class="detailitem" ><div class="itemname">Gender</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Month</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Location</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Year</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Newsletter</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Email</div> <div class="itemvalue">ksdfj**@kk.com</div> </div><div class="detailitem" ><div class="itemname">Day</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div></div></div><div class='testitemwrap' > <div class="testitem" > <a class="itemname">Login Test</a><span class="itemtime">2008-04-16 16:17:23</span> </div> 
+<div class='allcase'><div class='testcase reth' ><div class='index'>No.</div><div class='casename'>Item Name</div><div class='caseimg'>Result</div></div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>1</span> </div><div class="casename">Empty username</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104006</div> <div class="itemvalue">We're sorry, but you did not enter an user name.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104062</div> <div class="itemvalue">We're sorry, but the user name you entered is not in our system,Please try again.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>2</span> </div><div class="casename">Invalid password</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104061</div> <div class="itemvalue">We're sorry, but the password you entered is not correct. Please Try again.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104061</div> <div class="itemvalue">We're sorry, but the password you entered is not correct. Please Try again.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">s</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>3</span> </div><div class="casename">Username is not exist</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104062</div> <div class="itemvalue">We're sorry, but the user name you entered is not in our system,Please try again.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">104061</div> <div class="itemvalue">We're sorry, but the password you entered is not correct. Please Try again.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_jdidkdij8</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret1" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>4</span> </div><div class="casename">Login success</div><div class="caseimg">¡Ì</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">105000</div> <div class="itemvalue">Create session sucessful.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">105000</div> <div class="itemvalue">Create session sucessful.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Username</div> <div class="itemvalue">ps_test</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div>
+	
+	
+	
+	</div>
+</div></div></div><div class='testitemwrap' > <div class="testitem" > <a class="itemname">CreateRoom Test</a><span class="itemtime">2008-04-16 16:18:15</span> </div> 
+<div class='allcase'><div class='testcase reth' ><div class='index'>No.</div><div class='casename'>Item Name</div><div class='caseimg'>Result</div></div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>1</span> </div><div class="casename">No area</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106003</div> <div class="itemvalue">Area no longer exist.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106001</div> <div class="itemvalue">Create room failed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Status</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Roomtype</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Areaid</div> <div class="itemvalue">25</div> </div><div class="detailitem" ><div class="itemname">Maxuser</div> <div class="itemvalue">10</div> </div><div class="detailitem" ><div class="itemname">Roomname</div> <div class="itemvalue">ll</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>2</span> </div><div class="casename">No chat server</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106002</div> <div class="itemvalue">Chat Server temporarily not available.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106001</div> <div class="itemvalue">Create room failed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Status</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Roomtype</div> <div class="itemvalue">2</div> </div><div class="detailitem" ><div class="itemname">Areaid</div> <div class="itemvalue">1</div> </div><div class="detailitem" ><div class="itemname">Maxuser</div> <div class="itemvalue">100</div> </div><div class="detailitem" ><div class="itemname">Roomname</div> <div class="itemvalue">ll</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>3</span> </div><div class="casename">Success</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106000</div> <div class="itemvalue">CP_E_CreateRoom_Succ</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106001</div> <div class="itemvalue">Create room failed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Status</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Roomtype</div> <div class="itemvalue">1</div> </div><div class="detailitem" ><div class="itemname">Areaid</div> <div class="itemvalue">1</div> </div><div class="detailitem" ><div class="itemname">Maxuser</div> <div class="itemvalue">100</div> </div><div class="detailitem" ><div class="itemname">Roomname</div> <div class="itemvalue">ll</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>4</span> </div><div class="casename">Create game room</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106000</div> <div class="itemvalue">CP_E_CreateRoom_Succ</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">106001</div> <div class="itemvalue">Create room failed.</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Status</div> <div class="itemvalue">None</div> </div><div class="detailitem" ><div class="itemname">Roomtype</div> <div class="itemvalue">1</div> </div><div class="detailitem" ><div class="itemname">Areaid</div> <div class="itemvalue">1</div> </div><div class="detailitem" ><div class="itemname">Maxuser</div> <div class="itemvalue">100</div> </div><div class="detailitem" ><div class="itemname">Roomname</div> <div class="itemvalue">ll</div> </div><div class="detailitem" ><div class="itemname">Password</div> <div class="itemvalue">123123</div> </div><div class="detailitem" ><div class="itemname">Nickname</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div></div></div><div class='testitemwrap' > <div class="testitem" > <a class="itemname">MatchGame Test</a><span class="itemtime">2008-04-16 16:18:28</span> </div> 
+<div class='allcase'><div class='testcase reth' ><div class='index'>No.</div><div class='casename'>Item Name</div><div class='caseimg'>Result</div></div> <div class="testcase ret0" ><div class="index"> <span class="casedetail" onclick="this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=this.parentNode.nextSibling.nextSibling.nextSibling.style.display=='none'?'inline':'none';this.firstChild.firstChild.src=this.firstChild.firstChild.src.search('images/_minus1.gif')>1?'images/_plus1.gif':'images/_minus1.gif';"><a><img src=images/_plus1.gif /></a></span> <span>1</span> </div><div class="casename">Match game success</div><div class="caseimg">¡Á</div><div style="display:none;" class="detailinfo">
+	<div class="detailitem" >
+		<div class="listname">Expect</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">107250</div> <div class="itemvalue">E_MP_START_GAME_NOTICE_START</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Return</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">3</div> <div class="itemvalue">Timeout</div> </div>
+	
+	<div class="detailitem" >
+		<div class="listname">Parameters</div>
+	</div>
+	<div class="detailitem" ><div class="itemname">Roomid</div> <div class="itemvalue">None</div> </div>
+	
+	
+	
+	</div>
+</div></div></div>
+<div class="foot" ><img src="images/ps.jpg" /></div>
+</body>
+</html>

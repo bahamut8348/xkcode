@@ -1,0 +1,126 @@
+<HTML id=dlgAbout>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<STYLE>
+.NonClientBackground {  background-color: buttonface;}
+</STYLE>
+
+<head>
+<TITLE>
+Using Hide elements
+</TITLE>
+
+<SCRIPT LANGUAGE="JScript">
+
+var Val1_checked=0;
+var Val2_selected =0;
+
+
+function fn1(innerText) {
+	id2.innerText = innerText
+	//Btn1.value = winH(); //document.body.clientHeight; //window.innerWidth;  // //document.all("Btn1").value
+	//var winHeight = window.innerHeight;    
+	//dlgAbout.style.pixelHeight = 300
+        //dlgAbout.style.pixelWidth = 400
+	//copyrightText.innerText = document.body.parentElement.outerHTML;
+	//copyrightText.innerText = document.body.parentElement.outerHTML;
+
+}
+
+function onLoad()
+{
+ // 
+	// var oPopup = window.createPopup();
+    // The variables "lefter" and "topper" store the X and Y coordinates
+    // to use as parameter values for the following show method. In this
+    // way, the popup displays near the location the user clicks. 
+    // document.body.id_ok.onclick = fn1;
+	
+
+
+}
+
+function selectView( nView) {
+
+	if ( nView==1)
+	id2.innerHTML=view1.innerHTML;
+	if ( nView==2)
+	id2.innerHTML=view2.innerHTML;
+}
+
+</SCRIPT>
+</head>
+
+
+<BODY onload="onLoad();" leftmargin=0 topmargin=0 rightmargin=0 bottommargin=0 
+STYLE="width: 400; height: 250; FONT: 8pt Tahoma, MS Shell Dlg; font-size: 8">
+
+<TABLE border=0 class='NonClientBackground' 
+style="width: 400px; height: 250px;"
+cellpadding=0 cellspacing=0
+>
+<tr> 
+	<td valign=top> 
+	<b> Switch the view </b>
+		<UL>
+		<LI><A HREF="javascript:selectView(1);">CheckBox's</A> <br>
+		<LI><A HREF="javascript:selectView(2);">Action</A>
+		</UL>
+	<td valign=top id=id2 
+	style="border-left-style:ridge; width:250px; height:150px;"> 
+		<br><br>Select one of the Item to see it content
+		
+
+
+</TABLE>
+
+
+<div id=view1 
+style="display:none;">
+<TABLE cellpadding=0 cellspacing=0 width=100%>
+<tr height=60> 
+ <td valign=top bgcolor=gray> 
+ <font color=white> <b>CheckBox Show</b> <br >
+ <font size=2pt >This View demonstrate various checkboses 
+
+<tr height=20> <td>
+<tr height=40>
+  <td> <input type=checkbox value=chk1>Enable 32*32 bitmaps
+<tr>
+  <td> recover behaviour: 
+		<select size=1 >
+		<option> None
+		<option> Fast
+		<option> 
+		</select>
+		
+ 
+
+ 
+</TABLE>
+</div>
+
+
+<div id=view2 
+style="display:none;">
+<TABLE cellpadding=0 cellspacing=0 width=100%>
+<tr height=60> 
+ <td valign=top bgcolor=gray> 
+ <font color=white> <b>Actions Show</b> <br >
+ <font size=2pt >Here user can generate some events to MFC:: code 
+
+<tr height=20> <td>
+<tr height=40>
+  <td> 
+	<INPUT type=BUTTON value="Send email" id="okButton" onClick="okButtonClick()" style="width:150px">
+<tr>
+  <td>	
+ 
+
+ 
+</TABLE>
+</div>
+
+
+
+</BODY>
+</HTML>

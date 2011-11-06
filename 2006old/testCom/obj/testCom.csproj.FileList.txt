@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\testCom.Form1.resources
+obj\Debug\testCom.Properties.Resources.resources
+obj\Debug\testCom.csproj.GenerateResource.Cache
+bin\Debug\testCom.exe
+bin\Debug\testCom.pdb
+obj\Debug\testCom.exe
+obj\Debug\testCom.pdb

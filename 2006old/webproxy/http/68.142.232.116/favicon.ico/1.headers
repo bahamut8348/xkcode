@@ -1,0 +1,15 @@
+GET http://68.142.232.116/favicon.ico HTTP/1.1 2007-06-18T06:48:58Z
+HTTP/1.0 404 Not Found
+Date: Mon, 18 Jun 2007 06:55:30 GMT
+Server: Apache/2.0.52 (Red Hat)
+Cache-Control: no-cache, must-revalidate
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Pragma: no-cache
+Last-Modified: Mon, 05 Mar 2007 01:47:07 GMT
+Accept-Ranges: bytes
+Content-Length: 9029
+Content-Type: text/html; charset=ISO-8859-1
+X-Cache: MISS from photocache9.flickr.re2
+Via: 1.0 photocache9.flickr.re2:80 (squid/2.6.STABLE6)
+Connection: close
+

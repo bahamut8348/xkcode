@@ -1,0 +1,296 @@
+<HTML id=dlgAbout>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<STYLE>
+.NonClientBackground {  background-color: buttonface;}
+</STYLE>
+
+<head>
+<TITLE>
+	Add new Data Block
+</TITLE>
+
+<SCRIPT LANGUAGE="JScript">
+
+// This is "New Data Block" dialog for Application.
+//
+//
+//
+//
+//
+
+var txtDocumentName;
+var nDocSize;
+var nDocFreeSpace;
+var arMinSpaces;
+
+
+// *******************************************************************
+// *******************************************************************
+//
+// Obligatory functions
+//
+//
+
+function onSelect1(){
+	if ( window.event.srcElement.tagName !="INPUT" ) {		
+	window.event.returnValue = false;	
+	window.event.cancelBubble = true;
+	}
+}
+
+function onContextMenu(){
+     if ( window.event.srcElement.tagName !="INPUT" ) {		
+	window.event.returnValue = false;	
+	window.event.cancelBubble = true;
+        return false;
+	}
+}
+
+function onLoad()
+{
+	details =0;
+	var Objs = document.all;
+	for (i=0; i< Objs.length; i++)
+		if (Objs(i).tagName!="INPUT" && Objs(i).tagName!="A")
+		Objs(i).style.cursor = "default";		
+	
+	document.onselectstart = onSelect1;
+	document.oncontextmenu = onContextMenu; 
+	window.onerror = errorHandler;
+	//alert("onLoad");
+
+	idDocHeader.innerHTML = 
+		"<font size=3>" + 
+			"<b>" + txtDocumentName + "</b> <br>" + nDocSize + " bytes"
+		+ " </font>";
+	
+
+}
+
+
+function errorHandler(msg,url,lno)
+         {            
+ var alertmsg = "There has been an internal error. Please apologize for inconvenience.";             alertmsg += "\n\nPlease refresh this page and this error should go away.\n\n";             alertmsg += "If problem persists please contact site helpdesk.";
+	     alert (alertmsg);       
+      return (true);
+         }
+      
+// *******************************************************************
+// *******************************************************************
+
+
+
+function onHelp1click(){
+	window.event.returnValue = false;
+	Help1Tip.style.top = event.y-50;
+	Help1Tip.style.left = event.x+10;
+	Help1Tip.style.display = "block";
+	window.setInterval("Help1Tip.style.display = \"none\";", 3000)
+}
+
+// 
+// ar- VBArray (Array of VT_VARIANT of VT_BSTR)
+function SetParameters(ar) {
+
+	var a = new VBArray(ar);
+	var b = a.toArray();
+	
+	// b[1] - contain "Document Name" + "size" + "free size"
+	// b[ ] - contain "Block name" + size
+	
+	var oOption;
+
+	rExp	= /(\w|\s)*[^@]/ig;
+	var res = b[0].match(rExp);	// Name @ size @ free_space
+	txtDocumentName = res[0];
+	nDocSize = parseInt(res[1]);
+	nDocFreeSpace = parseInt(res[2]);	
+
+	arMinSpaces = new Array();
+
+	for (i=1; i<b.length; i++) {
+		rExp	= /(\w|\s)*[^@]/ig;
+		res = b[i].match(rExp);	// Name @ min_size 
+		arMinSpaces[i] = res[1];
+		oOption = document.createElement("OPTION");
+		oOption.text=res[0];
+		oOption.value=res[1];
+		ListBox1.add(oOption);
+	}
+
+	ListBox1.selectedIndex = 0;
+	onSelectedBlock();
+
+	
+
+}
+
+function GetResult(){
+	return ListBox1.options[ListBox1.selectedIndex].text + "@" + txtBlockSize.text;
+}
+
+function onAddUI(nWidth, nHeight){	
+	window.navigate("app:1001@" + nWidth + "@" + nHeight);	
+}
+
+function onRemoveUI(nWidth, nHeight){
+	window.navigate("app:1002@" + nWidth + "@" + nHeight);	
+}
+
+function btnDetails(nView) {
+
+	if ( DetailsView.style.display == "none" ) {
+		DetailsView.style.display = "inline";
+		btn_Detail.innerText="Details <<";		
+		onAddUI(0,DetailsView.style.height );
+	} else {
+		btn_Detail.innerText="Details >>";		
+		DetailsView.style.display = "none";
+		onRemoveUI(0,DetailsView.style.height );
+	}
+	
+}
+
+function showDetails(){
+	if ( DetailsView.style.display == "none" ) {
+		DetailsView.style.display = "inline";
+		btn_Detail.innerText="Details <<";		
+		onAddUI(0,DetailsView.style.height );
+		}
+}
+
+function onBtnCancel(){	
+		window.navigate('app:1000');
+}
+
+function onBtnOk(){
+	
+	var nSize = parseInt(txtBlockSize.value);
+	var nMinSize = parseInt( ListBox1.options[ListBox1.selectedIndex].value );
+
+	//if (nMinSize > nDocFreeSpace) {	}
+	
+	if (nSize < nMinSize) {
+
+		strDescription.innerHTML = "Minimum size for this block is " +  nMinSize + " bytes.\n";		
+		statImage.src = "warning.gif";
+		showDetails();
+		return true;
+	}
+
+	if (nSize > nDocFreeSpace) {
+
+		strDescription.innerHTML = "The size you specified is exceded free space (" +  nDocFreeSpace + " bytes) \n";		
+		statImage.src = "warning.gif";
+		showDetails();
+		return true;		
+	}
+
+	
+	window.navigate('app:1005');
+}
+
+function fnArray(ar){
+	
+	var a = new VBArray(ar);
+	var b = a.toArray();
+	alert("Array =" + b.length + " " +b[1] + ", "+ b[2]);
+//	wer
+
+	arr = new Array(4);
+	arr[1]="elem1";
+	arr[2]="element2";
+	return arr ;
+
+}
+
+function onSelectedBlock(){	
+
+	txtBlockSize.innerText = ListBox1.options[ListBox1.selectedIndex].value;
+
+	var nMinSize = parseInt( ListBox1.options[ListBox1.selectedIndex].value );
+	if (nMinSize > nDocFreeSpace) {	
+
+		strDescription.innerHTML = "This block could not be added: not enought free space \n";
+		statImage.src = "warning.gif";				
+		return true;
+	} 
+
+	strDescription.innerHTML = 	 nDocFreeSpace + " bytes <b>available</b> on the " + txtDocumentName;
+	statImage.src = "info.jpg";
+}
+
+</SCRIPT>
+
+
+
+</head>
+
+
+<BODY onload="onLoad();" leftmargin=0 topmargin=0 rightmargin=0 bottommargin=0
+class='NonClientBackground'  
+STYLE="width: 250; height: 220; FONT: 8pt Tahoma, MS Shell Dlg; ">
+
+<TABLE border=0
+style="width: 250px; height: 200px; FONT: 8pt Tahoma, MS Shell Dlg;"
+cellpadding=3 
+>
+<tr cellpadding=6> 
+	<td valign=top cellpadding=6> <IMG SRC="doc1.jpg">
+	<td valign=top cellspacing=6 id=idDocHeader > 	
+		<b> DocName Parameter </b>
+	
+	
+<tr>
+	<td valign=top colspan=2> Here you can add new <b>Data Block</b> ito this document.
+<tr>
+	<td valign=top colspan=2> Please select <b>Block type</b>: 
+	<a href="" onclick="onHelp1click();" id=Help1Lnk>(?)</a><br>
+	<select size=1 style="width:100%" id=ListBox1 onchange = "onSelectedBlock()">
+		</select>
+<tr>
+	<td valign=top colspan=2> 
+	<INPUT type=BUTTON value="Details >>" id="btn_Detail" onClick="btnDetails()" style="width:31%"> &nbsp
+	<INPUT type=BUTTON value="Ok" id="btn_Ok" 
+	onClick="onBtnOk()" style="width:31%"> &nbsp
+	<INPUT type=BUTTON value="Cancel" onClick="onBtnCancel()" style="width:31%">   
+
+</TABLE>
+
+
+<div id=DetailsView 
+style="display:none; width: 250; height: 100;">
+<hr>
+<TABLE width=100% style="FONT: 8pt Tahoma, MS Shell Dlg">
+<tr > 
+ <td > choose <b>block size</b> (bytes): 
+ <td> <input type=text style="width:50" id=txtBlockSize>
+ 
+<tr>
+ <table cellpadding=4 
+ style="FONT: 8pt Tahoma, MS Shell Dlg;"s >
+ <tr>
+  <td> <IMG SRC="info.jpg" ID= statImage > 
+   <td id=strDescription>
+   N bytes available on the    
+ </table>
+
+
+ 
+</TABLE>
+</div>
+
+<span id=Help1Tip 
+style="display:none; position:absolute;
+	width:100; height:50; background-color:infobackground; 
+	top:60; left:100;
+	FONT: 8pt Tahoma, MS Shell Dlg;">
+
+All Strings from this list came from <b>Application</b>.
+
+</span>
+
+
+</BODY>
+</HTML>
+
