@@ -1,0 +1,27 @@
+﻿Build started 2011/7/8 13:20:19.
+     1>Project "E:\work\testpcap\testpcap.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\testpcap.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\work\testpcap\Release\testpcap.pyd) does not match the Linker's OutputFile property value (E:\work\testpcap\bin\winpcap.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(testpcap) does not match the Linker's OutputFile property value (winpcap). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\winpcap.pyd" /INCREMENTAL:NO /NOLOGO /LIBPATH:d:\Python27\libs /LIBPATH:E:\program\boost_1_46_1\stage\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\testpcap.pyd.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\work\testpcap\Release\testpcap.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"E:\work\testpcap\Release\testpcap.lib" /MACHINE:X86 /DLL Release\stdafx.obj
+         Release\testpcap.obj
+            Creating library E:\work\testpcap\Release\testpcap.lib and object E:\work\testpcap\Release\testpcap.exp
+         Generating code
+         Finished generating code
+         testpcap.vcxproj -> E:\work\testpcap\Release\testpcap.pyd
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin\winpcap.pyd;#2" /manifest Release\testpcap.pyd.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\testpcap.unsuccessfulbuild".
+         Touching "Release\testpcap.lastbuildstate".
+     1>Done Building Project "E:\work\testpcap\testpcap.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.92
