@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="testvpn">
+</Property><Property Name="Solution File" Value="E:\program\testvpn\testvpn.sln">
+</Property><Property Name="User Options File" Value="E:\program\testvpn\testvpn.suo">
+</Property><Property Name="Date" Value="2010年4月20日">
+</Property><Property Name="Time" Value="12:14">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="testvpn.sln" Description="File successfully backed up as E:\program\testvpn\testvpn.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="testvpn.suo" Description="File successfully backed up as E:\program\testvpn\testvpn.suo.old">
+</Event><Event ErrorLevel="0" Project="testvpn" Source="testvpn\testvpn.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="testvpn" Source="testvpn\testvpn.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="testvpn" Source="testvpn\testvpn.vcproj" Description="Project file successfully backed up as 'E:\program\testvpn\testvpn\testvpn.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="testvpn" Source="testvpn\testvpn.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="testvpn" Source="testvpn\testvpn.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="server" Source="server\server.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="server" Source="server\server.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="server" Source="server\server.vcproj" Description="Project file successfully backed up as 'E:\program\testvpn\server\server.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="server" Source="server\server.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="server" Source="server\server.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="xkvpn" Source="xkvpn\xkvpn.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="xkvpn" Source="xkvpn\xkvpn.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="xkvpn" Source="xkvpn\xkvpn.vcproj" Description="Project file successfully backed up as 'E:\program\testvpn\xkvpn\xkvpn.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="xkvpn" Source="xkvpn\xkvpn.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="xkvpn" Source="xkvpn\xkvpn.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="pyudt" Source="pyudt\pyudt.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="pyudt" Source="pyudt\pyudt.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="pyudt" Source="pyudt\pyudt.vcproj" Description="Project file successfully backed up as 'E:\program\testvpn\pyudt\pyudt.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="pyudt" Source="pyudt\pyudt.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="pyudt" Source="pyudt\pyudt.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="pyvpn" Source="pyvpn\pyvpn.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="pyvpn" Source="pyvpn\pyvpn.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="pyvpn" Source="pyvpn\pyvpn.vcproj" Description="Project file successfully backed up as 'E:\program\testvpn\pyvpn\pyvpn.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="pyvpn" Source="pyvpn\pyvpn.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="pyvpn" Source="pyvpn\pyvpn.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="testvpn.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="testvpn.sln" Description="Converted">
+</Event></UpgradeLog>
