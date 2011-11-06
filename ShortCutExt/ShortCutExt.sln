@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShortCutExt", "ShortCutExt.vcproj", "{5C8722C3-13BC-496F-8425-5A168C0B235C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShortCutExtPS", "ShortCutExtPS.vcproj", "{5227FECC-1BC8-4895-B2F7-9073AF24BB12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5C8722C3-13BC-496F-8425-5A168C0B235C} = {5C8722C3-13BC-496F-8425-5A168C0B235C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C8722C3-13BC-496F-8425-5A168C0B235C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5C8722C3-13BC-496F-8425-5A168C0B235C}.Debug|Win32.Build.0 = Debug|Win32
+		{5C8722C3-13BC-496F-8425-5A168C0B235C}.Debug|x64.ActiveCfg = Debug|x64
+		{5C8722C3-13BC-496F-8425-5A168C0B235C}.Debug|x64.Build.0 = Debug|x64
+		{5C8722C3-13BC-496F-8425-5A168C0B235C}.Release|Win32.ActiveCfg = Release|Win32
+		{5C8722C3-13BC-496F-8425-5A168C0B235C}.Release|Win32.Build.0 = Release|Win32
+		{5C8722C3-13BC-496F-8425-5A168C0B235C}.Release|x64.ActiveCfg = Release|x64
+		{5C8722C3-13BC-496F-8425-5A168C0B235C}.Release|x64.Build.0 = Release|x64
+		{5227FECC-1BC8-4895-B2F7-9073AF24BB12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5227FECC-1BC8-4895-B2F7-9073AF24BB12}.Debug|x64.ActiveCfg = Debug|x64
+		{5227FECC-1BC8-4895-B2F7-9073AF24BB12}.Release|Win32.ActiveCfg = Release|Win32
+		{5227FECC-1BC8-4895-B2F7-9073AF24BB12}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
