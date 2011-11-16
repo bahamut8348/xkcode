@@ -7,8 +7,8 @@ socket.setdefaulttimeout( 5 )
 global cj
 import sys
 import time
-cj = cookielib.MozillaCookieJar("cookie")
-cj.load( "cookie" )
+cj = cookielib.MozillaCookieJar()
+
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
 urllib2.install_opener(opener)
 
