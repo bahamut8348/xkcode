@@ -5,7 +5,7 @@ cj = cookielib.CookieJar()
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
 urllib2.install_opener(opener)
 
-global url
+global url, cj
 url = "http://www.meituan.com/deal/verify/799745"
 
 class Mt:
