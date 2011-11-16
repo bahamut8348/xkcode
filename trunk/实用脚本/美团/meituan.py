@@ -12,6 +12,8 @@ cj = cookielib.MozillaCookieJar()
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
 urllib2.install_opener(opener)
 
+
+# 介绍页 http://www.meituan.com/deal/799745.html###
 global url
 url = "http://www.meituan.com/deal/verify/970422"
 
@@ -35,6 +37,7 @@ class Mt:
 	def buy( self ):
 		F = urllib2.urlopen( "http://www.meituan.com/deal/verify/970422" )
 		buf = F.read()
+		F.close()
 		open("kkk","wb").write( buf )
 		if buf.find("错误") >0 :
 			print "!!error"
