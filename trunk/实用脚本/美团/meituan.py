@@ -1,7 +1,6 @@
-
 import urllib2, urllib
 import cookielib
-cj = cookielib.CookieJar()
+cj = cookielib.FileCookieJar()
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
 urllib2.install_opener(opener)
 
