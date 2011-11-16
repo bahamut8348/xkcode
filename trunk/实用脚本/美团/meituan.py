@@ -13,7 +13,7 @@ opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
 urllib2.install_opener(opener)
 
 global url
-url = "http://www.meituan.com/deal/verify/799745"
+url = "http://www.meituan.com/deal/verify/970422"
 
 class Mt:
 	USERNAME = "lovecpp@gmail.com"
@@ -33,7 +33,7 @@ class Mt:
 
 
 	def buy( self ):
-		F = urllib2.urlopen( "http://www.meituan.com/deal/verify/799745" )
+		F = urllib2.urlopen( "http://www.meituan.com/deal/verify/970422" )
 		buf = F.read()
 		open("kkk","wb").write( buf )
 		if buf.find("错误") >0 :
