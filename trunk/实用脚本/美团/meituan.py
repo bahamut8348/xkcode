@@ -45,7 +45,7 @@ class Mt:
 
 if __name__ == "__main__" :
 	mt = Mt()
-	if len(sys.argv) > 1:
+	if len(sys.argv) > 0:
 		mt.login()
 	
 	while 1:
