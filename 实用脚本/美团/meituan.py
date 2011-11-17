@@ -35,7 +35,9 @@ class Mt:
 
 
 	def buy( self ):
-		F = urllib2.urlopen( "http://www.meituan.com/deal/verify/970422" )
+		req = urllib2.Request( "http://www.meituan.com/deal/verify/131729" )
+		req.add_header( "Referer", "http://www.meituan.com/deal/131729" )
+		F = urllib2.urlopen( req )
 		buf = F.read()
 		F.close()
 		open("kkk","wb").write( buf )
