@@ -1,0 +1,35 @@
+checkbox9	Y
+checkbox9	Y
+checkbox9	Y
+checkbox9	Y
+checkbox9	Y
+oldPassengers	
+oldPassengers	
+oldPassengers	
+oldPassengers	
+oldPassengers	
+orderRequest.bed_level_or...	000000000000000000000000000000
+orderRequest.cancel_flag	1
+orderRequest.end_time	08:32
+orderRequest.from_station...	北京南
+orderRequest.from_station...	VNP
+orderRequest.id_mode	Y
+orderRequest.reserve_flag	A
+orderRequest.seat_type_co...	
+orderRequest.start_time	07:00
+orderRequest.station_trai...	G101
+orderRequest.ticket_type_...	
+orderRequest.to_station_n...	济南西
+orderRequest.to_station_t...	JGK
+orderRequest.train_date	2012-01-20
+orderRequest.train_no	240000G10102
+org.apache.struts.taglib....	3bdb4a566e4db80a33a1c3e7d708bbe8
+passengerTickets	O,1,徐可,1,372525198312013019,13522761519,Y
+passenger_1_cardno	372525198312013019
+passenger_1_cardtype	1
+passenger_1_mobileno	13522761519
+passenger_1_name	徐可
+passenger_1_seat	O
+passenger_1_ticket	1
+randCode	aaaa
+textfield	中文或拼音首字母
