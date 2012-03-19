@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>温馨提示 | 拉卡拉超级盾 | 美团网北京站</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <link rel="alternate" href="http://bj.meituan.com/feed" title="订阅更新" type="application/rss+xml" />
+    <link rel="apple-touch-icon" href="http://s1.meituan.net/img/apple-touch-icon-ipad.png?v=1" />
+    <link rel="icon" href="/favicon.ico?v=3" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico?v=3" type="image/x-icon" />
+    <meta name="application-name" content="美团网－每天团购一次，精品生活" />
+    <meta name="msapplication-navbutton-color" content="#C3E9F6"/> 
+    <meta name="msapplication-window" content="width=device-width;height=device-height" />
+    <meta name="msapplication-tooltip" content="美团网，每天团购一次精致生活。" />
+    <meta name="msapplication-task" content="name=今日团购;action-uri=/;icon-uri=/favicon.ico?v=3"/>
+    <!--[if IE 6]>
+    <script src="http://s1.meituan.net/js/DD_belatedPNG_0.0.8a.js?v=436a80b1"></script>
+    <script> DD_belatedPNG.fix('.pngfix'); </script>
+    <![endif]-->
+    <link rel="stylesheet" href="http://s1.meituan.net/css/meituan.css?v=7a2da03d" />
+<link rel="stylesheet" href="http://s1.meituan.net/js/yui/2.8.1/build/container/assets/skins/sam/container.css?v=1" />
+    <script type="text/javascript">
+      var MT = window.MT || {};
+      MT.HTTP_REFERER = '';
+      MT.TimeTracker = { 'start':(new Date()).getTime() };
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-12312726-1']);
+      _gaq.push(['_addOrganic', 'baidu', 'word']);
+      _gaq.push(['_addOrganic', 'soso', 'w']);
+      _gaq.push(['_addOrganic', 'vnet', 'kw']);
+      _gaq.push(['_addOrganic', 'sogou', 'query']);
+      _gaq.push(['_addOrganic', 'youdao', 'q']);
+      _gaq.push(['_addIgnoredOrganic', 'meituan.com']);
+      _gaq.push(['_addIgnoredOrganic', 'www.meituan.com']);
+      _gaq.push(['_addIgnoredOrganic', 'meituan']);
+      _gaq.push(['_addIgnoredOrganic', '美团']);
+      _gaq.push(['_addIgnoredOrganic', '美团网']);
+      _gaq.push(['_setDomainName', '.meituan.com']);_gaq.push(['_setAllowHash', false]);_gaq.push(['_setCustomVar', 2, 'user', 'AC', 1]);_gaq.push(['_trackPageview']);     _gaq.push(['_trackPageLoadTime']);
+    </script>
+        </head>
+<body class="yui-skin-sam">
+<div id="doc">
+    <div id="hdw">
+        <div id="hd">
+            <img width="440px" height="267px" style="display:none" src="http://p0.meituan.net/deal/201111/10/lakalashotu.jpg" />
+            <div id="logo"><a class="pngfix " href="/">美团网</a></div>
+            <div class="city">
+                <h2 id="header-city" class="fold" sid="1" sslug="beijing" sname="北京">北京
+                    <a href="http://www.meituan.com/index/changecity">[切换城市]</a>
+                </h2>
+            </div>
+            <div id="header-subscribe-body" class="subscribe">
+                <form onsubmit="_gaq.push(['_trackEvent', 'Form', 'Post', '/Form/Header/maillist/subscribe'])" action="/maillist/subscribe" method="post" id="header-subscribe-form">
+                    <div class="byemail pngfix">
+                        <input id="header-subscribe-email" type="text" value="lovecpp@gmail.com" class="f-text" name="email" autocomplete="off" />
+                        <input type="hidden" value="1" name="cityid" />
+                        <input type="submit" class="commit" value="订阅" />
+                    </div>
+                </form>
+            </div>
+            <div class="followus">
+                <h3>关注我们</h3>
+                <ul>
+                    <li><a title="美团北京的新浪微博" galabel="header" href="http://t.sina.com.cn/meituanbj" target="_blank"><span class="s">美团北京的新浪微博</span></a></li>
+                    <li><a title="美团的腾讯微博" galabel="header" href="http://t.qq.com/meituan" target="_blank"><span class="q">美团的腾讯微博</span></a></li>
+                    <li><a title="美团的开心主页" galabel="header" href="http://www.kaixin001.com/meituan" target="_blank"><span class="k">美团的开心主页</span></a></li>
+                    <li><a title="美团的QQ空间" galabel="header" href="http://user.qzone.qq.com/97231705/infocent" target="_blank"><span class="z">美团的QQ空间</span></a></li>
+                </ul>
+            </div>
+        
+            <div id="header-subscribe-auto" class="email-auto"></div>
+        
+            <ul class="nav cf">
+              <li><a href="http://bj.meituan.com" class="today">今日团购</a></li>
+              <li><a href="http://bj.meituan.com/deals/">往期团购</a></li>
+              <li><a href="http://www.meituan.com/learn/guide">玩转美团</a></li>
+              <li><a href="http://www.meituan.com/help/faq">常见问题</a></li>
+            </ul>
+            <div class="logins">
+                <ul class="links">
+        
+                <li class="username">欢迎您，xkou</li>
+                <li class="account"><a rel="nofollow" href="http://www.meituan.com/coupons/" id="myaccount" class="account">我的美团</a></li>
+                <li class="logout"><a rel="nofollow" href="http://www.meituan.com/account/logout/9bd719afd48947d98008cbf9ba4594a2">退出</a></li>
+            
+                </ul>
+                <div class="refer pngfix">
+                    <a rel="nofollow" class="pngfix" href="http://www.meituan.com/account/referrals" gaevent="InnerLink|Click|/InnerLink/Navbar/account/referrals">邀请好友购买返 10 元</a>
+                </div>
+            </div>
+        
+            <ul id="myaccount-menu"  style="display:none;">
+                <li><a href="http://www.meituan.com/coupons/">我的美团券</a></li>
+                <li><a href="http://www.meituan.com/orders/">我的订单</a></li>
+                <li><a href="http://www.meituan.com/account/invites">我的邀请</a></li>
+                <li><a href="http://www.meituan.com/account/points">我的积分</a></li>
+                <li><a href="http://www.meituan.com/account/credit">账户余额</a></li>
+                <li><a href="http://www.meituan.com/account/settings">账户设置</a></li>
+            </ul>
+                </div>
+    </div>
+        <div id="bdw" class="bdw">
+    <div id="bd" class="cf">
+    </div> <!-- bd end -->
+</div> <!-- bdw end -->
+<div id="ftw">
+    <div id="ft">
+        <div class="ftbox">
+            <h3>用户帮助</h3>
+            <ul>
+                <li><a href="http://www.meituan.com/learn/guide">玩转美团</a></li>
+                <li><a href="http://www.meituan.com/help/faq">常见问题</a></li>
+                <li><a href="http://www.meituan.com/lottery/about">美梦成真</a></li>
+                <li><a href="http://www.meituan.com/help/email">邮箱白名单设置</a></li>
+                <li><a href="http://www.meituan.com/help/api">开放API</a></li>
+                <li><a href="http://www.meituan.com/about/anticheat">反诈骗公告</a></li>
+            </ul>
+        </div>
+        <div class="ftbox">
+            <h3>获取更新</h3>
+            <ul>
+                <li><a href="http://www.meituan.com/maillist/subscribe">邮件订阅</a></li>
+                <li><a href="http://www.meituan.com/mobile/">iPhone/Android</a></li>
+                <li><a rel="nofollow" href="http://t.sina.com.cn/meituanbj" target="_blank">美团新浪微博</a></li><li><a rel="nofollow" href="http://www.kaixin001.com/meituan" target="_blank">美团开心网主页</a></li>                <li><a href="http://www.meituan.com/feed/beijing" target="_blank">RSS订阅</a></li>
+            </ul>
+        </div>
+        <div class="ftbox">
+            <h3>商务合作</h3>
+            <ul>
+                <li><a href="http://www.meituan.com/feedback/seller">提供团购信息</a></li>
+                <li><a href="http://www.meituan.com/about#contact">市场合作</a></li>
+                <li><a href="http://www.meituan.com/about/copyright">版权声明</a></li>
+            </ul>
+        </div>
+        <div class="ftbox">
+            <h3>公司信息</h3>
+            <ul>
+                <li><a href="http://www.meituan.com/about/">关于美团</a></li>
+                <li><a href="http://www.meituan.com/commitment/">美团承诺</a></li>
+                <li><a href="http://www.meituan.com/about/press">媒体报道</a></li>
+                <li><a href="http://www.meituan.com/about/job">加入我们</a></li>
+                <li><a href="http://www.meituan.com/about/privacy">隐私声明</a></li>
+            </ul>
+        </div>
+        <div class="ftbox service">
+            <p class="pngfix">客服电话（免长途费) 400-660-5335</p>
+        </div>
+        
+                <div class="copyright">
+                    <p>&copy;<span title="I:1; Q:4; S:4; C:3; F:0; T:18.57; H:v22">2011</span> meituan.com 京ICP证070791号 京公海网安备110108000704号</p>
+                </div>
+            
+            <ul class="cert cf">
+                <li class="pngfix bcp"><a title="电子商务信用认证" href="http://www.bcpcn.com/zhtml/tags/BCP72872799.html" hidefocus="true" target="_blank">电子商务信用认证</a></li>
+                <li class="pngfix itrust"><a title="网信认证" href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1660511594" hidefocus="true" target="_blank">网信认证</a></li>
+                <li class="pngfix alipay"><a title="支付宝特约商家">支付宝特约商家</a></li>
+                <li class="pngfix tenpay"><a href="http://union.tenpay.com/cgi-bin/trust_mch/ShowTrustMchInfo.cgi?uin=1209236701&uin_type=1" title="财付通诚信商家" hidefocus="true" target="_blank" >财付通诚信商家</a></li>
+                <li class="pngfix knet"><a href="https://ss.cnnic.cn/verifyseal.dll?sn=2011042100100007986&ct=df&pa=899466i" target="_blank" title="可信网站认证">可信网站</a></li>
+            </ul>
+            </div>
+</div>
+
+</div> <!-- doc end -->
+<script type="text/javascript">
+(function(){
+    if (window.top !== window.self){
+        var ROOT_HOST = "www.meituan.com";
+        try {
+            var host = window.top.location.host;
+            if(ROOT_HOST === host) return;
+        } catch(e) { }
+
+        setTimeout(function(){
+            window.top.location = window.self.location;
+            document.body.innerHTML = '';
+        }, 0);
+        window.self.onload=function(){
+            document.body.innerHTML = '';
+        };
+    }
+})();
+</script>
+<script type="text/javascript">
+    try{
+        if (window.external.msIsSiteMode()){
+            window.external.msSiteModeCreateJumplist('我的美团');
+            window.external.msSiteModeAddJumpListItem('账户设置', '/account/settings', '/favicon.ico?v=3');
+            window.external.msSiteModeAddJumpListItem('账户余额', '/account/credit', '/favicon.ico?v=3');
+            window.external.msSiteModeAddJumpListItem('我的积分', '/account/points', '/favicon.ico?v=3');
+            window.external.msSiteModeAddJumpListItem('我的邀请', '/account/invites', '/favicon.ico?v=3');
+            window.external.msSiteModeAddJumpListItem('我的订单', '/orders', '/favicon.ico?v=3');
+            window.external.msSiteModeAddJumpListItem('我的美团券', '/coupons', '/favicon.ico?v=3');
+            window.external.msSiteModeShowJumplist();
+        }
+    }catch(e){}
+
+</script>
+<script src="http://s1.meituan.net/js/yui/2.8.1/build/utilities/utilities.js?v=1"></script>
+<script src="http://s0.meituan.net/js/core.js?v=5c98febd"></script>
+<script src="http://s1.meituan.net/js/app-deal.js?v=08bbd829"></script>
+<script src="http://s1.meituan.net/js/yui/2.8.1/build/container/container-min.js?v=1"></script>
+<script type="text/javascript">
+MT.DOMAIN_HOST = 'meituan.com';
+MT.CDN_DOMAIN_HOST = 'meituan.net';
+
+YAHOO.util.Event.onDOMReady(function(){
+    MT.TimeTracker['domReady'] = (new Date()).getTime();
+    MT.app.Core.init();
+});
+
+MT.app.Core.userLog();
+
+
+(function() {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = 'http://s0.meituan.net/vendor/js/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script>
+<noscript>
+<img src="http://fe.meituan.net/_.gif?level=info&src=page&msg=noscript&city=%E5%8C%97%E4%BA%AC&time=1321457204&site=www&u=10171&n=xkou" style="border:none" /></noscript>
+</body>
+</html>

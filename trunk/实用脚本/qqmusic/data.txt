@@ -1,0 +1,11 @@
+GET http://stream15.qqmusic.qq.com/30813241.mp3 HTTP/1.1
+Host: stream15.qqmusic.qq.com
+User-Agent: QQMusic/2.1 CFNetwork/548.0.3 Darwin/11.0.0
+Accept: */*
+Cookie: qqmusic_fromtag=26
+uid: 2305751376
+sid: 201112260918042305751376
+Accept-Language: zh-cn
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
