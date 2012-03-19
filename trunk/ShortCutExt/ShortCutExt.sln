@@ -1,12 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShortCutExt", "ShortCutExt.vcproj", "{5C8722C3-13BC-496F-8425-5A168C0B235C}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShortCutExt", "ShortCutExt.vcxproj", "{5C8722C3-13BC-496F-8425-5A168C0B235C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShortCutExtPS", "ShortCutExtPS.vcproj", "{5227FECC-1BC8-4895-B2F7-9073AF24BB12}"
-	ProjectSection(ProjectDependencies) = postProject
-		{5C8722C3-13BC-496F-8425-5A168C0B235C} = {5C8722C3-13BC-496F-8425-5A168C0B235C}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShortCutExtPS", "ShortCutExtPS.vcxproj", "{5227FECC-1BC8-4895-B2F7-9073AF24BB12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
