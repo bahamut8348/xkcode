@@ -7,11 +7,11 @@ import sys, json
 
 jar = cookielib.LWPCookieJar()
 jar.load( sys.argv[1], ignore_discard = True, ignore_expires = True )
-urllib2.install_opener( urllib2.build_opener ( urllib2.HTTPCookieProcessor( jar ) ) )
+urllib2.install_opener(urllib2.build_opener(urllib2.HTTPCookieProcessor(jar)))
 
 for cookie in jar: 
 # print cookie, cookie.name
-	if cookie.name == "ptui_loginuin": 
+	if cookie.name == "ptui_loginuin":
 		global QQ 
 		QQ = cookie.value
 
