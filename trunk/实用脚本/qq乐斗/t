@@ -1,0 +1,184 @@
+#! /usr/bin/python
+#! coding: utf8
+
+import socket
+import cookielib, urllib2, urllib
+import sys
+import simplejson as json
+
+
+try: print u"中国"
+except: sys.stdout = type("X",(object,),dict(write = lambda *a: None ))()
+jar = cookielib.LWPCookieJar()
+jar.load( sys.argv[1], ignore_discard = True, ignore_expires = True )
+urllib2.install_opener( urllib2.build_opener ( urllib2.HTTPCookieProcessor( jar ) ) )
+
+for cookie in jar: 
+# print cookie, cookie.name
+	if cookie.name == "ptui_loginuin": 
+		global QQ 
+		QQ = cookie.value
+
+print "QQ:", QQ
+		
+def info( o, s ):
+	print ",".join( map( lambda x: x + ":" + o[x], s ) )
+
+def getpage( url, data = None ):
+	F = urllib2.urlopen( url, data )
+	d = F.read() 
+	try:
+		r = json.loads( d.decode("gbk","ignore").strip(",").replace('\x01',' '), parse_int = int )
+	except Exception,e:
+		print `d`
+		print e
+	if r["result"] == "0":
+		return r
+	print r["msg"]
+	print "\t", url
+	return None
+
+class QC:
+	def tasklist( self, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=task&sub=1&page=0&selfuin=%s" % QQ ):
+		r = getpage( url )
+		if r:
+			jar.save( sys.argv[1], ignore_discard=True, ignore_expires=True )
+			r = r["tasklist"]
+			for k in r: 
+				if k["status"] == "3" : self.endtask( k["id"] )
+				info( k, ["id","title", "status", "gift", "desc"] )
+			return r
+	
+	def endtask( self, id, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=task&sub=4&id=%d&selfuin=%s"):
+		r = getpage( url % (int(id), QQ) )
+
+	# 9:剑君
+	def fight( self, id, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=fight&puin=%d" ):
+		r = getpage( url % int(id) )
+		return r
+	
+	def mfight( self, id, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=fight&uin=%d" ):
+		r = getpage( url % int( id ) )
+		return r
+	
+	def getexp( self, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=getexp"):
+		r = getpage( url )
+	
+	def getdouble( self, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=get" ):
+		r = getpage( url )	
+
+	def visit( self, id = QQ, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=visit&puin=%d&kind=1" ):
+		r = getpage( url % int( id ) )
+		self.ims = {}
+		if r : 
+			for k in r["tudi"]:
+				self.ims[ k["uin"] ] = 1
+			if "uin" in  r["shifu"] : self.ims[r["shifu"]["uin"]] = 1
+			if "brotherList" in r["brother"] : 
+				for k in r["brother"]["brotherList"]: self.ims[ k["brotheruin"] ] = 1
+			if r["marry"]["parternuin"] : self.ims[  r["marry"]["parternuin"] ] = 1
+			return r["baseinfo"]
+
+	def view( self, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=view&kind=1&sub=1&selfuin=%s" % QQ ):
+		r = getpage( url )
+		if r:
+			r = r["info"] 
+			r.reverse()
+			for k in r :
+				if k["uin"] in self.ims: r.remove( k ); r.insert( 0, k )
+			for k in r : info( k, ["uin", "name", "lilian", "enable"] )
+			return r
+	def members( self, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=viewmember" ):
+		r = getpage( url )
+		r = r["list"]
+		r.reverse()
+		#r.sort( lambda a, b : int(a["level"]) - int(b["level"]) )
+		for k in r : info( k, ["name", "level","uin"] )
+		return r
+
+	def say( self, id, feedid, key, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=say&puin=%s&word=aaa&feedid=%s&key=%s" ):
+		r = getpage( url % ( id, feedid, key ) )
+
+	def endtower( self, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=towerfight&type=7" ):
+		r = getpage( url )
+	
+
+	def viewtower( self, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=towerfight&type=3" ):
+		r = getpage( url )
+		return r
+
+	def autotower( self, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=towerfight&type=1" ):
+		r = getpage( url )
+
+	def npcquery( self, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=mappush&type=0" ):
+		return getpage( url )
+
+	def fightnpc( self, npc = 6000, url = "http://fight.pet.qq.com/cgi-bin/petpk" ):
+		r = getpage( url, "npcid=%d&cmd=mappush&type=1" % int( npc ) )
+#		if r:
+#	print r
+	
+	def dayquery( self, url = "http://fight.pet.qq.com/cgi-bin/petpk" ):
+		r = getpage( url, "cmd=query" )
+		return r
+	
+	def dayget( self, url = "http://fight.pet.qq.com/cgi-bin/petpk?cmd=daygift&random=7210" ):
+		r = getpage( url )
+		return r
+	
+	def attack( self, url ="http://fight.pet.qq.com/cgi-bin/petpk?cmd=manorfight&type=1&manorid=990000164" ):
+		r = getpage( url )
+		return r
+	
+	def daysign( self, url = "" ):
+		r = getpage("http://fight.pet.qq.com/cgi-bin/petpk?cmd=activitysign&type=1")
+		if r["days"][int(r["cur"])] == "0":
+			getpage( "http://fight.pet.qq.com/cgi-bin/petpk?cmd=activitysign&type=0")
+		
+
+if __name__ == "__main__" :
+	try:
+		q = QC()
+		q.tasklist()
+	except:
+		pass
+	if len(sys.argv) > 2: 
+		sys.exit()
+
+	r = q.dayquery()
+	if r["havedaygift"] != "1" :  q.dayget() 
+
+	base = q.visit()
+	sp = int( base["sp"] )
+	if base["expflag"] != "0":
+		q.getexp()
+	
+		q.getdouble()
+	
+#	q.daysign()
+
+	for v in q.view():
+		if sp < 10 : break
+		if v["enable"] == "0" : continue
+		q.visit( v["uin"] )
+		if q.fight( v["uin"] ):
+			sp = sp - 10
+
+	r = q.viewtower()
+	if r :
+		if r["day_left_times"] != "0" : 
+			q.endtower()
+			q.autotower()
+
+	energy = int( base["energy"] )
+	if energy > 10 : q.fightnpc( npc = q.npcquery()["cur_npc_id"] )
+	
+	if sp > 10 :
+		for v in q.members():
+			if sp < 10 : break
+			if v["fight"]!="0" : 
+				q.visit( v["uin"] )
+				if q.mfight( v["uin"] ):
+					sp = sp -10
+
+
