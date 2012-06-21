@@ -18,7 +18,7 @@ def dnserr( name , ip ):
 	print "error", ip , name
 	del sends[ip]
 
-res = client.createResolver( [ ('8.8.8.8',53) ], None, "C:\windows\hosts" )
+res = client.createResolver( [ ('1.1.1.10',53) ], 1, 1 )
 
 def testdns( i ):
 	ip = "a%d.phobos.apple.com" % i
@@ -28,7 +28,7 @@ def testdns( i ):
 
 testdns(1)
 
-for i in range( 2, 2000 ):
+for i in range( 2, 10 ):
 	reactor.callLater( i*3, testdns, i )
 
 def testdone():
