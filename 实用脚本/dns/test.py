@@ -22,7 +22,7 @@ for ip in ips:
 
 	rs.append( dict( ip = ip, time = time.time() - start ) )
 	
-rs.sort( lambda a, b: int(a['time'] - b['time']) )
+rs.sort( lambda a, b: cmp(a['time'],b['time']) )
 F = open( "times.txt", "wb" )
 for r in rs:
 	print("!!", r )
