@@ -28,7 +28,7 @@ def testdns( i ):
 
 testdns(1)
 
-for i in range( 2, 10 ):
+for i in range( 2, 1000 ):
 	reactor.callLater( i*3, testdns, i )
 
 def testdone():
