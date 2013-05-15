@@ -3,7 +3,7 @@ from twisted.internet.protocol import Protocol
 from twisted.internet import reactor
 
 class Echo(Protocol):
-	i = 0
+	i = -60
 	def dataReceived(self, data):
 		for d in data.split('^^^^'):
 			if d == '' : continue
