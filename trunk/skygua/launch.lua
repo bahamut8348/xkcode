@@ -8,10 +8,13 @@ _connect( "localhost:8007", function( net)
 	end)
 	server = net
 --	server.Call({"C"})
-	for i=0,0xff do
-		net:send(_encode(i))
+		i='afdfd'	
+		local d  = _encode(i)
+		
+		print(i)
+		net:send(d)
 		net:send("^^^^")
-	end
+	
 end, function( net, timeout, notconn, err )
 	print("!! err:", err)
 end, 10)
