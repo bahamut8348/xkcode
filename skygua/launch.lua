@@ -7,10 +7,19 @@ _connect( "localhost:8007", function( net)
 		self:send(data)
 	end)
 	server = net
-	local s = ''
-	for i=1, 63 do
-		s = s .. '9'
+	local s = {}
+	local p = {}
+	
+	for i=1, 2 do
+--		s[i] = s
 	end
+	local c = 1000000
+	s[1] = c
+	s[2] = c
+	s[3] = p
+	s[4] = c
+	s[5] = c
+	s[6] = p
 --	server.Call({"C"})
 		i= s
 		local d  = _encode(i)
