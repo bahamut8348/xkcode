@@ -17,6 +17,9 @@ class table(object):
 	def __init__(self, d=None):
 		if type(d) is dict:
 			self.__dict__.update(d)
+		elif type(d) is list:
+			for i in range(len(d)):
+				self[i+1] = d[i]
 
 	def __len__(self):
 		i = 0
@@ -41,6 +44,8 @@ class FAN:
 	@staticmethod
 	def encode(s):
 		if type(s) is dict:
+			s = table(s)
+		elif type(s) is list:
 			s = table(s)
 		if type(s) is int or type(s) is long:
 			if s <= -33 and s >= -0x8000: return '\x05' + struct.pack('H', 0x10000+s)
@@ -99,7 +104,7 @@ if __name__ == '__main__':
 	a.p = 1
 	a[1] = 2
 	a[4]=1
-	for i in a.keys():
+	for i, k in a:
 		print '!! k', i
 		
 
