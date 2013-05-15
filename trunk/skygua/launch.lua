@@ -8,7 +8,7 @@ _connect( "localhost:8007", function( net)
 	end)
 	server = net
 	local s = ''
-	for i=1, 128 do
+	for i=1, 63 do
 		s = s .. '9'
 	end
 --	server.Call({"C"})
