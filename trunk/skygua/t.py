@@ -26,5 +26,6 @@ class FAN:
 if __name__ == '__main__':
 	b= FAN.encode('afdfd')
 	assert(FAN.encode(-0x80000001)=='\x07\xff\xff\xff\x7f\xff\xff\xff\xff')
+	print struct.unpack('h', '\x01\x01')
 	for e in b: print '%02x' % ord(e)
 

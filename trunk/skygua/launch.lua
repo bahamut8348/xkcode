@@ -7,8 +7,12 @@ _connect( "localhost:8007", function( net)
 		self:send(data)
 	end)
 	server = net
+	local s = ''
+	for i=1, 128 do
+		s = s .. '9'
+	end
 --	server.Call({"C"})
-		i='afdfd'	
+		i= s
 		local d  = _encode(i)
 		
 		print(i)
